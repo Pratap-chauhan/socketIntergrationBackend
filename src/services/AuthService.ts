@@ -35,8 +35,8 @@ export default class AuthService {
     })
   }
 
-	static signToken({id, name}) {
-		return JWT.sign({ id, name }, process.env.SESSION);
+	static signToken({_id, name}) {
+		return JWT.sign({ _id, name }, process.env.SESSION);
 	}
 
 	static createToken() {

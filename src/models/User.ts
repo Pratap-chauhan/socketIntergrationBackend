@@ -2,14 +2,32 @@ import * as mongoose from 'mongoose';
 
 const user = new mongoose.Schema({
 	id: {type: String, required: true, index: true},
-	name: {type: String, required: true},
+	name: {type: String},
 	email: {type: String, index: true},
 	company: {type: String},
   ghCreated: {type: Date},
+  avatar: {type: String},
   login: {type: String},
-	approved: {type: Boolean, default: 1},
+  approved: { type: Boolean, default: 1 },
+  role: {
+    type: String,
+    enum: ['admin', 'hr', 'user'],
+    default: 'user'
+  },
+	password: String,
 	reset_token: String,
-	reset_token_expiry: Number,
+  reset_token_expiry: Number,
+  onboarding: { type: Boolean, default: true },
+  skills: { type: [], default: [] },
+  designation: { type: {}, default: {} },
+  can_edit: {
+    name: false,
+    email: false,
+  },
+  projects: {
+    type: [],
+    default: []
+  }
 }, {
   strict: false,
 	timestamps: true

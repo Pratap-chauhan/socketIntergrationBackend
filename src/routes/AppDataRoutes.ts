@@ -6,6 +6,7 @@ export default class AuthRoutes {
 
   static init(app: Application) {
     // Get data
-    app.get('/data', AppDataController.index);
+    app.get('/data/skills', AppDataController.skills);
+    app.get('/data/designations', AppDataController.designations);
 	}
 }

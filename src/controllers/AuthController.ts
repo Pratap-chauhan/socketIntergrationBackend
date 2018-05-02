@@ -3,8 +3,6 @@ import * as moment from 'moment';
 
 import User from "../models/User";
 
-import UserEvents from '../events/UserEvents';
-import AuthEvents from '../events/AuthEvents';
 import Tracking from '../events/Tracking';
 
 import DefaultConfig from '../config/Default';
@@ -27,12 +25,14 @@ export default class AuthController {
       const userExists = await User.findOne({ id: githubUser.id });
 
       if (userExists) {
+        githubUser._id = userExists._id;
+        githubUser.onboarding = userExists.onboarding;
         Tracking.log({ type: 'auth.login', message: 'Login successful', data: { githubUser } });
       } else {
         const user = await User.create(githubUser)
+        githubUser._id = user._id;
+        githubUser.onboarding = user.onboarding;
         Tracking.log({ type: 'auth.register', message: 'Register successful', data: { githubUser } });
-        // Fire User creation event
-        UserEvents.created(user);
       }
 
       return res.json({
@@ -49,9 +49,10 @@ export default class AuthController {
   static getUserAndToken(user) {
     return {
       user: {
-        id: user.id,
+        _id: user._id,
         name: user.name,
-        avatar: user.avatar
+        avatar: user.avatar,
+        onboarding: user.onboarding
       },
       token: AuthService.signToken(user)
     }

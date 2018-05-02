@@ -3,6 +3,7 @@ import * as bodyParser from 'body-parser';
 
 import AuthRoutes from './AuthRoutes';
 import AppDataRoutes from './AppDataRoutes';
+import UserRoutes from './UserRoutes';
 
 export default class Routes {
 
@@ -16,6 +17,7 @@ export default class Routes {
     // Initialize the routes
 		AuthRoutes.init(app);
 		AppDataRoutes.init(app);
+		UserRoutes.init(app);
 
 		// Catch all the mismatch routes
 		app.get('/*', Routes.notFound);

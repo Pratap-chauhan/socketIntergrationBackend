@@ -1,0 +1,874 @@
+[
+  {
+    "title": "Age Restriction",
+    "type": "features"
+  },
+  {
+    "title": "Audit Trail",
+    "type": "features"
+  },
+  {
+    "title": "Automated Publishing",
+    "type": "features"
+  },
+  {
+    "title": "Blog Importing",
+    "type": "features"
+  },
+  {
+    "title": "Blog Posts Management",
+    "type": "features"
+  },
+  {
+    "title": "Bulk Comment Management",
+    "type": "features"
+  },
+  {
+    "title": "Bulk Uploading",
+    "type": "features"
+  },
+  {
+    "title": "Catalog",
+    "type": "features"
+  },
+  {
+    "title": "Content Exporting",
+    "type": "features"
+  },
+  {
+    "title": "Content Flag",
+    "type": "features"
+  },
+  {
+    "title": "Content Moderation",
+    "type": "features"
+  },
+  {
+    "title": "Custom Form",
+    "type": "features"
+  },
+  {
+    "title": "Data Import/Export (csv)",
+    "type": "features"
+  },
+  {
+    "title": "Data Migration",
+    "type": "features"
+  },
+  {
+    "title": "Document Distribution",
+    "type": "features"
+  },
+  {
+    "title": "Document Previewing",
+    "type": "features"
+  },
+  {
+    "title": "Documentation",
+    "type": "features"
+  },
+  {
+    "title": "Dynamic Content",
+    "type": "features"
+  },
+  {
+    "title": "File Attachment",
+    "type": "features"
+  },
+  {
+    "title": "Help Center",
+    "type": "features"
+  },
+  {
+    "title": "Import Photoshop Documents (PSD)",
+    "type": "features"
+  },
+  {
+    "title": "Manage Blog Comments",
+    "type": "features"
+  },
+  {
+    "title": "Merging Content",
+    "type": "features"
+  },
+  {
+    "title": "Multipage Forms",
+    "type": "features"
+  },
+  {
+    "title": "PDF Conversion",
+    "type": "features"
+  },
+  {
+    "title": "Paid Content",
+    "type": "features"
+  },
+  {
+    "title": "Spell Check",
+    "type": "features"
+  },
+  {
+    "title": "Testimonials",
+    "type": "features"
+  },
+  {
+    "title": "Travel Guide",
+    "type": "features"
+  },
+  {
+    "title": "Word Lookup",
+    "type": "features"
+  },
+  {
+    "title": "Audio Library",
+    "type": "features"
+  },
+  {
+    "title": "Audio Slide Show",
+    "type": "features"
+  },
+  {
+    "title": "Call Recording",
+    "type": "features"
+  },
+  {
+    "title": "Remote Audio and Video",
+    "type": "features"
+  },
+  {
+    "title": "Video Library",
+    "type": "features"
+  },
+  {
+    "title": "Voice Memos",
+    "type": "features"
+  },
+  {
+    "title": "Automated Reminder Emails",
+    "type": "features"
+  },
+  {
+    "title": "Daily Schedule Notifications",
+    "type": "features"
+  },
+  {
+    "title": "Desktop Notifications",
+    "type": "features"
+  },
+  {
+    "title": "Email Notifications",
+    "type": "features"
+  },
+  {
+    "title": "Location-Based Alerts",
+    "type": "features"
+  },
+  {
+    "title": "Notifications",
+    "type": "features"
+  },
+  {
+    "title": "Push Notifications",
+    "type": "features"
+  },
+  {
+    "title": "Real Time Updates",
+    "type": "features"
+  },
+  {
+    "title": "Account Score/Ranking",
+    "type": "features"
+  },
+  {
+    "title": "Account Transfer Tool",
+    "type": "features"
+  },
+  {
+    "title": "Activity Log",
+    "type": "features"
+  },
+  {
+    "title": "Approval Process Control",
+    "type": "features"
+  },
+  {
+    "title": "Customizable User Subscriptions",
+    "type": "features"
+  },
+  {
+    "title": "Daily Limit",
+    "type": "features"
+  },
+  {
+    "title": "Dashboard Guests",
+    "type": "features"
+  },
+  {
+    "title": "Live Chat Summary",
+    "type": "features"
+  },
+  {
+    "title": "Proposal Generation",
+    "type": "features"
+  },
+  {
+    "title": "Remote Administration",
+    "type": "features"
+  },
+  {
+    "title": "Roles & Permissions",
+    "type": "features"
+  },
+  {
+    "title": "Service-specific Settings (Admin)",
+    "type": "features"
+  },
+  {
+    "title": "Single Sign-on (SSO)",
+    "type": "features"
+  },
+  {
+    "title": "Advanced Insights",
+    "type": "features"
+  },
+  {
+    "title": "CRM (3rd party integration)",
+    "type": "features"
+  },
+  {
+    "title": "Polling",
+    "type": "features"
+  },
+  {
+    "title": "Review Prompt",
+    "type": "features"
+  },
+  {
+    "title": "Reviews",
+    "type": "features"
+  },
+  {
+    "title": "Surveys",
+    "type": "features"
+  },
+  {
+    "title": "Affiliate URL",
+    "type": "features"
+  },
+  {
+    "title": "Bidding",
+    "type": "features"
+  },
+  {
+    "title": "Coupons",
+    "type": "features"
+  },
+  {
+    "title": "Discount & Offers",
+    "type": "features"
+  },
+  {
+    "title": "Favorites",
+    "type": "features"
+  },
+  {
+    "title": "Loyalty System",
+    "type": "features"
+  },
+  {
+    "title": "Shipping Address Validation",
+    "type": "features"
+  },
+  {
+    "title": "Shipping Charge Calculator",
+    "type": "features"
+  },
+  {
+    "title": "Shopping Cart",
+    "type": "features"
+  },
+  {
+    "title": "Store Credits",
+    "type": "features"
+  },
+  {
+    "title": "Wishlist",
+    "type": "features"
+  },
+  {
+    "title": "ZIP-codes search",
+    "type": "features"
+  },
+  {
+    "title": "Guest Login",
+    "type": "features"
+  },
+  {
+    "title": "Keyword Search",
+    "type": "features"
+  },
+  {
+    "title": "Linkedin Login",
+    "type": "features"
+  },
+  {
+    "title": "Live Chat",
+    "type": "features"
+  },
+  {
+    "title": "Logo Design",
+    "type": "features"
+  },
+  {
+    "title": "Multi-Level Approval Path",
+    "type": "features"
+  },
+  {
+    "title": "Multiple Browser Support",
+    "type": "features"
+  },
+  {
+    "title": "Open API",
+    "type": "features"
+  },
+  {
+    "title": "Profile",
+    "type": "features"
+  },
+  {
+    "title": "Search",
+    "type": "features"
+  },
+  {
+    "title": "Settings",
+    "type": "features"
+  },
+  {
+    "title": "Twitter Login",
+    "type": "features"
+  },
+  {
+    "title": "Two-Factor Authentication",
+    "type": "features"
+  },
+  {
+    "title": "User Avatar",
+    "type": "features"
+  },
+  {
+    "title": "Automatic Renewals",
+    "type": "features"
+  },
+  {
+    "title": "Centralized Billing",
+    "type": "features"
+  },
+  {
+    "title": "Collect Transaction Fees",
+    "type": "features"
+  },
+  {
+    "title": "Digital Signatures",
+    "type": "features"
+  },
+  {
+    "title": "Donation Payments",
+    "type": "features"
+  },
+  {
+    "title": "Invoice Billing",
+    "type": "features"
+  },
+  {
+    "title": "Multi-tiered Pricing",
+    "type": "features"
+  },
+  {
+    "title": "Multiple Currency Support",
+    "type": "features"
+  },
+  {
+    "title": "Payment Admin",
+    "type": "features"
+  },
+  {
+    "title": "Payments",
+    "type": "features"
+  },
+  {
+    "title": "Premium Plan Comparison",
+    "type": "features"
+  },
+  {
+    "title": "Refund Management",
+    "type": "features"
+  },
+  {
+    "title": "Saved Cards",
+    "type": "features"
+  },
+  {
+    "title": "Split Payments",
+    "type": "features"
+  },
+  {
+    "title": "Subscription Billing",
+    "type": "features"
+  },
+  {
+    "title": "Game Score",
+    "type": "features"
+  },
+  {
+    "title": "In-App Sounds/Vibration",
+    "type": "features"
+  },
+  {
+    "title": "Leaderboard",
+    "type": "features"
+  },
+  {
+    "title": "Multiplayer Support",
+    "type": "features"
+  },
+  {
+    "title": "Physics Engine",
+    "type": "features"
+  },
+  {
+    "title": "API Integration",
+    "type": "features"
+  },
+  {
+    "title": "DocuSign Integration",
+    "type": "features"
+  },
+  {
+    "title": "Freshdesk Integration",
+    "type": "features"
+  },
+  {
+    "title": "G Suite Integration",
+    "type": "features"
+  },
+  {
+    "title": "Getty Images Integration",
+    "type": "features"
+  },
+  {
+    "title": "Google Wallet Integration",
+    "type": "features"
+  },
+  {
+    "title": "HubSpot Integration",
+    "type": "features"
+  },
+  {
+    "title": "Integrate Wear UI Library",
+    "type": "features"
+  },
+  {
+    "title": "Intercom Integration",
+    "type": "features"
+  },
+  {
+    "title": "MailChimp Integration",
+    "type": "features"
+  },
+  {
+    "title": "Mailing List Integration",
+    "type": "features"
+  },
+  {
+    "title": "Mixpanel Analytics Integration",
+    "type": "features"
+  },
+  {
+    "title": "Neural Net API for Android",
+    "type": "features"
+  },
+  {
+    "title": "Online Booking Integration",
+    "type": "features"
+  },
+  {
+    "title": "Outlook Integration",
+    "type": "features"
+  },
+  {
+    "title": "Payroll Integration",
+    "type": "features"
+  },
+  {
+    "title": "Quickbooks Integration",
+    "type": "features"
+  },
+  {
+    "title": "RSS feeds",
+    "type": "features"
+  },
+  {
+    "title": "Salesforce Integration",
+    "type": "features"
+  },
+  {
+    "title": "ScheduleOnce Integration",
+    "type": "features"
+  },
+  {
+    "title": "Simple Disqus Integration",
+    "type": "features"
+  },
+  {
+    "title": "Slack Integration",
+    "type": "features"
+  },
+  {
+    "title": "Syncs with Evernote",
+    "type": "features"
+  },
+  {
+    "title": "Twillio Voice Integration",
+    "type": "features"
+  },
+  {
+    "title": "YouTube Integration",
+    "type": "features"
+  },
+  {
+    "title": "Barcodes Scanner",
+    "type": "features"
+  },
+  {
+    "title": "Item Availability",
+    "type": "features"
+  },
+  {
+    "title": "Item Grouper",
+    "type": "features"
+  },
+  {
+    "title": "Pricing Engine",
+    "type": "features"
+  },
+  {
+    "title": "QR Codes",
+    "type": "features"
+  },
+  {
+    "title": "RFID",
+    "type": "features"
+  },
+  {
+    "title": "Request Management",
+    "type": "features"
+  },
+  {
+    "title": "Summary Card",
+    "type": "features"
+  },
+  {
+    "title": "Advanced Clash Management",
+    "type": "features"
+  },
+  {
+    "title": "Customized Order Status",
+    "type": "features"
+  },
+  {
+    "title": "Delivery Estimator",
+    "type": "features"
+  },
+  {
+    "title": "Expense Tracking",
+    "type": "features"
+  },
+  {
+    "title": "Order detail view",
+    "type": "features"
+  },
+  {
+    "title": "Reservations",
+    "type": "features"
+  },
+  {
+    "title": "Waiting List",
+    "type": "features"
+  },
+  {
+    "title": "Billable hours tracking",
+    "type": "features"
+  },
+  {
+    "title": "Candidate Management",
+    "type": "features"
+  },
+  {
+    "title": "Certification Tracking",
+    "type": "features"
+  },
+  {
+    "title": "Demo Account",
+    "type": "features"
+  },
+  {
+    "title": "Form Approval Workflow",
+    "type": "features"
+  },
+  {
+    "title": "Lead Management",
+    "type": "features"
+  },
+  {
+    "title": "Organisation Hierarchy",
+    "type": "features"
+  },
+  {
+    "title": "Timesheet Management",
+    "type": "features"
+  },
+  {
+    "title": "User Groups",
+    "type": "features"
+  },
+  {
+    "title": "Baseline Reporting",
+    "type": "features"
+  },
+  {
+    "title": "Categories/Sub Categories",
+    "type": "features"
+  },
+  {
+    "title": "Idea Management",
+    "type": "features"
+  },
+  {
+    "title": "Project Reporting",
+    "type": "features"
+  },
+  {
+    "title": "Project Templates",
+    "type": "features"
+  },
+  {
+    "title": "Project portfolio",
+    "type": "features"
+  },
+  {
+    "title": "QA Tracker",
+    "type": "features"
+  },
+  {
+    "title": "Annotations",
+    "type": "features"
+  },
+  {
+    "title": "Appointment Management",
+    "type": "features"
+  },
+  {
+    "title": "Conference Call",
+    "type": "features"
+  },
+  {
+    "title": "Convert File",
+    "type": "features"
+  },
+  {
+    "title": "Do Not Disturb",
+    "type": "features"
+  },
+  {
+    "title": "Google Calendar Sync",
+    "type": "features"
+  },
+  {
+    "title": "Kanban Board",
+    "type": "features"
+  },
+  {
+    "title": "Recurring Appointments",
+    "type": "features"
+  },
+  {
+    "title": "Screenshot Editor",
+    "type": "features"
+  },
+  {
+    "title": "Split View Interface",
+    "type": "features"
+  },
+  {
+    "title": "XML & CSV Template Builder",
+    "type": "features"
+  },
+  {
+    "title": "iCalendar Support",
+    "type": "features"
+  },
+  {
+    "title": "Location",
+    "type": "features"
+  },
+  {
+    "title": "Lost Device Protection",
+    "type": "features"
+  },
+  {
+    "title": "Passcode Lock",
+    "type": "features"
+  },
+  {
+    "title": "Password Protected Pages",
+    "type": "features"
+  },
+  {
+    "title": "Password Strength",
+    "type": "features"
+  },
+  {
+    "title": "Phone Verification",
+    "type": "features"
+  },
+  {
+    "title": "Privacy settings",
+    "type": "features"
+  },
+  {
+    "title": "Private Chat",
+    "type": "features"
+  },
+  {
+    "title": "Recent History",
+    "type": "features"
+  },
+  {
+    "title": "Store Locator",
+    "type": "features"
+  },
+  {
+    "title": "Whitelisting Emails",
+    "type": "features"
+  },
+  {
+    "title": "Product Recommendation",
+    "type": "features"
+  },
+  {
+    "title": "Repeating Tasks",
+    "type": "features"
+  },
+  {
+    "title": "Sentiment Analysis",
+    "type": "features"
+  },
+  {
+    "title": "Smart Categorization",
+    "type": "features"
+  },
+  {
+    "title": "Targeted Feed",
+    "type": "features"
+  },
+  {
+    "title": "Text Comparison",
+    "type": "features"
+  },
+  {
+    "title": "Visual Search",
+    "type": "features"
+  },
+  {
+    "title": "Subscriptions",
+    "type": "features"
+  },
+  {
+    "title": "Trending",
+    "type": "features"
+  },
+  {
+    "title": "Twitter Feeds Display",
+    "type": "features"
+  },
+  {
+    "title": "Universal Links",
+    "type": "features"
+  },
+  {
+    "title": "Upload media",
+    "type": "features"
+  },
+  {
+    "title": "Upvote/Downvote",
+    "type": "features"
+  },
+  {
+    "title": "iCloud Sharing",
+    "type": "features"
+  },
+  {
+    "title": "Search Terms Report",
+    "type": "features"
+  },
+  {
+    "title": "Statistics & Reports",
+    "type": "features"
+  },
+  {
+    "title": "Traffic Sources",
+    "type": "features"
+  },
+  {
+    "title": "Video Ads",
+    "type": "features"
+  },
+  {
+    "title": "Visual Analytics",
+    "type": "features"
+  },
+  {
+    "title": "Automated Prioritization",
+    "type": "features"
+  },
+  {
+    "title": "Leave Tracker",
+    "type": "features"
+  },
+  {
+    "title": "Prioritize",
+    "type": "features"
+  },
+  {
+    "title": "Scheduling",
+    "type": "features"
+  },
+  {
+    "title": "Task Allocator",
+    "type": "features"
+  },
+  {
+    "title": "Task Blocker",
+    "type": "features"
+  },
+  {
+    "title": "Task Groups",
+    "type": "features"
+  },
+  {
+    "title": "Task List",
+    "type": "features"
+  },
+  {
+    "title": "Task Views",
+    "type": "features"
+  },
+  {
+    "title": "Team Builder",
+    "type": "features"
+  },
+  {
+    "title": "Time Tracker",
+    "type": "features"
+  }
+]

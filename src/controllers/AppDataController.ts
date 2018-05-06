@@ -5,66 +5,44 @@ import Pagination from '../services/Pagination';
 export default class AppDataController {
 
   static async skills(req: Request, res: Response) {
-    let { q, page, per_page } = req.query;
-
-    // Paginate
-    page = Number(page) - 1 || 0;
-    per_page = Number(per_page) || 20;
-
-    // Project
-    const project = { _id: 1, title: 1, parent: 1 };
-    // Finder object
-    const finder = {
-      type: 'skills',
-    };
-    // Searching
-    if (q) {
-      finder['title'] = new RegExp(q, 'ig');
-    }
-
-    try {
-      const skills = await AppData.find(finder, project)
-                                  .sort({title: 1})
-                                  .skip(per_page * page)
-                                  .limit(per_page);
-
-      const count = await AppData.count(finder);
-
-      return res.json({
-        error: false,
-        data: {
-          paginate: Pagination(count, skills.length, per_page, page),
-          skills
-        }
-      });
-    } catch (e) {
-      return res.status(500)
-                .json({ error: true, message: 'An error occured.' });
-    }
+    req.query.type = 'skills';
+    return AppDataController.findData(req, res);
   }
 
   static async designations(req: Request, res: Response) {
-    let { q } = req.query;
+    req.query.type = 'designations';
+    return AppDataController.findData(req, res);
+  }
 
-    // Project
+  static async domains(req: Request, res: Response) {
+    req.query.type = 'domains';
+    return AppDataController.findData(req, res);
+  }
+
+  static async features(req: Request, res: Response) {
+    req.query.type = 'features';
+    return AppDataController.findData(req, res);
+  }
+
+  private static async findData(req: Request, res: Response) {
+    let { q, type } = req.query;
+
     const project = { _id: 1, title: 1 };
-    // Finder object
-    const finder = {
-      type: 'user_roles',
-    };
+    if (type === 'skills') {
+      project['parent'] = 1;
+    }
+
+    const finder = { type };
     // Searching
     if (q) {
       finder['title'] = new RegExp(q, 'ig');
     }
 
     try {
-      const roles = await AppData.find(finder, project).sort({ title: 1 });
-      return res.json({
-        error: false,
-        data: roles
-      });
+      const data = await AppData.find(finder, project).sort({ title: 1 });
+      return res.json({ error: false, data });
     } catch (e) {
-      return res.status(500).json({ error: true, message: 'An error occured.' });
+      return res.status(500).json({ error: true, message: 'An error occured.', e});
     }
   }
 }

@@ -14,9 +14,6 @@ const user = new mongoose.Schema({
     enum: ['admin', 'hr', 'user'],
     default: 'user'
   },
-	password: String,
-	reset_token: String,
-  reset_token_expiry: Number,
   onboarding: { type: Boolean, default: true },
   skills: { type: [], default: [] },
   designation: { type: {}, default: {} },
@@ -27,7 +24,8 @@ const user = new mongoose.Schema({
   projects: {
     type: [],
     default: []
-  }
+  },
+  last_logged_in: {type: Date, default: new Date()}
 }, {
   strict: false,
 	timestamps: true

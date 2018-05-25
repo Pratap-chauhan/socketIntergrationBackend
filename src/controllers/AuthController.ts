@@ -35,7 +35,9 @@ export default class AuthController {
     Tracking.log({ type: 'auth.login', message: 'Login user', data: {provider: 'github', role: 'user'} });
 
     try {
-      const accessToken = await GithubService.getAccessToken(token);
+      const origin = req.get('Origin');
+
+      const accessToken = await GithubService.getAccessToken(token, origin);
       const githubUser = await GithubService.getUserFromAccessToken(accessToken);
       const userExists = await User.findOne({ id: githubUser.id });
 

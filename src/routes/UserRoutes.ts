@@ -10,6 +10,6 @@ export default class AuthRoutes {
     app.get('/users/me', AuthService.isAuthenticated(), UserController.me);
     app.get('/users/me/login-data', AuthService.isAuthenticated(), UserController.myLoginData);
     app.get('/users/me/onboarding', AuthService.isAuthenticated(), UserController.onboarding);
-    app.post('/users', AuthService.isAuthenticated(), UserController.update);
+    app.put('/users', AuthService.isAuthenticated(), UserController.update);
 	}
 }

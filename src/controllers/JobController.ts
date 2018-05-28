@@ -51,7 +51,7 @@ export default class JobController {
       const data = req.body;
       const errors = JobService.validate(data);
       if (errors) {
-        return res.status(422).json({ error: true, message: 'Validation failed', data: errors });
+        return res.json({ error: true, message: 'Validation failed', data: errors });
       }
       data.user = req.user._id;
       const job = await Job.create(data);
@@ -79,7 +79,7 @@ export default class JobController {
       const data = req.body;
       const errors = JobService.validate(data);
       if (errors) {
-        return res.status(422).json({ error: true, message: 'Validation failed', data: errors });
+        return res.json({ error: true, message: 'Validation failed', data: errors });
       }
       data.user = req.user._id;
 
@@ -100,6 +100,10 @@ export default class JobController {
   static async destroy(req: Request, res: Response) {
     try {
       const { id } = req.params;
+      const job = await Job.findById(id);
+      if (job.user !== req.user._id) {
+        return res.status(401).send('Unauthorized.');
+      }
       await Job.findByIdAndRemove(id);
       return res.json({ error: false, message: 'Job deleted successfully.' });
     } catch (e) {

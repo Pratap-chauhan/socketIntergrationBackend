@@ -42,7 +42,7 @@ export default class AppDataController {
       const data = await AppData.find(finder, project).sort({ title: 1 });
       return res.json({ error: false, data });
     } catch (e) {
-      return res.status(500).json({ error: true, message: 'An error occured.', e});
+      return res.status(500).send('An error occured.');
     }
   }
 }

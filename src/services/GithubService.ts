@@ -2,16 +2,20 @@ import * as Request from 'request';
 
 export default class GithubService {
 
-  static getAccessToken(code: String) {
+  static getAccessToken(code: String, origin: String) {
+    let client_secret = process.env.GITHUB_CLIENT_SECRET;
+    let client_id = process.env.GITHUB_CLIENT_ID;
+
+    if(origin.match('localhost')) {
+      client_id = process.env.GITHUB_CLIENT_ID_DEV;
+      client_secret = process.env.GITHUB_CLIENT_SECRET_DEV;
+    }
+    
     const options = {
       method: 'POST',
       uri: process.env.GITHUB_ACCESS_TOKEN_URL || 'https://github.com/login/oauth/access_token',
       json: true,
-      body: {
-        client_id: process.env.GITHUB_CLIENT_ID,
-        client_secret: process.env.GITHUB_CLIENT_SECRET,
-        code
-      }
+      body: { client_id, client_secret, code }
     };
 
     return new Promise((resolve, reject) => {

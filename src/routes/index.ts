@@ -5,6 +5,7 @@ import AuthRoutes from './AuthRoutes';
 import AppDataRoutes from './AppDataRoutes';
 import UserRoutes from './UserRoutes';
 import JobRoutes from './JobRoutes';
+import StarkFlowRoutes from './StarkFlowRoutes';
 
 export default class Routes {
 
@@ -19,7 +20,10 @@ export default class Routes {
 		AuthRoutes.init(app);
 		AppDataRoutes.init(app);
 		UserRoutes.init(app);
-		JobRoutes.init(app);
+    JobRoutes.init(app);
+
+    // SF
+    StarkFlowRoutes.init(app);
 
 		// Catch all the mismatch routes
 		app.get('/*', Routes.notFound);

@@ -5,7 +5,7 @@ const server = require('gulp-develop-server');
 const cache = require('gulp-cached');
 
 const source = ['src/**/*.ts'];
-const dontWatchMe = ['!src/tasks/**/*.ts'];
+const dontWatchMe = [];
 
 gulp.task('ts', () => {
   return gulp

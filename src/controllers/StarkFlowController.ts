@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import * as _ from 'lodash';
 
+import StarkflowMailer from '../mailers/StarkflowMailer';
 import StarkFlow from '../models/StarkFlow';
 
 export default class StarkFlowController {
@@ -63,7 +64,9 @@ export default class StarkFlowController {
 
   static async insertData(data, res) {
     try {
-      await StarkFlow.create(data);
+      const sf = await StarkFlow.create(data);
+      const mailer = new StarkflowMailer(process.env.STARKFLOW_EMAILS);
+      mailer.sendMessage(sf);
       return res.status(200).json({error: false, message: 'Message sent.'});
     } catch (e) {
       return res.status(500).json({error: true, message: 'Error occured.'});

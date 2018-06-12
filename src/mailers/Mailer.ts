@@ -1,4 +1,3 @@
-import * as kue from 'kue';
 import * as fs from 'fs';
 
 import MailTemplate from '../models/MailTemplate';
@@ -15,6 +14,10 @@ class Mailer {
     if (!email) throw new Error('Email is required.');
     this.toEmail = email;
     this.fromEmail = process.env.FROM_EMAIL || 'Pop Probe<no-reply@popprobe.com>';
+  }
+
+  setFromEmail(email: string) {
+    this.fromEmail = email;
   }
 
   send() {

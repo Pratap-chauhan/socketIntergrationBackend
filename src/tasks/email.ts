@@ -3,11 +3,16 @@ require('dotenv').config();
 import * as kue  from 'kue';
 import * as nodemailer from 'nodemailer';
 import Mail from '../config/Mail';
+import * as Sendgrid from 'nodemailer-sendgrid-transport';
 
 const getConnection = () => {
   const mailService = Mail.driver;
   const config = Mail[mailService];
-  return nodemailer.createTransport(config);
+  if (mailService.toLowerCase() === 'sendgrid') {
+    return nodemailer.createTransport(Sendgrid(config));
+  } else {
+    return nodemailer.createTransport(config);
+  }
 };
 
 const processQueue = (connection, data, done) => {

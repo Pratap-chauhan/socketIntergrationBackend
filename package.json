@@ -24,6 +24,7 @@
     "moment": "^2.20.1",
     "mongoose": "^5.0.6",
     "nodemailer": "^4.6.2",
+    "nodemailer-sendgrid-transport": "^0.2.0",
     "rollbar": "^2.3.9",
     "typescript": "^2.7.2",
     "typings": "^2.1.1"

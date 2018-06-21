@@ -25,7 +25,8 @@ const user = new mongoose.Schema({
     type: [],
     default: []
   },
-  last_logged_in: {type: Date, default: new Date()}
+  last_logged_in: { type: Date, default: new Date() },
+  password: { type: String },
 }, {
   strict: false,
 	timestamps: true

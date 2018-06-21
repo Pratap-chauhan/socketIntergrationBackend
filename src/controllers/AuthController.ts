@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
-import * as moment from 'moment';
+import bcrypt from 'bcrypt';
 
 import User from "../models/User";
 import Tracking from '../events/Tracking';
@@ -26,6 +26,39 @@ export default class AuthController {
       error: false,
       message: `Logout successful`
     });
+  }
+
+  static async adminLogin(req: Request, res: Response) {
+    try {
+      const { email, password } = req.body;
+
+      if (!email || !password) {
+        return res.status(422).json([{ type: "email", message: "Email/Password is required." }]);
+      }
+
+      const user = await User.findOne({ email });
+
+      if (!user) {
+        return res.status(404).json('User not found.');
+      }
+
+      if(!bcrypt.compareSync(password, user.password)) {
+        return res.status(401).json('Incorrect password.');
+      }
+
+      return res.json({
+        error: false,
+        data: {
+          user: {
+            _id: user._id,
+            name: user.name,
+          },
+          token: AuthService.signToken(user)
+        }
+      });
+    } catch (e) {
+      return res.status(500).json(`Unexpected Error: ${e.message}.`);
+    }
   }
 
   private static async authenticateGH(req: Request, res: Response) {

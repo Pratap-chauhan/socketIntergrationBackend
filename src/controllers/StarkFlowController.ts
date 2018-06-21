@@ -6,6 +6,24 @@ import StarkFlow from '../models/StarkFlow';
 
 export default class StarkFlowController {
 
+  static async data(req: Request, res: Response) {
+    let { page, limit } = req.query;
+
+    page = Number(page) || 1;
+    limit = Number(limit) || 10;
+
+    try {
+      const data = await StarkFlow.find({})
+                        .sort({ createdAt: -1 })
+                        .skip((page - 1) * limit)
+                        .limit(limit);
+
+      return res.json({error: false, data});
+    } catch(e) {
+      return res.status(500).json('An error occured.');
+    }
+  }
+
   static async wizard(req: Request, res: Response) {
     const { name, email } = req.body;
 

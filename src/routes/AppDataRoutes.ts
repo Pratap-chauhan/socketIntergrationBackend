@@ -35,7 +35,7 @@ export default class AuthRoutes {
      *     HTTP/1.1 500 ServerError
      *     "An error occured"
      */
-    app.get('/data/skills', AuthService.isAuthenticated(), AppDataController.skills);
+    app.get('/data/skills', AppDataController.skills);
 
     /**
      * @api {get} /data/designations Get designations
@@ -65,7 +65,7 @@ export default class AuthRoutes {
      *     HTTP/1.1 500 ServerError
      *     "An error occured"
      */
-    app.get('/data/designations', AuthService.isAuthenticated(), AppDataController.designations);
+    app.get('/data/designations', AppDataController.designations);
 
     /**
      * @api {get} /data/domains Domains
@@ -95,7 +95,7 @@ export default class AuthRoutes {
      *     HTTP/1.1 500 ServerError
      *     "An error occured"
      */
-    app.get('/data/domains', AuthService.isAuthenticated(), AppDataController.domains);
+    app.get('/data/domains', AppDataController.domains);
 
     /**
      * @api {get} /data/features Features
@@ -125,6 +125,6 @@ export default class AuthRoutes {
      *     HTTP/1.1 500 ServerError
      *     "An error occured"
      */
-    app.get('/data/features', AuthService.isAuthenticated(), AppDataController.domains);
+    app.get('/data/features', AppDataController.domains);
   }
 }

@@ -35,6 +35,13 @@ export default class AuthService {
     })
   }
 
+  static isAdmin(req: Request, res: Response, next: NextFunction) {
+    if (req.user && req.user.role === 'admin') {
+      return next();
+    }
+    return res.status(401).send('Unauthorized.');
+  }
+
 	static signToken({_id, name}) {
 		return JWT.sign({ _id, name }, process.env.SESSION);
 	}

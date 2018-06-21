@@ -8,7 +8,8 @@ const sf = new mongoose.Schema({
 }, {
   versionKey: false,
   strict: false,
-  collection: 'starkflow'
+  collection: 'starkflow',
+  timestamps: true
 });
 
 export default mongoose.model('StarkFlow', sf);

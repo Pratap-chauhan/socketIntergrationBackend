@@ -9,5 +9,7 @@ export default class AuthRoutes {
     app.post('/sessions/create', AuthController.login);
     // Logout a user
     app.post('/sessions/destroy', AuthController.logout);
+
+    app.post('/sessions/login', AuthController.adminLogin);
 	}
 }

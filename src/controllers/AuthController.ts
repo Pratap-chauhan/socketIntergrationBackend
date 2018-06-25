@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
-import bcrypt from 'bcrypt';
+import * as bcrypt from 'bcrypt';
 
 import User from "../models/User";
 import Tracking from '../events/Tracking';
@@ -33,17 +33,20 @@ export default class AuthController {
       const { email, password } = req.body;
 
       if (!email || !password) {
-        return res.status(422).json([{ type: "email", message: "Email/Password is required." }]);
+        return res.status(422).json({
+          error: true,
+          data: "Email and password are required."
+        });
       }
 
       const user = await User.findOne({ email });
 
       if (!user) {
-        return res.status(404).json('User not found.');
+        return res.status(404).json({error: true, message: 'User not found.'});
       }
 
       if(!bcrypt.compareSync(password, user.password)) {
-        return res.status(401).json('Incorrect password.');
+        return res.status(401).json({error: true, message: 'Incorrect password.'});
       }
 
       return res.json({

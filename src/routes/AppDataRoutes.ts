@@ -1,7 +1,6 @@
 import { Application } from 'express';
 
 import AppDataController from '../controllers/AppDataController';
-import AuthService from '../services/AuthService';
 
 export default class AuthRoutes {
 

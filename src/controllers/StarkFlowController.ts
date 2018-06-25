@@ -7,13 +7,14 @@ import StarkFlow from '../models/StarkFlow';
 export default class StarkFlowController {
 
   static async data(req: Request, res: Response) {
-    let { page, limit } = req.query;
+    let { page, limit, type } = req.query;
 
     page = Number(page) || 1;
     limit = Number(limit) || 10;
+    type = type || 'contact';
 
     try {
-      const data = await StarkFlow.find({})
+      const data = await StarkFlow.find({ type })
                         .sort({ createdAt: -1 })
                         .skip((page - 1) * limit)
                         .limit(limit);

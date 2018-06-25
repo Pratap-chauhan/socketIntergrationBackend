@@ -69,6 +69,18 @@ export default class StarkFlowController {
     return StarkFlowController.insertData(data, res);
   }
 
+  static async professionals(req: Request, res: Response) {
+    const { name, email } = req.body;
+
+    const errors = StarkFlowController.validate({ name, email });
+    if (errors) {
+      return res.status(422).json({error: true, message: 'Validation failed.', data: errors});
+    }
+
+    req.body['type'] = 'professionals';
+    return StarkFlowController.insertData(req.body, res);
+  }
+
   static validate(data) {
     const errors = [];
 

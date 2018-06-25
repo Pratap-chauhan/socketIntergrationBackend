@@ -11,5 +11,6 @@ export default class StarkFlowRoutes {
     app.post('/sf/wizard', StarkFlowController.wizard);
     app.post('/sf/custom', StarkFlowController.custom);
     app.post('/sf/contact', StarkFlowController.contact);
+    app.post('/sf/professionals', StarkFlowController.professionals);
 	}
 }

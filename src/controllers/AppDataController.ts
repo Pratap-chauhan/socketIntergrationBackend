@@ -69,7 +69,7 @@ export default class AppDataController {
     try {
       const lookups = ['categories', 'platforms', 'modules', 'sub_modules'];
 
-      const aggreate = [
+      const aggreate: any = [
         { $match: { title: new RegExp(q, 'ig') } }
       ];
 
@@ -89,19 +89,53 @@ export default class AppDataController {
       aggreate.push({
         $group: {
           _id: { _id: "$_id", title: "$title", description: "$description" },
-          platforms: { $addToSet: "$platforms" },
           categories: { $addToSet: "$categories" },
+          platforms: { $addToSet: "$platforms" },
+          modules: { $addToSet: "$modules" },
+          sub_modules: { $addToSet: "$sub_modules" },
         }
       });
 
       aggreate.push({
         $project: {
           _id: "$_id._id", title: "$_id.title", description: "$_id.description",
-          platforms: 1, categories: 1
+          platforms: 1, categories: 1, modules: 1, sub_modules: 1
         }
       });
 
-      const data = await Bundle.aggregate(aggreate);
+      let data = await Bundle.aggregate(aggreate);
+
+      data = data.map(item => {
+        const modules = {};
+        item.modules.forEach(x => {
+          modules[x._id] = x;
+        });
+        item.sub_modules = item.sub_modules.map(x => {
+          return {
+            _id: x._id,
+            title: x.title,
+            description: x.description,
+            module: modules[x.module_id]
+          };
+        });
+        item.platforms = item.platforms.map(x => {
+          return {
+            _id: x._id,
+            title: x.title,
+            description: x.description,
+            icon: x.icon
+          }
+        });
+        item.categories = item.categories.map(x => {
+          return {
+            _id: x._id,
+            title: x.title,
+            description: x.description
+          }
+        });
+        delete item.modules;
+        return item;
+      });
 
       return res.json({ error: false, data });
     } catch (e) {

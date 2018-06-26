@@ -125,5 +125,8 @@ export default class AuthRoutes {
      *     "An error occured"
      */
     app.get('/data/features', AppDataController.domains);
+    app.get('/data/bundles', AppDataController.bundles);
+    app.get('/data/modules', AppDataController.modules);
+    app.get('/data/sf', AppDataController.initalDataSF);
   }
 }

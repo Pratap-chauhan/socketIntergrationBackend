@@ -39,7 +39,7 @@ export default class AuthController {
         });
       }
 
-      const user = await User.findOne({ email });
+      const user: any = await User.findOne({ email, role: 'admin' });
 
       if (!user) {
         return res.status(404).json({error: true, message: 'User not found.'});
@@ -73,16 +73,16 @@ export default class AuthController {
     try {
       const origin = req.get('Origin');
 
-      const accessToken = await GithubService.getAccessToken(token, origin);
-      const githubUser = await GithubService.getUserFromAccessToken(accessToken);
-      const userExists = await User.findOne({ id: githubUser.id });
+      const accessToken: any = await GithubService.getAccessToken(token, origin);
+      const githubUser: any = await GithubService.getUserFromAccessToken(accessToken);
+      const userExists: any = await User.findOne({ id: githubUser.id });
 
       if (userExists) {
         githubUser._id = userExists._id;
         githubUser.onboarding = userExists.onboarding;
         Tracking.log({ type: 'auth.login', message: 'Login successful', data: { ...githubUser } });
       } else {
-        const user = await User.create(githubUser)
+        const user: any = await User.create(githubUser)
         githubUser._id = user._id;
         githubUser.onboarding = user.onboarding;
         Tracking.log({ type: 'auth.register', message: 'Register successful', data: { ...githubUser } });
@@ -95,7 +95,7 @@ export default class AuthController {
       });
     } catch (e) {
       Tracking.log({ type: 'auth.error', message: 'Error occured logging in.', data: e });
-      return res.json({ error: true, data: e });
+      return res.json({ error: true, data: e.message || e });
     }
   }
 

@@ -32,7 +32,7 @@ export default class AuthService {
       if (!user) return res.status(401).send('Unauthorized');
       req.user = user;
       next();
-    })
+    });
   }
 
   static isAdmin(req: Request, res: Response, next: NextFunction) {

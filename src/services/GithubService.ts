@@ -6,11 +6,12 @@ export default class GithubService {
     let client_secret = process.env.GITHUB_CLIENT_SECRET;
     let client_id = process.env.GITHUB_CLIENT_ID;
 
-    if(origin.match('localhost')) {
+    if (origin && origin.match('localhost')) {
+      console.log(`Origin is present and using GH DEV credentials: ${origin}`);
       client_id = process.env.GITHUB_CLIENT_ID_DEV;
       client_secret = process.env.GITHUB_CLIENT_SECRET_DEV;
     }
-    
+
     const options = {
       method: 'POST',
       uri: process.env.GITHUB_ACCESS_TOKEN_URL || 'https://github.com/login/oauth/access_token',
@@ -25,7 +26,7 @@ export default class GithubService {
         }
         response = response.toJSON();
         if (response.statusCode > 399) {
-          return reject(response.body);
+          return reject(response.body.error || response.body);
         }
         return resolve(response.body.access_token);
       });

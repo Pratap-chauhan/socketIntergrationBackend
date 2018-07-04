@@ -5,9 +5,17 @@ const job = new mongoose.Schema({
 		type: mongoose.Schema.Types.ObjectId,
 		ref: 'User'
 	},
-  title: { type: String },
-  skills: { type: [], default: [] },
-  designation: { type: {}, default: {} },
+  title: {
+    type: String
+  },
+  skills: {
+    type: [],
+    default: []
+  },
+  designation: {
+    type: {},
+    default: {}
+  },
 }, {
   strict: false,
 	timestamps: true

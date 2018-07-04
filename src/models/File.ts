@@ -9,7 +9,10 @@ const file = new mongoose.Schema({
 	type: String,
 	entity: String,
 	name: String,
-  key: {type: String, unique: true}
+  key: {
+    type: String,
+    unique: true
+  }
 }, {
   timestamps: true,
   versionKey: false

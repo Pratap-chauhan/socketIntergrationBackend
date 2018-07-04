@@ -1,11 +1,12 @@
 import { Request, Response } from 'express';
 
 import AppData from '../models/AppData';
-import Pagination from '../services/Pagination';
 import Bundle from '../models/Bundle';
 import SubModule from '../models/SubModule';
 import Platform from '../models/Platform';
 import Category from '../models/Category';
+
+
 export default class AppDataController {
 
   static async skills(req: Request, res: Response) {
@@ -169,5 +170,46 @@ export default class AppDataController {
     } catch (e) {
       return res.status(500).json('An error occured.');
     }
+  }
+
+  static initalDataCandidates(req: Request, res: Response) {
+    const data = {
+      experience_role: [
+        {id: 1, title: 'Intern'},
+        {id: 2, title: 'Fresher'},
+        {id: 3, title: 'Junior'},
+        {id: 4, title: 'Mid Level'},
+        {id: 5, title: 'Senior'},
+        {id: 6, title: 'Lead'},
+      ],
+      looking_for: [
+        {id: 1, title: 'Contract'},
+        {id: 2, title: 'Permanent'},
+        {id: 3, title: 'Both'},
+      ],
+      availability: [
+        {id: 1, title: 'Immediately'},
+        {id: 2, title: 'In 1 week'},
+        {id: 3, title: 'In 2 weeks'},
+        {id: 4, title: 'In 1 month'},
+        {id: 5, title: 'More than a month'},
+      ],
+      salary: {
+        curreny: [
+          {id: 1, title: 'USD'},
+          {id: 2, title: 'EUR'},
+          {id: 3, title: 'GBP'},
+          {id: 4, title: 'INR'},
+          {id: 5, title: 'RUB'},
+        ],
+        duration: [
+          {id: 1, title: 'Hour'},
+          {id: 2, title: 'Week'},
+          {id: 3, title: 'Month'},
+          {id: 4, title: 'Year'}
+        ]
+      }
+    }
+    return res.json({ error: false, data });
   }
 }

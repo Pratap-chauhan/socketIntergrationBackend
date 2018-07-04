@@ -28,7 +28,8 @@
     "nodemailer-sendgrid-transport": "^0.2.0",
     "rollbar": "^2.3.9",
     "typescript": "^2.7.2",
-    "typings": "^2.1.1"
+    "typings": "^2.1.1",
+    "validator": "^10.4.0"
   },
   "devDependencies": {
     "@types/bcrypt": "^2.0.0",

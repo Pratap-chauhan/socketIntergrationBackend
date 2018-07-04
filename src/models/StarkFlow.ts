@@ -3,7 +3,7 @@ import * as mongoose from 'mongoose';
 const sf = new mongoose.Schema({
   type: {
     type: String,
-    enum: ['contact', 'wizard', 'custom']
+    enum: ['contact', 'wizard', 'custom', 'professionals']
   }
 }, {
   versionKey: false,

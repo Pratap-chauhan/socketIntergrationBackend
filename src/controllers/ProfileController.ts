@@ -27,22 +27,39 @@ export default class ProfileController {
   }
 
   static onboarding(req: Request, res: Response) {
-    const {
-      designation,
-      onboarding,
-      skills,
-      projects,
-      avatar, email, location, name
-    } = req.user;
-    return res.json({
-      error: false, data: {
-        onboarding,
-        profile: { avatar, email, location, name },
-        designation,
-        skills,
-        projects
+    const { user } = req;
+    let data = {};
+
+    if (user.role === 'candidate') {
+      data = {
+        onboarding: user.onboarding,
+        profile: {
+          avatar: user.avatar,
+          email: user.avatar,
+          location: user.location,
+          name: user.name
+        },
+        designation: user.designation,
+        skills: user.skills,
+        projects: user.projects,
+        experience_role: user.experience_role,
+        looking_for: user.looking_for,
+        availability: user.availability,
+        salary: user.salary
       }
-    });
+    } else {
+      data = {
+        onboarding: user.onboarding,
+        profile: {
+          avatar: user.avatar,
+          email: user.avatar,
+          location: user.location,
+          name: user.name
+        }
+      }
+    }
+
+    return res.json({ error: false, data });
   }
 
   static update(req: Request, res: Response) {
@@ -79,6 +96,7 @@ export default class ProfileController {
         looking_for: body.looking_for || user.looking_for,
         availability: body.availability || user.availability,
         salary: body.salary || user.salary,
+        onboarding: false
       };
 
       // Update

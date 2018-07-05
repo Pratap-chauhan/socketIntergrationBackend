@@ -35,7 +35,7 @@ export default class ProfileController {
         onboarding: user.onboarding,
         profile: {
           avatar: user.avatar,
-          email: user.avatar,
+          email: user.email,
           location: user.location,
           name: user.name
         },
@@ -52,7 +52,7 @@ export default class ProfileController {
         onboarding: user.onboarding,
         profile: {
           avatar: user.avatar,
-          email: user.avatar,
+          email: user.email,
           location: user.location,
           name: user.name
         }

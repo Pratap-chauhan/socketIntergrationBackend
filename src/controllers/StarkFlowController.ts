@@ -21,7 +21,7 @@ export default class StarkFlowController {
 
       return res.json({error: false, data});
     } catch(e) {
-      return res.status(500).json('An error occured.');
+      return res.json({ error: true, status: 500, message: 'An error occured.', });
     }
   }
 

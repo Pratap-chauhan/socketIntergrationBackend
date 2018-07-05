@@ -85,7 +85,7 @@ export default class ProfileController {
       await User.findByIdAndUpdate(user._id, { $set: update });
       return res.json({ error: false, message: 'Profile updated successfully.' });
     } catch (e) {
-      return res.json({ error: true, message: 'An error occured.', e: e.message });
+      return res.json({ error: true, status: 500, message: 'An error occured.', });
     }
   }
 

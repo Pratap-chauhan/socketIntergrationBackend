@@ -68,7 +68,12 @@ export default class JobRoutes {
      *     HTTP/1.1 500 ServerError
      *     "An error occured"
      */
-    app.get('/jobs', AuthService.isAuthenticated(), JobController.index);
+    app.get(
+      '/jobs',
+      AuthService.isAuthenticated(),
+      AuthService.hasRole(['admin', 'hr']),
+      JobController.index
+    );
 
     /**
      * @api {post} /jobs Create a Job
@@ -140,7 +145,12 @@ export default class JobRoutes {
      *     HTTP/1.1 500 ServerError
      *     "An error occured"
      */
-    app.post('/jobs', AuthService.isAuthenticated(), JobController.create);
+    app.post(
+      '/jobs',
+      AuthService.isAuthenticated(),
+      AuthService.hasRole(['admin', 'hr']),
+      JobController.create
+    );
 
     /**
      * @api {get} /jobs/:id Get a Job
@@ -193,7 +203,12 @@ export default class JobRoutes {
      *     HTTP/1.1 500 ServerError
      *     "An error occured"
      */
-    app.get('/jobs/:id', AuthService.isAuthenticated(), JobController.show);
+    app.get(
+      '/jobs/:id',
+      AuthService.isAuthenticated(),
+      AuthService.hasRole(['admin', 'hr']),
+      JobController.show
+    );
 
         /**
      * @api {post} /jobs/:id Update a Job
@@ -264,7 +279,12 @@ export default class JobRoutes {
      *     HTTP/1.1 500 ServerError
      *     "An error occured"
      */
-    app.put('/jobs/:id', AuthService.isAuthenticated(), JobController.update);
+    app.put(
+      '/jobs/:id',
+      AuthService.isAuthenticated(),
+      AuthService.hasRole(['admin', 'hr']),
+      JobController.update
+    );
 
     /**
      * @api {delete} /jobs/:id Delete a Job
@@ -293,6 +313,11 @@ export default class JobRoutes {
      *     HTTP/1.1 500 ServerError
      *     "An error occured"
      */
-    app.delete('/jobs/:id', AuthService.isAuthenticated(), JobController.destroy);
+    app.delete(
+      '/jobs/:id',
+      AuthService.isAuthenticated(),
+      AuthService.hasRole(['admin', 'hr']),
+      JobController.destroy
+    );
   }
 }

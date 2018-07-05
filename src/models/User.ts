@@ -35,8 +35,8 @@ const user = new mongoose.Schema({
   },
   role: {
     type: String,
-    enum: ['admin', 'hr', 'user'],
-    default: 'user'
+    enum: ['admin', 'hr', 'candidate'],
+    default: 'candidate'
   },
   onboarding: {
     type: Boolean,

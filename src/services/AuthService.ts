@@ -39,7 +39,30 @@ export default class AuthService {
     if (req.user && req.user.role === 'admin') {
       return next();
     }
-    return res.status(401).send('Unauthorized.');
+    return res.json({error: true, status: 401, message: 'Unauthorized.'});
+  }
+
+  static isHR(req: Request, res: Response, next: NextFunction) {
+    if (req.user && req.user.role === 'hr') {
+      return next();
+    }
+    return res.json({error: true, status: 401, message: 'Unauthorized.'});
+  }
+
+  static isCandidate(req: Request, res: Response, next: NextFunction) {
+    if (req.user && req.user.role === 'candidate') {
+      return next();
+    }
+    return res.json({error: true, status: 401, message: 'Unauthorized.'});
+  }
+
+  static hasRole(roles: string[]) {
+    return (req: Request, res: Response, next: NextFunction) => {
+      if (req.user && roles.indexOf(req.user.role) !== -1 ) {
+        return next();
+      }
+      return res.json({error: true, status: 401, message: 'Unauthorized.'});
+    }
   }
 
 	static signToken({_id, name}) {

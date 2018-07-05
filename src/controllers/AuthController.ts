@@ -33,20 +33,24 @@ export default class AuthController {
       const { email, password } = req.body;
 
       if (!email || !password) {
-        return res.status(422).json({
+        return res.json({
           error: true,
-          data: "Email and password are required."
+          status: 422,
+          data: [
+            { path: 'email', message: 'Email is required.' },
+            { path: 'password', message: 'Password is required.' }
+          ]
         });
       }
 
       const user: any = await User.findOne({ email, role: 'admin' });
 
       if (!user) {
-        return res.status(404).json({error: true, message: 'User not found.'});
+        return res.json({ error: true, status: 404, message: 'User not found.' });
       }
 
-      if(!bcrypt.compareSync(password, user.password)) {
-        return res.status(401).json({error: true, message: 'Incorrect password.'});
+      if (!bcrypt.compareSync(password, user.password)) {
+        return res.json({ error: true, status: 401, message: 'Incorrect password.' });
       }
 
       return res.json({
@@ -60,13 +64,19 @@ export default class AuthController {
         }
       });
     } catch (e) {
-      return res.status(500).json(`Unexpected Error: ${e.message}.`);
+      return res.json({ error: true, status: 500, message: 'An error occured.' });
     }
   }
 
   private static async authenticateGH(req: Request, res: Response) {
     const { token } = req.body;
-    if (! token) return res.status(422).json({error: true, message: 'Github access token is required.'});
+    if (!token) {
+      return res.json({
+        error: true,
+        status: 422,
+        data: [{path: 'token', message: 'Github access token is required.'}]
+      });
+    }
 
     Tracking.log({ type: 'auth.login', message: 'Login user', data: {provider: 'github', role: 'user'} });
 
@@ -76,6 +86,9 @@ export default class AuthController {
       const accessToken: any = await GithubService.getAccessToken(token, origin);
       const githubUser: any = await GithubService.getUserFromAccessToken(accessToken);
       const userExists: any = await User.findOne({ id: githubUser.id });
+
+      // Set the role to candidate
+      githubUser.role = 'candidate';
 
       if (userExists) {
         githubUser._id = userExists._id;
@@ -95,14 +108,15 @@ export default class AuthController {
       });
     } catch (e) {
       Tracking.log({ type: 'auth.error', message: 'Error occured logging in.', data: e });
-      return res.json({ error: true, data: e.message || e });
+      return res.json({ error: true, status: 500, message: 'An error occured.' });
     }
   }
 
   private static async authenticateLI(req: Request, res: Response) {
     try {
-      Tracking.log({ type: 'auth.login', message: 'Login', data: {provider: 'linkedin', role: 'hr'} });
-      let user = await User.findOne({ id: req.body.id, role: 'hr' });
+      Tracking.log({ type: 'auth.login', message: 'Login', data: { provider: 'linkedin', role: 'hr' } });
+      req.body.role = 'hr';
+      let user: any = await User.findOne({ id: req.body.id, role: req.body.role });
       req.body.last_logged_in = new Date();
       if (user) {
         await user.update({ ...req.body });
@@ -120,10 +134,7 @@ export default class AuthController {
       });
     } catch (e) {
       Tracking.log({ type: 'auth.error', message: 'Error occured logging in.', data: e });
-      return res.json({
-        error: true,
-        message: `An error occured.`
-      });
+      return res.json({ error: true, status: 500, message: 'An error occured.' });
     }
   }
 

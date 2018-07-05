@@ -42,7 +42,7 @@ export default class JobController {
       const paginate = Pagination(totalJobs, jobs.length, query.per_page, query.page);
       return res.json({ error: false, data: { jobs, paginate } });
     } catch (e) {
-      return res.status(500).send('An error occured' + e.message);
+      return res.json({ error: true, status: 500, message: 'An error occured.' });
     }
   }
 
@@ -51,13 +51,13 @@ export default class JobController {
       const data = req.body;
       const errors = JobService.validate(data);
       if (errors) {
-        return res.json({ error: true, message: 'Validation failed', data: errors });
+        return res.json({ error: true, status: 422, message: 'Validation failed', data: errors });
       }
       data.user = req.user._id;
       const job = await Job.create(data);
-      return res.status(201).json({ error: false, message: 'Job posted successfully.', data: job });
+      return res.json({ error: false, status: 201, message: 'Job posted successfully.', data: job });
     } catch (e) {
-      return res.status(500).send('An error occured.');
+      return res.json({ error: true, status: 500, message: 'An error occured.' });
     }
   }
 
@@ -66,11 +66,11 @@ export default class JobController {
       const { id } = req.params;
       const job = await Job.findById(id).populate('user', 'firstName lastName pictureUrl');
       if (!job) {
-        return res.status(404).send('Job not found.');
+      return res.json({ error: true, status: 404, message: 'Job not found.' });
       }
       return res.json({ error: false, data: job });
     } catch (e) {
-      return res.status(500).json('An error occured.');
+      return res.json({ error: true, status: 500, message: 'An error occured.' });
     }
   }
 
@@ -79,21 +79,21 @@ export default class JobController {
       const data = req.body;
       const errors = JobService.validate(data);
       if (errors) {
-        return res.json({ error: true, message: 'Validation failed', data: errors });
+        return res.json({ error: true, status: 422, message: 'Validation failed', data: errors });
       }
       data.user = req.user._id;
 
       const { id } = req.params;
       let job = await Job.findById(id);
       if (!job) {
-        return res.status(404).send('Job not found.');
+        return res.json({ error: true, status: 404, message: 'Job not found.' });
       }
       job = job.toJSON();
       job = { ...job, ...data };
       await Job.findByIdAndUpdate(id, { $set: job });
       return res.json({ error: false, data: job, message: 'Job updated successfully.' });
     } catch (e) {
-      return res.status(500).json('An error occured.');
+      return res.json({ error: true, status: 500, message: 'An error occured.' });
     }
   }
 
@@ -102,12 +102,12 @@ export default class JobController {
       const { id } = req.params;
       const job = await Job.findById(id);
       if (job.user !== req.user._id) {
-        return res.status(401).send('Unauthorized.');
+        return res.json({ error: true, status: 401, message: 'Unauthorized.' });
       }
       await Job.findByIdAndRemove(id);
       return res.json({ error: false, message: 'Job deleted successfully.' });
     } catch (e) {
-      return res.status(500).json('An error occured.');
+      return res.json({ error: true, status: 500, message: 'An error occured.' });
     }
   }
 }

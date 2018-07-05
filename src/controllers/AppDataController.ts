@@ -47,7 +47,7 @@ export default class AppDataController {
       const data = await AppData.find(finder, project).sort({ title: 1 });
       return res.json({ error: false, data });
     } catch (e) {
-      return res.status(500).send('An error occured.');
+      return res.json({ error: true, status: 500, message: 'An error occured.' });
     }
   }
 
@@ -57,7 +57,7 @@ export default class AppDataController {
       const categories = await Category.find({}, { title: 1, description: 1, icon: 1 });
       return res.json({ error: false, data: { categories, platforms } });
     } catch (e) {
-      return res.status(500).json('An error occured.');
+      return res.json({ error: true, status: 500, message: 'An error occured.' });
     }
   }
 
@@ -140,7 +140,7 @@ export default class AppDataController {
 
       return res.json({ error: false, data });
     } catch (e) {
-      return res.status(500).json('An error occured.');
+      return res.json({ error: true, status: 500, message: 'An error occured.' });
     }
   }
 
@@ -168,7 +168,7 @@ export default class AppDataController {
       const data = await SubModule.aggregate(aggreate);
       return res.json({ error: false, data });
     } catch (e) {
-      return res.status(500).json('An error occured.');
+      return res.json({ error: true, status: 500, message: 'An error occured.' });
     }
   }
 

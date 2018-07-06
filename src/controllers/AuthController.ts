@@ -5,6 +5,7 @@ import User from "../models/User";
 import Tracking from '../events/Tracking';
 import GithubService from '../services/GithubService';
 import AuthService from '../services/AuthService';
+import Company from '../models/Company';
 
 export default class AuthController {
 
@@ -103,7 +104,7 @@ export default class AuthController {
 
       return res.json({
         error: false,
-        data: AuthController.githubUserAndToken(githubUser),
+        data: AuthController.userAndToken(githubUser),
         message: `Welcome, ${githubUser.name}`
       });
     } catch (e) {
@@ -117,6 +118,9 @@ export default class AuthController {
       Tracking.log({ type: 'auth.login', message: 'Login', data: { provider: 'linkedin', role: 'hr' } });
       req.body.role = 'hr';
       let user: any = await User.findOne({ id: req.body.id, role: req.body.role });
+      req.body.name = `${req.body.firstName} ${req.body.lastName}`;
+      req.body.email = req.body.emailAddress;
+      req.body.avatar = req.body.pictureUrl;
       req.body.last_logged_in = new Date();
       if (user) {
         await user.update({ ...req.body });
@@ -127,10 +131,25 @@ export default class AuthController {
         Tracking.log({ type: 'auth.register', message: 'Register successful', data: { ...user } });
       }
 
+      // Once HR has created profile from LinkedIn we wil use user.positions.values
+      // to get the companies and add them in our DB
+      if (user.positions._total > 0) {
+        const companies = [];
+        user.positions.values.forEach(position => {
+          companies.push({
+            title: position.company.name,
+            addedBy: user._id,
+            linkedIn: position.company
+          });
+        });
+        // Fix for uniqueness
+        Company.insertMany(companies);
+      }
+
       return res.json({
         error: false,
-        message: `Welcome, ${user.firstName} ${user.lastName}`,
-        data: AuthController.linkedInUserAndToken(user)
+        message: `Welcome, ${user.name}`,
+        data: AuthController.userAndToken(user)
       });
     } catch (e) {
       Tracking.log({ type: 'auth.error', message: 'Error occured logging in.', data: e });
@@ -138,7 +157,7 @@ export default class AuthController {
     }
   }
 
-  private static githubUserAndToken(user) {
+  private static userAndToken(user) {
     return {
       user: {
         _id: user._id,
@@ -146,18 +165,6 @@ export default class AuthController {
         avatar: user.avatar,
         onboarding: user.onboarding
       },
-      token: AuthService.signToken(user)
-    }
-  }
-
-  private static linkedInUserAndToken(user) {
-    user = {
-      _id: user._id,
-      name: `${user.firstName} ${user.lastName}`,
-      avatar: user.pictureUrl
-    };
-    return {
-      user,
       token: AuthService.signToken(user)
     }
   }

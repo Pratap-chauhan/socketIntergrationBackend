@@ -20,7 +20,12 @@ export default class ProfileController {
         name: user.name
       };
     } else if (user.role === 'hr') {
-
+      data = {
+        _id: user._id,
+        approved: user.approved,
+        avatar: user.avatar,
+        name: user.name
+      };
     } else {
     }
     return res.json({ error: false, data });
@@ -45,7 +50,8 @@ export default class ProfileController {
         experience_role: user.experience_role,
         looking_for: user.looking_for,
         availability: user.availability,
-        salary: user.salary
+        salary: user.salary,
+        locations: user.locations,
       }
     } else {
       data = {
@@ -96,6 +102,7 @@ export default class ProfileController {
         looking_for: body.looking_for || user.looking_for,
         availability: body.availability || user.availability,
         salary: body.salary || user.salary,
+        locations: body.locations || user.locations,
         onboarding: false
       };
 
@@ -108,5 +115,30 @@ export default class ProfileController {
   }
 
   private static async updateHR(req: Request, res: Response) {
+    try {
+      const { user, body } = req;
+
+      const errors = UserService.validateHR(user, body);
+      if (errors) {
+        return res.json({
+          error: true,
+          status: 422,
+          data: errors
+        });
+      }
+
+      // Update object
+      const update = {
+        name: body.name || user.name,
+        email: body.email || user.email,
+        onboarding: false
+      };
+
+      // Update
+      await User.findByIdAndUpdate(user._id, { $set: update });
+      return res.json({ error: false, message: 'Profile updated successfully.' });
+    } catch (e) {
+      return res.json({ error: true, status: 500, message: 'An error occured.', });
+    }
   }
 }

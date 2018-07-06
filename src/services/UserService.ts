@@ -48,6 +48,11 @@ export default class UserService {
       errors.push({ path: 'salary', message: 'Salary is required.' });
     }
 
+    // User locations
+    if (!user.locations && !data.locations) {
+      errors.push({ path: 'locations', message: 'Desired location is required.' });
+    }
+
     return Object.keys(errors).length > 0 ? errors : false;
   }
 

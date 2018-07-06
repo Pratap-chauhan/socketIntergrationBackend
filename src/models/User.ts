@@ -10,6 +10,15 @@ const user = new mongoose.Schema({
   name: {
     type: String
   },
+  firstName: {
+    type: String
+  },
+  lastName: {
+    type: String
+  },
+  emailAddress: {
+    type: String
+  },
   email: {
     type: String,
     index: true,
@@ -77,6 +86,9 @@ const user = new mongoose.Schema({
   },
   salary: {
     type: Object
+  },
+  locations: {
+    type: Array
   }
 }, {
   strict: false,

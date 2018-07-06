@@ -9,7 +9,7 @@ export default class ProfileController {
     let { user } = req;
 
     let data: any = {};
-    if (user.role === 'user') {
+    if (user.role === 'candidate') {
       data = {
         _id: user._id,
         approved: user.approved,
@@ -70,7 +70,7 @@ export default class ProfileController {
 
   static update(req: Request, res: Response) {
     const { user } = req;
-    if (user.role === 'user') {
+    if (user.role === 'candidate') {
       return ProfileController.updateCandidate(req, res);
     } else if (user.role === 'hr') {
       return ProfileController.updateHR(req, res);

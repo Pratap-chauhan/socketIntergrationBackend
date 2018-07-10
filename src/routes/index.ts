@@ -7,6 +7,7 @@ import UserRoutes from './UserRoutes';
 import JobRoutes from './JobRoutes';
 import StarkFlowRoutes from './StarkFlowRoutes';
 import CompanyRoutes from './CompanyRoutes';
+import MessageRoutes from './MessageRoutes';
 
 export default class Routes {
 
@@ -23,6 +24,7 @@ export default class Routes {
 		UserRoutes.init(app);
     JobRoutes.init(app);
     CompanyRoutes.init(app);
+    MessageRoutes.init(app);
 
     // SF
     StarkFlowRoutes.init(app);

@@ -194,6 +194,24 @@ export default class AppDataController {
         {id: 4, title: 'In 1 month'},
         {id: 5, title: 'More than a month'},
       ],
+      currency: [
+        {id: 1, title: 'USD'},
+        {id: 2, title: 'EUR'},
+        {id: 3, title: 'GBP'},
+        {id: 4, title: 'INR'},
+        {id: 5, title: 'RUB'},
+      ],
+      duration: [
+        {id: 1, title: 'Hour'},
+        {id: 2, title: 'Week'},
+        {id: 3, title: 'Month'},
+        {id: 4, title: 'Year'}
+      ],
+      project_duration: [
+        {id: 1, title: 'Week'},
+        {id: 2, title: 'Month'},
+        {id: 3, title: 'Year'}
+      ],
       salary: {
         curreny: [
           {id: 1, title: 'USD'},

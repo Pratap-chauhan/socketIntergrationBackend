@@ -1,9 +1,10 @@
+import { Request, Response } from 'express';
 import Message from '../models/Message';
 
 export default class MessageController {
 
   // Data to show the sidebar of the messaging (all chats)
-  static async index(req, res) {
+  static async index(req: Request, res: Response) {
     let { page, limit } = req.query;
 
     page = Number(page) || 1;
@@ -48,7 +49,7 @@ export default class MessageController {
   }
 
   // Create a message
-  static async create(req, res) {
+  static async create(req: Request, res: Response) {
     try {
       const errors = MessageController.validateMessage(req.body);
       if(errors) {
@@ -58,7 +59,8 @@ export default class MessageController {
       if(String(req.user._id) !== String(req.body.from)) {
         return res.json({error: true, status: 401, message: 'Unauthorized.'});
       }
-      const message = await Message.create(req.body);
+      let message = await Message.create(req.body);
+      message = MessageController.transformMessage(message, req.user._id);
       return res.json({ error: false, message: 'Message sent.', data: message });
     } catch(e) {
       return res.json({error: true, status: 500, message: `An error occured. ${e.message}`});
@@ -66,7 +68,7 @@ export default class MessageController {
   }
 
   // Show a chat thread between passed user and the logged in user
-  static async show(req, res) {
+  static async show(req: Request, res: Response) {
     let { page, limit } = req.query;
     const { id } = req.params;
 

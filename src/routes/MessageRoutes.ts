@@ -27,27 +27,29 @@ export default class MessageRoutes {
      *          {
      *            "text": "ookokokok",
      *            "createdAt": "2018-06-05T21:19:21.288Z",
-     *            "from": {
+     *            "other": {
      *                "_id": "5a8caf697f6c946b4d5c1d39",
      *                "name": "Some User"
      *            },
-     *            "to": {
+     *            "me": {
      *                "_id": "5a8caf697f6c946b4d5c1d36",
      *                "name": "Admin"
-     *            }
+     *            },
+     *            "position": "left"
      *          },
      *          {
      *              "text": "masd",
      *              "createdAt": "2018-06-05T21:19:06.671Z",
-     *              "from": {
+     *              "other": {
      *                  "_id": "5a8caf697f6c946b4d5c1d3a",
      *                  "name": "Other user"
      *              },
-     *              "to": {
+     *              "me": {
      *                  "_id": "5a8caf697f6c946b4d5c1d36",
      *                  "name": "Admin"
      *              }
      *          }
+     *          "position": "right"
      *        ]
      *    }
      *
@@ -146,11 +148,11 @@ export default class MessageRoutes {
      *        "data": [
      *          {
      *            "_id": "5b16f4c3431e01dd64a90761",
-     *            "from": {
+     *            "me": {
      *              "_id": "5a8caf697f6c946b4d5c1d36",
      *              "name": "Admin"
      *            },
-     *            "to": {
+     *            "other": {
      *              "_id": "5a8caf697f6c946b4d5c1d3a",
      *              "name": "Some User"
      *            },
@@ -158,7 +160,8 @@ export default class MessageRoutes {
      *            "body": {},
      *            "createdAt": "2018-06-05T21:18:54.636Z",
      *            "updatedAt": "2018-06-05T21:18:54.636Z",
-     *            "seen": false
+     *            "seen": false,
+     *            "position": "left"
      *          }
      *        ]
      *    }

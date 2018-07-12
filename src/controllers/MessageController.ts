@@ -40,20 +40,7 @@ export default class MessageController {
     ];
     try {
       let messages = await Message.aggregate(aggregate);
-
-      messages = messages.map(x => {
-          if(x.from._id === req.user._id) {
-            x.me = x.from;
-            x.other = x.to;
-          } else {
-            x.me = x.to;
-            x.other = x.from;
-          }
-          delete x.to;
-          delete x.from;
-          return x;
-      });
-
+      messages = messages.map(x => this.transformMessage(x, req.user._id));
       return res.json({error: false, data: messages});
     } catch(e) {
       return res.json({ error: true, status: 500, message: 'An error occured.' });
@@ -105,21 +92,7 @@ export default class MessageController {
                                   .limit(limit)
                                   .populate({path: 'to', select: ['_id', 'name']})
                                   .populate({path: 'from', select: ['_id', 'name']});
-
-      messages = messages.map((x: any) => {
-        if(x.from._id === req.user._id) {
-          x.me = x.from;
-          x.other = x.to;
-          x.position = 'right';
-        } else {
-          x.me = x.to;
-          x.other = x.from;
-          x.position = 'left';
-        }
-        delete x.to;
-        delete x.from;
-        return x;
-      });
+      messages = messages.map(x => this.transformMessage(x, req.user._id));
 
       finder.seen = false;
       finder.to = req.user._id;
@@ -153,5 +126,33 @@ export default class MessageController {
       return false;
     }
     return errors;
+  }
+
+  private static transformMessage(message: any, myId: any) {
+    /**
+     * LoggedInUser: Basit
+     * {
+     *    from: {id: 1,  name: 'Basit'},
+     *    to: {id: 2,  name: 'Narek'},
+     *    text: 'Yello'
+     * }
+     */
+    if(message.hasOwnProperty('toJSON')) {
+      message = message.toJSON();
+    }
+    // If message is from Basit to Narek
+    if(message.from._id === myId) {
+      message.me = message.from;
+      message.other = message.to;
+      message.position = 'right';
+    } else {
+      message.me = message.to;
+      message.other = message.from;
+      message.position = 'left';
+    }
+
+    delete message.to;
+    delete message.from;
+    return message;
   }
 }

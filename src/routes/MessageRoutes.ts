@@ -179,6 +179,6 @@ export default class MessageRoutes {
      *        message: 'An error occured.'
      *     });
      */
-    app.get('/messages/:between', AuthService.isAuthenticated(),MessageController.show);
+    app.get('/messages/:id', AuthService.isAuthenticated(),MessageController.show);
 	}
 }

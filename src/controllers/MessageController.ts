@@ -40,7 +40,7 @@ export default class MessageController {
     ];
     try {
       let messages = await Message.aggregate(aggregate);
-      messages = messages.map(x => this.transformMessage(x, req.user._id));
+      messages = messages.map(x => MessageController.transformMessage(x, req.user._id));
       return res.json({error: false, data: messages});
     } catch(e) {
       return res.json({ error: true, status: 500, message: 'An error occured.' });
@@ -55,8 +55,7 @@ export default class MessageController {
         return res.json({error: true, status: 422, data: errors, message: 'Validation failed.'});
       }
 
-      if(req.user._id.toString() !== req.body.from) {
-        console.log({_id: req.user._id.toString(), from: req.body.from});
+      if(String(req.user._id) !== String(req.body.from)) {
         return res.json({error: true, status: 401, message: 'Unauthorized.'});
       }
       const message = await Message.create(req.body);
@@ -92,7 +91,7 @@ export default class MessageController {
                                   .limit(limit)
                                   .populate({path: 'to', select: ['_id', 'name']})
                                   .populate({path: 'from', select: ['_id', 'name']});
-      messages = messages.map(x => this.transformMessage(x, req.user._id));
+      messages = messages.map(x => MessageController.transformMessage(x, req.user._id));
 
       finder.seen = false;
       finder.to = req.user._id;
@@ -137,11 +136,11 @@ export default class MessageController {
      *    text: 'Yello'
      * }
      */
-    if(message.hasOwnProperty('toJSON')) {
+    if(message.toJSON) {
       message = message.toJSON();
     }
     // If message is from Basit to Narek
-    if(message.from._id === myId) {
+    if(String(message.from._id) === String(myId)) {
       message.me = message.from;
       message.other = message.to;
       message.position = 'right';

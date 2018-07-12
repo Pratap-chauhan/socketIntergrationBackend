@@ -24,7 +24,7 @@ const company = new mongoose.Schema({
     industry: String,
     name: String,
     size: String,
-    type: String
+    type: { type: String }
   }
 }, {
     strict: false,

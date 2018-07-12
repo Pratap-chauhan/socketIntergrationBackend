@@ -174,6 +174,17 @@ export default class AppDataController {
 
   static initalDataCandidates(req: Request, res: Response) {
     const data = {
+      hr_roles: [
+        {id: 1, title: 'Data Engineer'},
+        {id: 2, title: 'Business Analyst'},
+        {id: 3, title: 'Project Manager'},
+        {id: 4, title: 'QA Engineer'},
+        {id: 5, title: 'Support'},
+        {id: 6, title: 'DevOps'},
+        {id: 7, title: 'Full Stack Developer'},
+        {id: 8, title: 'Front-End Developer'},
+        {id: 9, title: 'Back-End Developer'},
+      ],
       experience_role: [
         {id: 1, title: 'Intern'},
         {id: 2, title: 'Fresher'},

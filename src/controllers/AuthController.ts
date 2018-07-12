@@ -158,12 +158,17 @@ export default class AuthController {
   }
 
   private static userAndToken(user) {
+    let hasOnboarding = user.onboarding;
+    if(!user.email && !user.name) {
+      hasOnboarding = true;
+    }
+
     return {
       user: {
         _id: user._id,
         name: user.name,
         avatar: user.avatar,
-        onboarding: user.onboarding
+        onboarding: hasOnboarding
       },
       token: AuthService.signToken(user)
     }

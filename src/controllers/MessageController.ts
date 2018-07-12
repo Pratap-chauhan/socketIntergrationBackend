@@ -39,7 +39,21 @@ export default class MessageController {
       {$limit: limit}
     ];
     try {
-      const messages = await Message.aggregate(aggregate);
+      let messages = await Message.aggregate(aggregate);
+
+      messages = messages.map(x => {
+          if(x.from._id === req.user._id) {
+            x.me = x.from;
+            x.other = x.to;
+          } else {
+            x.me = x.to;
+            x.other = x.from;
+          }
+          delete x.to;
+          delete x.from;
+          return x;
+      });
+
       return res.json({error: false, data: messages});
     } catch(e) {
       return res.json({ error: true, status: 500, message: 'An error occured.' });

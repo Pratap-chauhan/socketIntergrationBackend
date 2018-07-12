@@ -99,12 +99,27 @@ export default class MessageController {
     };
 
     try {
-      const messages = await Message.find(finder)
+      let messages = await Message.find(finder)
                                   .sort({ createdAt: -1 })
                                   .skip((page - 1) * limit)
                                   .limit(limit)
                                   .populate({path: 'to', select: ['_id', 'name']})
                                   .populate({path: 'from', select: ['_id', 'name']});
+
+      messages = messages.map((x: any) => {
+        if(x.from._id === req.user._id) {
+          x.me = x.from;
+          x.other = x.to;
+          x.position = 'right';
+        } else {
+          x.me = x.to;
+          x.other = x.from;
+          x.position = 'left';
+        }
+        delete x.to;
+        delete x.from;
+        return x;
+      });
 
       finder.seen = false;
       finder.to = req.user._id;
@@ -128,6 +143,10 @@ export default class MessageController {
 
     if(!data.text) {
       errors.push({type: 'text', message: 'Text of message is required.'});
+    }
+
+    if(data.from && data.to && data.from === data.to) {
+      errors.push({type: 'to', message: 'You can not send message to yourself.'});
     }
 
     if(errors.length === 0) {

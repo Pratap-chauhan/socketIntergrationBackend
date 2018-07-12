@@ -124,7 +124,7 @@ export default class MessageRoutes {
      *        message: 'An error occured.'
      *     });
      */
-    app.post('/messages', MessageController.create);
+    app.post('/messages', AuthService.isAuthenticated(), MessageController.create);
 
 
     /**

@@ -17,8 +17,7 @@ const message = new mongoose.Schema({
   },
   job: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Job',
-    required: true
+    ref: 'Job'
   },
   data: Object,
   seen: {

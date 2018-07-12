@@ -61,7 +61,7 @@ export default class MessageController {
       const message = await Message.create(req.body);
       return res.json({ error: false, message: 'Message sent.', data: message });
     } catch(e) {
-      return res.json({error: true, status: 500, message: 'An error occured.'});
+      return res.json({error: true, status: 500, message: `An error occured. ${e.message}`});
     }
   }
 

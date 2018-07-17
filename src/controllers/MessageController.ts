@@ -33,7 +33,7 @@ export default class MessageController {
       {$unwind: '$from'},
       {$unwind: '$to'},
       {$project: {
-        _id: 0, text: 1, createdAt: 1, from: {_id: 1, name: 1}, to: {_id: 1, name: 1}
+        _id: 0, text: 1, createdAt: 1, from: {_id: 1, name: 1, avatar: 1}, to: {_id: 1, name: 1, avatar: 1}
       }},
       {$sort: {createdAt: -1}},
       {$skip: (page - 1) * limit},
@@ -91,8 +91,8 @@ export default class MessageController {
                                   .sort({ createdAt: -1 })
                                   .skip((page - 1) * limit)
                                   .limit(limit)
-                                  .populate({path: 'to', select: ['_id', 'name']})
-                                  .populate({path: 'from', select: ['_id', 'name']});
+                                  .populate({path: 'to', select: ['_id', 'name', 'avatar']})
+                                  .populate({path: 'from', select: ['_id', 'name', 'avatar']});
       messages = messages.map(x => MessageController.transformMessage(x, req.user._id));
 
       finder.seen = false;

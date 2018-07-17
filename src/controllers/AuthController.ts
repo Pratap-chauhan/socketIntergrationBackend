@@ -168,7 +168,8 @@ export default class AuthController {
         _id: user._id,
         name: user.name,
         avatar: user.avatar,
-        onboarding: hasOnboarding
+        onboarding: hasOnboarding,
+        role: user.role
       },
       token: AuthService.signToken(user)
     }

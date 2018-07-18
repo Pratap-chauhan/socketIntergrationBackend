@@ -5,7 +5,7 @@ import User from "../models/User";
 import Tracking from '../events/Tracking';
 import GithubService from '../services/GithubService';
 import AuthService from '../services/AuthService';
-import Company from '../models/Company';
+import AuthEvents from '../events/AuthEvents';
 
 export default class AuthController {
 
@@ -134,16 +134,7 @@ export default class AuthController {
       // Once HR has created profile from LinkedIn we wil use user.positions.values
       // to get the companies and add them in our DB
       if (user.positions._total > 0) {
-        const companies = [];
-        user.positions.values.forEach(position => {
-          companies.push({
-            title: position.company.name,
-            addedBy: user._id,
-            linkedIn: position.company
-          });
-        });
-        // Fix for uniqueness
-        Company.insertMany(companies);
+        user = await AuthEvents.hrCreated(user);
       }
 
       return res.json({

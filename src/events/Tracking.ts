@@ -1,5 +1,4 @@
 import Event from '../models/Event';
-import * as S from 'con'
 
 const env_type = process.env.NODE_ENV || 'development';
 

@@ -9,6 +9,7 @@ export default class CompanyRoutes {
     app.get(
       '/companies',
       AuthService.isAuthenticated(),
+      AuthService.hasRole(['hr', 'admin']),
       CompanyController.index
     );
 

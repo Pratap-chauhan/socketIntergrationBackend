@@ -60,6 +60,11 @@ export default class MessageController {
         return res.json({error: true, status: 401, message: 'Unauthorized.'});
       }
       let message = await Message.create(req.body);
+
+      message = await Message.findById(message._id)
+                  .populate({path: 'to', select: ['_id', 'name', 'avatar']})
+                  .populate({path: 'from', select: ['_id', 'name', 'avatar']});
+
       message = MessageController.transformMessage(message, req.user._id);
       return res.json({ error: false, message: 'Message sent.', data: message });
     } catch(e) {

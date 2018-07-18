@@ -47,6 +47,11 @@ export default class JobController {
   }
 
   static async create(req: Request, res: Response) {
+
+    if (!req.user.company_id) {
+      return res.json({ error: true, status: 422, message: 'Please add the company' });
+    }
+
     try {
       const data = req.body;
       const errors = JobService.validate(data);

@@ -6,7 +6,7 @@ const env_type = process.env.NODE_ENV || 'development';
 class AuthEvents {
 
   static async hrCreated(user: any) {
-    const companies = [];
+    let companies = [];
     // Map the companies in simple form
     user.positions.values.forEach(position => {
       companies.push({
@@ -19,24 +19,25 @@ class AuthEvents {
     // The current company of the user
     const hrCurrentCompany = companies[0];
 
-    // Get the companies from DB from user's linkedin compaies
-    let existingCompanies: any = await Company.find({ linkedin: { id: { $in: [companies.map(x => x.linked.id)] } } });
+    // Get the companies from DB from user's linkedIn compaies
+    const finder = { 'linkedIn.id': { $in: companies.map(x => x.linkedIn.id) } };
+    let existingCompanies: any = await Company.find(finder);
 
     // Map to array of ids
-    existingCompanies = existingCompanies.map(x => x.toJSON ? x.toJSON().linkedin.id : x.linkedin.id);
+    existingCompanies = existingCompanies.map(x => x.toJSON ? x.toJSON().linkedIn.id : x.linkedIn.id);
 
     // Now filter the companies to create
-    companies.filter(x => existingCompanies.indexOf(x.linkedin.id) === -1);
+    companies = companies.filter(x => existingCompanies.indexOf(x.linkedIn.id) === -1);
 
     // Fix for uniqueness
     await Company.insertMany(companies);
 
     if (! user.company_id) {
-      const currentCompany = await Company.findOne({ linkedin: { id: hrCurrentCompany.linkedin.id } });
-      user.company_id = currentCompany._id;
-      await user.save();
+      const currentCompany = await Company.findOne({ 'linkedIn.id': hrCurrentCompany.linkedIn.id });
+      await User.findByIdAndUpdate(user._id, {$set: {company_id: currentCompany._id}});
     }
-    user = await User.findById(user._id).populate({ path: 'Company', select: ['linkedin', '_id', 'title'] });
+
+    user = await User.findById(user._id).populate({ path: 'company_id', select: ['linkedIn', '_id', 'title'] });
     return user;
   }
 }

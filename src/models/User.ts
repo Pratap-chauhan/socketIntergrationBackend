@@ -89,6 +89,10 @@ const user = new mongoose.Schema({
   },
   locations: {
     type: Array
+  },
+  company_id: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Company'
   }
 }, {
   strict: false,

@@ -62,7 +62,7 @@ export default class JobController {
       const job = await Job.create(data);
       return res.json({ error: false, status: 201, message: 'Job posted successfully.', data: job });
     } catch (e) {
-      return res.json({ error: true, status: 500, message: 'An error occured.' });
+      return res.json({ error: true, status: 500, message: `An error occured. ${e.message}` });
     }
   }
 

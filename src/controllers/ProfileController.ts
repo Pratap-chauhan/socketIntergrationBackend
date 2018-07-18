@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 
 import User from '../models/User';
+import Company from '../models/Company';
 import UserService from '../services/UserService';
 
 export default class ProfileController {
@@ -31,7 +32,7 @@ export default class ProfileController {
     return res.json({ error: false, data });
   }
 
-  static onboarding(req: Request, res: Response) {
+  static async onboarding(req: Request, res: Response) {
     const { user } = req;
     let data = {};
 
@@ -60,7 +61,8 @@ export default class ProfileController {
           avatar: user.avatar,
           email: user.email,
           location: user.location,
-          name: user.name
+          name: user.name,
+          company: user.company_id ? await Company.findById(user.company_id) : null
         }
       }
     }

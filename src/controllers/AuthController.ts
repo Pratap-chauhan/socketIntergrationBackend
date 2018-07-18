@@ -135,6 +135,7 @@ export default class AuthController {
       // to get the companies and add them in our DB
       if (user.positions._total > 0) {
         user = await AuthEvents.hrCreated(user);
+        console.log(user);
       }
 
       return res.json({
@@ -144,13 +145,13 @@ export default class AuthController {
       });
     } catch (e) {
       Tracking.log({ type: 'auth.error', message: 'Error occured logging in.', data: e });
-      return res.json({ error: true, status: 500, message: 'An error occured.' });
+      return res.json({ error: true, status: 500, message: `An error occured. ${e.message}` });
     }
   }
 
   private static userAndToken(user) {
     let hasOnboarding = user.onboarding;
-    if(!user.email && !user.name) {
+    if(!user.email && !user.name && (user.role === 'hr' && !user.company_id)) {
       hasOnboarding = true;
     }
 
@@ -160,7 +161,8 @@ export default class AuthController {
         name: user.name,
         avatar: user.avatar,
         onboarding: hasOnboarding,
-        role: user.role
+        role: user.role,
+        company: user.company_id || user.company
       },
       token: AuthService.signToken(user)
     }

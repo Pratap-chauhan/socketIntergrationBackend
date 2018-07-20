@@ -118,15 +118,24 @@ export default class AuthController {
       Tracking.log({ type: 'auth.login', message: 'Login', data: { provider: 'linkedin', role: 'hr' } });
       req.body.role = 'hr';
       let user: any = await User.findOne({ id: req.body.id, role: req.body.role });
-      req.body.name = `${req.body.firstName} ${req.body.lastName}`;
-      req.body.email = req.body.emailAddress;
-      req.body.avatar = req.body.pictureUrl;
       req.body.last_logged_in = new Date();
       if (user) {
+        if (!user.name) {
+          req.body.name = `${req.body.firstName} ${req.body.lastName}`;
+        }
+        if (!user.email) {
+          req.body.email = req.body.emailAddress;
+        }
+        if (!user.avatar) {
+          req.body.avatar = req.body.pictureUrl;
+        }
         await user.update({ ...req.body });
         user = user.toJSON();
         Tracking.log({ type: 'auth.login', message: 'Login successful', data: { ...user } });
       } else {
+        req.body.name = `${req.body.firstName} ${req.body.lastName}`;
+        req.body.email = req.body.emailAddress;
+        req.body.avatar = req.body.pictureUrl;
         user = await User.create(req.body);
         Tracking.log({ type: 'auth.register', message: 'Register successful', data: { ...user } });
       }

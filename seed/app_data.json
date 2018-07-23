@@ -1,0 +1,937 @@
+{"_id":{"$oid":"5adf1ab90f17bdb02064b33d"},"title":"Adobe Premier Pro","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b33e"},"title":"Adobe Project Felix","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b33f"},"title":"Adobe Project Felix","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b340"},"title":"Adobe Scout","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b341"},"title":"Adobe Spark","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b342"},"title":"Adobe SpeedGrade","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b343"},"title":"Adobe Story Plus","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b344"},"title":"Advanced Web Analytics","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b345"},"title":"Advantage Database Server","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b346"},"title":"Advertising","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b347"},"title":"Aerospace","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b348"},"title":"Aerospike Database","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b349"},"title":"Agda","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b34a"},"title":"Agile Development","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b34b"},"title":"Agriculture","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b34c"},"title":"Algorithms","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b34d"},"title":"AllegroGraph","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b34e"},"title":"Analytics","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b34f"},"title":"Android","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b350"},"title":"Android Development","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b351"},"title":"Android SDK","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b352"},"title":"Android Studio","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b353"},"title":"AngularJS 1.x","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b354"},"title":"AngularJS 2","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b355"},"title":"Apache Cassandra","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b356"},"title":"Apache Click","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b357"},"title":"Apache Derby","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b358"},"title":"Apache Geode","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b359"},"title":"Apache Hbase","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b35a"},"title":"Apache Ignite","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b35b"},"title":"Apache Jackrabbit","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b35c"},"title":"Apache Kafka","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b35d"},"title":"Apache OfBiz","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b35e"},"title":"Apache Shale","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b35f"},"title":"Apache Sling","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b360"},"title":"Apache Spark","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b361"},"title":"Apache Struts 2","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b362"},"title":"Apache Tapestry","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b363"},"title":"Apache Wicket","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b364"},"title":"AppMakr","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b365"},"title":"Appcelerator","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b366"},"title":"Apportable","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b367"},"title":"Arduino","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b368"},"title":"Artificial Intelligence","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b369"},"title":"Artificial Intelligence","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b36a"},"title":"Aspect Oriented Programming","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b36b"},"title":"Atom IDE","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b36c"},"title":"Augmented Reality","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b36d"},"title":"Aurelia.JS","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b36e"},"title":"Autodesk MAYA 3D","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b36f"},"title":"Automated Reasoning","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b370"},"title":"Automated Testing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b371"},"title":"Automobiles","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b372"},"title":"Aviation","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b373"},"title":"B2B ECommerce Apps","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b374"},"title":"Backbone.JS","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b375"},"title":"Backend As a Service","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b376"},"title":"Banking","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b377"},"title":"Bash","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b378"},"title":"Basic","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b379"},"title":"Beats","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b37a"},"title":"Berkeley DB","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b37b"},"title":"Beta Testing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b37c"},"title":"Big Data","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b37d"},"title":"Big Data","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b37e"},"title":"Big Data \u0026 Analytics","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b37f"},"title":"Big Data Analytics","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b380"},"title":"Bigtable","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b381"},"title":"Bio Technology","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b382"},"title":"BioInformatics","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b383"},"title":"Biotechnology","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b384"},"title":"Blade","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b385"},"title":"Blockchain","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b386"},"title":"Booking Apps","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b387"},"title":"Bootstrap","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b388"},"title":"Booty5.JS","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b389"},"title":"Bottle","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b38a"},"title":"Bowler","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b38b"},"title":"Bulma","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b38c"},"title":"Business Case Writing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b38d"},"title":"Business Intelligence","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b38e"},"title":"Business Management Apps","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b38f"},"title":"Business Productivity Tools","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b390"},"title":"C","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b391"},"title":"C#","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b392"},"title":"C++","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b393"},"title":"CFML","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b394"},"title":"CMS Apps","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b395"},"title":"COBOL","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b396"},"title":"CPAN","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b397"},"title":"CRM","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b398"},"title":"CSS","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b399"},"title":"CSSDB","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b39a"},"title":"CUBRID DBMS","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b39b"},"title":"CUDA","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b39c"},"title":"CakePHP","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b39d"},"title":"Camping","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b39e"},"title":"Canoo Web Test","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b39f"},"title":"Careers and Recruiting","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3a0"},"title":"Chapel","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3a1"},"title":"CherryPy","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3a2"},"title":"Cilk","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3a3"},"title":"Circumflex","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3a4"},"title":"Clean Tech","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3a5"},"title":"Clojure","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3a6"},"title":"Cloud Computing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3a7"},"title":"Clover","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3a8"},"title":"ClustrixDB","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3a9"},"title":"Coaching","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3aa"},"title":"Cocoa Touch","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3ab"},"title":"CodeIgniter","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3ac"},"title":"Codename one","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3ad"},"title":"Codyhouse","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3ae"},"title":"Coeus","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3af"},"title":"CoffeeScript","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3b0"},"title":"Coherence","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3b1"},"title":"Collaboration Apps","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3b2"},"title":"Communication","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3b3"},"title":"Compilers","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3b4"},"title":"Computational Chemistry","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3b5"},"title":"Computational Neuroscience","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3b6"},"title":"Computational Physics","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3b7"},"title":"Computational Science","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3b8"},"title":"Computer Algebra","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3b9"},"title":"Computer Architecture","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3ba"},"title":"Computer Graphics","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3bb"},"title":"Computer Hacking","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3bc"},"title":"Computer Security","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3bd"},"title":"Computer Vision","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3be"},"title":"Concurrency","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3bf"},"title":"Conferencing Apps","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3c0"},"title":"Consulting","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3c1"},"title":"Consumer ECommerce Apps","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3c2"},"title":"Consumer Mobile","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3c3"},"title":"Content","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3c4"},"title":"Content Marketing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3c5"},"title":"Contract Management","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3c6"},"title":"Coraldraw","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3c7"},"title":"Cost Management","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3c8"},"title":"CouchDB","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3c9"},"title":"Couchbase","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3ca"},"title":"Coupons and Deals Apps","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3cb"},"title":"Cramp","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3cc"},"title":"Creativity","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3cd"},"title":"Critical Thinking","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3ce"},"title":"Cryptography","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3cf"},"title":"Crystal","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3d0"},"title":"Cuba","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3d1"},"title":"CubicWeb","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3d2"},"title":"Cunit","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3d3"},"title":"Customer Service Software","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3d4"},"title":"Cute","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3d5"},"title":"D","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3d6"},"title":"D3.js","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3d7"},"title":"DTrace","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3d8"},"title":"Dart","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3d9"},"title":"Data As a Service","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3da"},"title":"Data Mining","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3db"},"title":"Data Science","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3dc"},"title":"Data Structures","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3dd"},"title":"Dating Apps","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3de"},"title":"Dependency Injection","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3df"},"title":"Derby.JS","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3e0"},"title":"Desktop App Development","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3e1"},"title":"Developer Tools","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3e2"},"title":"Digital Marketing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3e3"},"title":"Discovery Apps","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3e4"},"title":"Distributed Computing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3e5"},"title":"Distributed Systems","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3e6"},"title":"Django","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3e7"},"title":"Documentation","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3e8"},"title":"Dojo","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3e9"},"title":"Drones","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3ea"},"title":"Dropwizard","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3eb"},"title":"Drupal","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3ec"},"title":"Dynamic Programming","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3ed"},"title":"Eclipse","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3ee"},"title":"Eclipse RAP","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3ef"},"title":"Education and Training","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3f0"},"title":"Ejs","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3f1"},"title":"Elasticsearch","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3f2"},"title":"Electronics","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3f3"},"title":"Elixir","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3f4"},"title":"Elm","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3f5"},"title":"Emacs","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3f6"},"title":"Email Marketing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3f7"},"title":"Ember.JS","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3f8"},"title":"Embperl","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3f9"},"title":"Energy","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3fa"},"title":"Enterprise Resource Planning","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3fb"},"title":"Enterprise Security","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3fc"},"title":"Enterprise Software","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3fd"},"title":"Enterprise Web Development","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3fe"},"title":"Entrepreneurship","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b3ff"},"title":"Epoxy","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b400"},"title":"Erlang","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b401"},"title":"Error Prone","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b402"},"title":"Event Management Systems","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b403"},"title":"Express.JS","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b404"},"title":"Extreme Programming","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b405"},"title":"F#","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b406"},"title":"Faker","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b407"},"title":"Fashion","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b408"},"title":"Finance/Insurance","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b409"},"title":"Finatra","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b40a"},"title":"Firebase","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b40b"},"title":"Firebird DB","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b40c"},"title":"Firefox OS","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b40d"},"title":"Fitnesse","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b40e"},"title":"Flask","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b40f"},"title":"Flexbox Grid","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b410"},"title":"Flinto","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b411"},"title":"Flow Framework","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b412"},"title":"Food and Beverage","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b413"},"title":"Force.com Platform","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b414"},"title":"Forth","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b415"},"title":"Fortran","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b416"},"title":"Foundation","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b417"},"title":"FoundationDB","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b418"},"title":"Framework7","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b419"},"title":"Fuel PHP","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b41a"},"title":"FuelPHP","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b41b"},"title":"Functional Programming","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b41c"},"title":"GIS Apps","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b41d"},"title":"Games","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b41e"},"title":"Gamification","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b41f"},"title":"Gaming","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b420"},"title":"Gardel","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b421"},"title":"Gauge","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b422"},"title":"Gems and Jewellery","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b423"},"title":"Giotto","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b424"},"title":"Git","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b425"},"title":"GitHub","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b426"},"title":"Go","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b427"},"title":"Gobot","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b428"},"title":"Google Analytics","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b429"},"title":"Google Web Toolkit","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b42a"},"title":"Government","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b42b"},"title":"Gradle","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b42c"},"title":"Grails","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b42d"},"title":"Grails","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b42e"},"title":"Graphics Intensive Apps","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b42f"},"title":"Grok","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b430"},"title":"Groovy","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b431"},"title":"Guava","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b432"},"title":"Guice","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b433"},"title":"GulpJS","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b434"},"title":"H2 DB","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b435"},"title":"HSQLDB","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b436"},"title":"HTML5","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b437"},"title":"Hadoop","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b438"},"title":"Hapi.JS","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b439"},"title":"Hardware","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b43a"},"title":"Haskell","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b43b"},"title":"Haxe","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b43c"},"title":"Health and Wellness","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b43d"},"title":"Hibernate","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b43e"},"title":"Human Computer Interaction","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b43f"},"title":"Hypertable","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b440"},"title":"IBM DB2","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b441"},"title":"IT","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b442"},"title":"IT Operations","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b443"},"title":"ITeS","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b444"},"title":"Icon Finder","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b445"},"title":"Image Processing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b446"},"title":"Indexed DB","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b447"},"title":"Industrial Engineering","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b448"},"title":"Infrastructure","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b449"},"title":"Ingres","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b44a"},"title":"Initializr","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b44b"},"title":"Integrated Testing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b44c"},"title":"IntelliJ","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b44d"},"title":"Internet of Things","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b44e"},"title":"Investment","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b44f"},"title":"Invision","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b450"},"title":"IoT","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b451"},"title":"IoT","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b452"},"title":"Ionic","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b453"},"title":"J","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b454"},"title":"JDK","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b455"},"title":"Jade","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b456"},"title":"Java","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b457"},"title":"JavaServer Faces","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b458"},"title":"Javascript","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b459"},"title":"Jbehave","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b45a"},"title":"Jenkins","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b45b"},"title":"Jetty","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b45c"},"title":"Jmeter","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b45d"},"title":"Joomla","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b45e"},"title":"JsBin","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b45f"},"title":"JsonModel","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b460"},"title":"Julia","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b461"},"title":"Junit","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b462"},"title":"Juniversal","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b463"},"title":"Kajona","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b464"},"title":"Kanban","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b465"},"title":"Kendo UI","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b466"},"title":"Kibana","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b467"},"title":"Kickstart","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b468"},"title":"Kivy","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b469"},"title":"Knockout.JS","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b46a"},"title":"Koa.JS","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b46b"},"title":"Kohana","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b46c"},"title":"Kube","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b46d"},"title":"Kythe","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b46e"},"title":"LaTex","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b46f"},"title":"Laravel","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b470"},"title":"Launch4j","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b471"},"title":"Layerstyles","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b472"},"title":"Leadership","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b473"},"title":"Lean Startup","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b474"},"title":"Learning Management System","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b475"},"title":"Legal","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b476"},"title":"Less","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b477"},"title":"LevelDB","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b478"},"title":"Lift","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b479"},"title":"LightningDB","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b47a"},"title":"Limbo","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b47b"},"title":"Linux","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b47c"},"title":"Lisp","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b47d"},"title":"Lithium","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b47e"},"title":"LiveReload","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b47f"},"title":"LoadRunner","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b480"},"title":"Local Commerce","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b481"},"title":"Lodash","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b482"},"title":"Logic Programming","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b483"},"title":"Logistics \u0026 Delivery Software","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b484"},"title":"Logstash","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b485"},"title":"Lotus","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b486"},"title":"Lua","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b487"},"title":"MATLAB","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b488"},"title":"MEAN.JS","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b489"},"title":"MJML","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b48a"},"title":"MUI","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b48b"},"title":"Machine Learning","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b48c"},"title":"Machine Learning","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b48d"},"title":"Macron","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b48e"},"title":"Magical Record","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b48f"},"title":"Management","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b490"},"title":"Manufacturing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b491"},"title":"MariaDB","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b492"},"title":"MariaDB","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b493"},"title":"Marketplace","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b494"},"title":"Marketplace Apps","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b495"},"title":"Marley","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b496"},"title":"Mathematica","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b497"},"title":"Maven","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b498"},"title":"MbUnit","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b499"},"title":"Media and Entertainment","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b49a"},"title":"Medical Devices","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b49b"},"title":"Meetings Management","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b49c"},"title":"MemSQL","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b49d"},"title":"Memcached","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b49e"},"title":"Merb","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b49f"},"title":"Mercurial","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4a0"},"title":"Merury.JS","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4a1"},"title":"Messaging","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4a2"},"title":"Meteor.JS","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4a3"},"title":"MicroJS","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4a4"},"title":"Microsoft Access","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4a5"},"title":"Microsoft SQL Server","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4a6"},"title":"Microsoft SQL Server Express","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4a7"},"title":"Microsoft Visual Studio","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4a8"},"title":"Miligram","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4a9"},"title":"MinUnit","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4aa"},"title":"Mobile App Development","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4ab"},"title":"Mobile Marketing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4ac"},"title":"Mockito","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4ad"},"title":"Mojito","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4ae"},"title":"Mojolicious","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4af"},"title":"Moment.JS","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4b0"},"title":"MonetDB","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4b1"},"title":"MongoDB","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4b2"},"title":"Ms Test","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4b3"},"title":"MySql","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4b4"},"title":"Nano Technology","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4b5"},"title":"Natural Language Processing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4b6"},"title":"Natural Resources","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4b7"},"title":"Negotiation","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4b8"},"title":"Neo4j","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4b9"},"title":"Nette Framework","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4ba"},"title":"Networking","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4bb"},"title":"Node.JS","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4bc"},"title":"NodeBB","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4bd"},"title":"Non-profit","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4be"},"title":"Noun Project","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4bf"},"title":"Nunit","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4c0"},"title":"OCaml","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4c1"},"title":"Oberon","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4c2"},"title":"Object Oriented Programming","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4c3"},"title":"Objective-C","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4c4"},"title":"Octave","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4c5"},"title":"Oil and Gas","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4c6"},"title":"OpenCL","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4c7"},"title":"OpenGL ES","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4c8"},"title":"OpenMP","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4c9"},"title":"OpenResty","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4ca"},"title":"OpenSCAD","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4cb"},"title":"Operating Systems","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4cc"},"title":"Oracle Database","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4cd"},"title":"Oracle E-Business Suite","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4d0"},"title":"Origami","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4d1"},"title":"PHP","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4d2"},"title":"PHPixie","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4d3"},"title":"Packagist","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4ce"},"title":"Oracle NoSQL Database","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4cf"},"title":"OrientDB","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4d4"},"title":"Padrino","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4d5"},"title":"Parallel Computing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4d6"},"title":"Parasoft","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4d7"},"title":"Pascal","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4d8"},"title":"Payment Gateways","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4d9"},"title":"Payment Intensive Apps","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4da"},"title":"Pear","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4db"},"title":"Performance Testing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4dc"},"title":"Perl","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4dd"},"title":"PerlCatalyst","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4de"},"title":"PerlDancer","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4df"},"title":"PerlMason","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4e0"},"title":"PerlMonks","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4e1"},"title":"PerlUnit","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4e2"},"title":"Pervasive PSQL","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4e3"},"title":"Phalcon","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4e4"},"title":"Pharmaceuticals","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4e5"},"title":"Phonegap","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4e6"},"title":"PhpDox","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4e7"},"title":"Platform As a Service","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4e8"},"title":"Play Framework","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4e9"},"title":"Pligg","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4ea"},"title":"Polymer.JS","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4eb"},"title":"PostgreSQL","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4ec"},"title":"Powermock","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4ed"},"title":"Procedural Programming","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1ab90f17bdb02064b4ee"},"title":"Programming Language Pragmatics","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b4ef"},"title":"Project Management","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b4f0"},"title":"Project Management","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b4f1"},"title":"Project Management Apps","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b4f2"},"title":"Project Portfolio Management","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b4f3"},"title":"Project Scheduling","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b4f4"},"title":"Prolog","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b4f5"},"title":"Protobuf","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b4f6"},"title":"Prototyping","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b4f7"},"title":"Pug","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b4f8"},"title":"Pure","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b4f9"},"title":"PyCharm","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b4fa"},"title":"PyGUI","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b4fb"},"title":"PyQt","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b4fc"},"title":"Pylons","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b4fd"},"title":"Pyramid","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b4fe"},"title":"Python","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b4ff"},"title":"QTP","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b500"},"title":"Quality Management","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b501"},"title":"R","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b502"},"title":"REST","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b503"},"title":"RIFE","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b504"},"title":"Ramaze","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b505"},"title":"Rango","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b506"},"title":"Raspberry Pi","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b507"},"title":"React.JS","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b508"},"title":"ReactiveCocoa","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b509"},"title":"Reahl","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b50a"},"title":"Real Estate","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b50b"},"title":"Realm","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b50c"},"title":"Realtime Chat Apps","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b50d"},"title":"Redis","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b50e"},"title":"Redux","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b50f"},"title":"Regression Testing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b510"},"title":"Relational Databases","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b511"},"title":"Renee","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b512"},"title":"Research and Development","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b513"},"title":"Reswift","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b514"},"title":"Retail","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b515"},"title":"Risk Management","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b516"},"title":"Robotics","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b517"},"title":"Robotics","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b518"},"title":"Robotics","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b519"},"title":"Rspec","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b51a"},"title":"Rspec","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b51b"},"title":"Ruby","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b51c"},"title":"Ruby on Rails","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b51d"},"title":"Rust","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b51e"},"title":"RxJS","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b51f"},"title":"SAP HANA","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b520"},"title":"SCSS","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b521"},"title":"SDWeblmage","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b522"},"title":"SEO","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b523"},"title":"SOAP","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b524"},"title":"SQL Anywhere","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b525"},"title":"SQLITE","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b526"},"title":"SQream DB","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b527"},"title":"Sails.JS","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b528"},"title":"Salad","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b529"},"title":"Sales Management","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b52a"},"title":"Sales and Marketing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b52b"},"title":"Scala","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b52c"},"title":"Scalatra","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b52d"},"title":"Scheme","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b52e"},"title":"Scorched","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b52f"},"title":"Scrum","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b530"},"title":"Security","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b531"},"title":"Selenium","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b532"},"title":"SemanticUI","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b533"},"title":"Semiconductors","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b534"},"title":"Sencha","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b535"},"title":"Sencha Touch","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b536"},"title":"Sequence Diagrams","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b537"},"title":"Shell Scripting","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b538"},"title":"Silex","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b539"},"title":"SilkPerformer","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b53a"},"title":"SilkTest","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b53b"},"title":"SilverStripe","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b53c"},"title":"Sinatra","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b53d"},"title":"Skala Preview","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b53e"},"title":"Skeleton","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b53f"},"title":"Skeleton","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b540"},"title":"Sketch","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b541"},"title":"Slim","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b542"},"title":"Smalltalk","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b543"},"title":"Social","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b544"},"title":"Social Media Marketing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b545"},"title":"Social Networking Apps","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b546"},"title":"Socket.io","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b547"},"title":"Software As a Service","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b548"},"title":"Software Design","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b549"},"title":"Software Project Management","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b54a"},"title":"SparkJava","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b54b"},"title":"Sports","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b54c"},"title":"Spray","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b54d"},"title":"Spring","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b54e"},"title":"Spring Boot","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b54f"},"title":"Spring Security","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b550"},"title":"Storage","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b553"},"title":"Structure Storage(NoSQL)","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b554"},"title":"Sublime Text","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b555"},"title":"Subversion","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b552"},"title":"Stripes Framework","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b556"},"title":"Svelte","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b557"},"title":"Swift","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b558"},"title":"Symfony","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b559"},"title":"System Testing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b55a"},"title":"TAP","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b55b"},"title":"Tabris","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b55c"},"title":"Task Management","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b55e"},"title":"Technical Documentation","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b55f"},"title":"Technical Reports","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b560"},"title":"Telecommunications","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b561"},"title":"Test Driven Development","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b562"},"title":"TestNG","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b563"},"title":"Tibero","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b564"},"title":"Time Management","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b565"},"title":"Titanium","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b566"},"title":"Toast","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b55d"},"title":"Tcl","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b567"},"title":"Tornado","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b568"},"title":"Total.JS","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b56a"},"title":"Transportation","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b569"},"title":"Tourism and Hospitality","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b56c"},"title":"Truth","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b56b"},"title":"Travel","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b56d"},"title":"TurboGears","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b56e"},"title":"Typescript","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b56f"},"title":"Uikit","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b570"},"title":"Underscore","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b551"},"title":"Stress Testing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b571"},"title":"Unit Testing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b572"},"title":"Unittest","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b573"},"title":"Unix","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b574"},"title":"Usability Testing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b575"},"title":"Use Case Diagrams","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b577"},"title":"VanilaJS","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b578"},"title":"Vapor","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b576"},"title":"Vaadin","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b579"},"title":"Verilog","parent":"Programming Languages","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b57a"},"title":"Vim","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b57b"},"title":"Virtual Reality","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b57c"},"title":"Virtualization","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b57d"},"title":"Virtuoso Universal Server","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b57f"},"title":"Voldemort","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b57e"},"title":"VisualVM","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b581"},"title":"Vue.JS","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b582"},"title":"Wallets","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b583"},"title":"Waterfall Development","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b584"},"title":"Watin Eggplant","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b585"},"title":"Wavemaker","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b586"},"title":"Wearable Technology","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b587"},"title":"Web Services","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b588"},"title":"Web2py","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b589"},"title":"WebStorm","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b580"},"title":"VoltDB","parent":"Storage","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b58a"},"title":"Website Development","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b58b"},"title":"Website Maintenance","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b58c"},"title":"Website Scalability","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b58e"},"title":"Windows","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b58f"},"title":"Windows App Development","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b58d"},"title":"Wheezy.web","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b590"},"title":"Wireframing","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b591"},"title":"Wordpress","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b592"},"title":"X-Pack","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b593"},"title":"XML2Selenium","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b595"},"title":"YAML","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b594"},"title":"Xamarin","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b596"},"title":"Yii","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b597"},"title":"Yii 2","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b598"},"title":"Zaptest","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b599"},"title":"Zebra","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b59a"},"title":"Zend Framework","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b59b"},"title":"app.js","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b59c"},"title":"brewbuild","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b59d"},"title":"buildbot","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b59e"},"title":"bundler","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b59f"},"title":"calaba.sh","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5a0"},"title":"cmocka","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5a1"},"title":"cocoaPods","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5a4"},"title":"cucumber","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5a3"},"title":"css-x-fire","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5a2"},"title":"cppTest","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5a6"},"title":"easyb","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5a5"},"title":"eCommerce","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5a7"},"title":"ffffallback","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5a8"},"title":"harbor","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5a9"},"title":"iOS","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5aa"},"title":"iOS Development","parent":"Miscellaneous","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5ab"},"title":"jQuery","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5ac"},"title":"jQuery Mobile","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5ad"},"title":"jQuery UI","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5ae"},"title":"kotatsu","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5af"},"title":"needle","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5b0"},"title":"netbeans","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5b2"},"title":"nose","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5b1"},"title":"normalize.css","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5b3"},"title":"odyssey","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5b5"},"title":"py.test","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5b4"},"title":"perlport","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5b6"},"title":"reactive","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5b7"},"title":"remObjects","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5b8"},"title":"reveal.js","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5ba"},"title":"scalatest","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5b9"},"title":"ruby motion","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5bb"},"title":"shell2jUnit","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5bc"},"title":"sikuli","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5bd"},"title":"three.js","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5be"},"title":"trianglify","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5c0"},"title":"winrunner","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5c1"},"title":"xUnit","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5c2"},"title":"zope.testing","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5bf"},"title":"webinject","parent":"Tools/Platforms/Apis","type":"skills"}
+{"_id":{"$oid":"5adf1aba0f17bdb02064b5c3"},"title":"zope2","parent":"Frameworks/Libraries","type":"skills"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b629"},"title":"Frontend Website Developer","parent":"Software Development","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b62a"},"title":"Fullstack Website Developer","parent":"Software Development","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b62b"},"title":"Mobile App Developer","parent":"Software Development","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b62c"},"title":"Backend Web Developer","parent":"Software Development","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b62d"},"title":"Game Developer","parent":"Software Development","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b62e"},"title":"Enterprise Software Engineer","parent":"Software Development","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b62f"},"title":"Software Architect","parent":"Software Development","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b630"},"title":"DevOps Engineer","parent":"Software Development","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b631"},"title":"QA Engineer","parent":"Software Development","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b632"},"title":"Desktop App Developer","parent":"Software Development","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b633"},"title":"Wearables App Developer","parent":"Software Development","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b634"},"title":"IoT Developer","parent":"Software Development","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b635"},"title":"Game Developer","parent":"Software Development","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b637"},"title":"VR Developer","parent":"Software Development","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b638"},"title":"Software Tools Developer","parent":"Software Development","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b63a"},"title":"Security Software Developer","parent":"Software Development","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b63b"},"title":"Interactive/Web Designer","parent":"Software Design","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b639"},"title":"Embedded Systems Developer","parent":"Software Development","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b63c"},"title":"Creative Graphic Designer","parent":"Software Design","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b63d"},"title":"Project Manager","parent":"Project Management","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b63f"},"title":"Data Engineer","parent":"Analytics","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b640"},"title":"BI Engineer","parent":"Analytics","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b63e"},"title":"Data Scientist","parent":"Analytics","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b641"},"title":"Data Analyst","parent":"Analytics","type":"user_roles"}
+{"_id":{"$oid":"5adf1bd10f17bdb02064b636"},"title":"Cloud Developer","parent":"Software Development","type":"user_roles"}
+{"_id":{"$oid":"5ae9e9b0f2010386c1908e16"},"0":{"_id":{"$oid":"5adf1ab90f17bdb02064b33d"},"title":"Adobe Premier Pro","parent":"Tools/Platforms/Apis","type":"skills"},"1":{"_id":{"$oid":"5adf1ab90f17bdb02064b33e"},"title":"Adobe Project Felix","parent":"Tools/Platforms/Apis","type":"skills"},"2":{"_id":{"$oid":"5adf1ab90f17bdb02064b33f"},"title":"Adobe Project Felix","parent":"Tools/Platforms/Apis","type":"skills"},"3":{"_id":{"$oid":"5adf1ab90f17bdb02064b340"},"title":"Adobe Scout","parent":"Tools/Platforms/Apis","type":"skills"},"4":{"_id":{"$oid":"5adf1ab90f17bdb02064b341"},"title":"Adobe Spark","parent":"Tools/Platforms/Apis","type":"skills"},"5":{"_id":{"$oid":"5adf1ab90f17bdb02064b342"},"title":"Adobe SpeedGrade","parent":"Tools/Platforms/Apis","type":"skills"},"6":{"_id":{"$oid":"5adf1ab90f17bdb02064b343"},"title":"Adobe Story Plus","parent":"Tools/Platforms/Apis","type":"skills"},"7":{"_id":{"$oid":"5adf1ab90f17bdb02064b344"},"title":"Advanced Web Analytics","parent":"Miscellaneous","type":"skills"},"8":{"_id":{"$oid":"5adf1ab90f17bdb02064b345"},"title":"Advantage Database Server","parent":"Storage","type":"skills"},"9":{"_id":{"$oid":"5adf1ab90f17bdb02064b346"},"title":"Advertising","parent":"Miscellaneous","type":"skills"},"10":{"_id":{"$oid":"5adf1ab90f17bdb02064b347"},"title":"Aerospace","parent":"Miscellaneous","type":"skills"},"11":{"_id":{"$oid":"5adf1ab90f17bdb02064b348"},"title":"Aerospike Database","parent":"Storage","type":"skills"},"12":{"_id":{"$oid":"5adf1ab90f17bdb02064b349"},"title":"Agda","parent":"Programming Languages","type":"skills"},"13":{"_id":{"$oid":"5adf1ab90f17bdb02064b34a"},"title":"Agile Development","parent":"Miscellaneous","type":"skills"},"14":{"_id":{"$oid":"5adf1ab90f17bdb02064b34b"},"title":"Agriculture","parent":"Miscellaneous","type":"skills"},"15":{"_id":{"$oid":"5adf1ab90f17bdb02064b34c"},"title":"Algorithms","parent":"Miscellaneous","type":"skills"},"16":{"_id":{"$oid":"5adf1ab90f17bdb02064b34d"},"title":"AllegroGraph","parent":"Storage","type":"skills"},"17":{"_id":{"$oid":"5adf1ab90f17bdb02064b34e"},"title":"Analytics","parent":"Miscellaneous","type":"skills"},"18":{"_id":{"$oid":"5adf1ab90f17bdb02064b34f"},"title":"Android","parent":"Tools/Platforms/Apis","type":"skills"},"19":{"_id":{"$oid":"5adf1ab90f17bdb02064b350"},"title":"Android Development","parent":"Miscellaneous","type":"skills"},"20":{"_id":{"$oid":"5adf1ab90f17bdb02064b351"},"title":"Android SDK","parent":"Frameworks/Libraries","type":"skills"},"21":{"_id":{"$oid":"5adf1ab90f17bdb02064b352"},"title":"Android Studio","parent":"Tools/Platforms/Apis","type":"skills"},"22":{"_id":{"$oid":"5adf1ab90f17bdb02064b353"},"title":"AngularJS 1.x","parent":"Frameworks/Libraries","type":"skills"},"23":{"_id":{"$oid":"5adf1ab90f17bdb02064b354"},"title":"AngularJS 2","parent":"Frameworks/Libraries","type":"skills"},"24":{"_id":{"$oid":"5adf1ab90f17bdb02064b355"},"title":"Apache Cassandra","parent":"Storage","type":"skills"},"25":{"_id":{"$oid":"5adf1ab90f17bdb02064b356"},"title":"Apache Click","parent":"Frameworks/Libraries","type":"skills"},"26":{"_id":{"$oid":"5adf1ab90f17bdb02064b357"},"title":"Apache Derby","parent":"Storage","type":"skills"},"27":{"_id":{"$oid":"5adf1ab90f17bdb02064b358"},"title":"Apache Geode","parent":"Storage","type":"skills"},"28":{"_id":{"$oid":"5adf1ab90f17bdb02064b359"},"title":"Apache Hbase","parent":"Storage","type":"skills"},"29":{"_id":{"$oid":"5adf1ab90f17bdb02064b35a"},"title":"Apache Ignite","parent":"Storage","type":"skills"},"30":{"_id":{"$oid":"5adf1ab90f17bdb02064b35b"},"title":"Apache Jackrabbit","parent":"Storage","type":"skills"},"31":{"_id":{"$oid":"5adf1ab90f17bdb02064b35c"},"title":"Apache Kafka","parent":"Tools/Platforms/Apis","type":"skills"},"32":{"_id":{"$oid":"5adf1ab90f17bdb02064b35d"},"title":"Apache OfBiz","parent":"Frameworks/Libraries","type":"skills"},"33":{"_id":{"$oid":"5adf1ab90f17bdb02064b35e"},"title":"Apache Shale","parent":"Frameworks/Libraries","type":"skills"},"34":{"_id":{"$oid":"5adf1ab90f17bdb02064b35f"},"title":"Apache Sling","parent":"Frameworks/Libraries","type":"skills"},"35":{"_id":{"$oid":"5adf1ab90f17bdb02064b360"},"title":"Apache Spark","parent":"Tools/Platforms/Apis","type":"skills"},"36":{"_id":{"$oid":"5adf1ab90f17bdb02064b361"},"title":"Apache Struts 2","parent":"Frameworks/Libraries","type":"skills"},"37":{"_id":{"$oid":"5adf1ab90f17bdb02064b362"},"title":"Apache Tapestry","parent":"Frameworks/Libraries","type":"skills"},"38":{"_id":{"$oid":"5adf1ab90f17bdb02064b363"},"title":"Apache Wicket","parent":"Frameworks/Libraries","type":"skills"},"39":{"_id":{"$oid":"5adf1ab90f17bdb02064b364"},"title":"AppMakr","parent":"Tools/Platforms/Apis","type":"skills"},"40":{"_id":{"$oid":"5adf1ab90f17bdb02064b365"},"title":"Appcelerator","parent":"Tools/Platforms/Apis","type":"skills"},"41":{"_id":{"$oid":"5adf1ab90f17bdb02064b366"},"title":"Apportable","parent":"Frameworks/Libraries","type":"skills"},"42":{"_id":{"$oid":"5adf1ab90f17bdb02064b367"},"title":"Arduino","parent":"Tools/Platforms/Apis","type":"skills"},"43":{"_id":{"$oid":"5adf1ab90f17bdb02064b368"},"title":"Artificial Intelligence","parent":"Miscellaneous","type":"skills"},"44":{"_id":{"$oid":"5adf1ab90f17bdb02064b369"},"title":"Artificial Intelligence","parent":"Miscellaneous","type":"skills"},"45":{"_id":{"$oid":"5adf1ab90f17bdb02064b36a"},"title":"Aspect Oriented Programming","parent":"Miscellaneous","type":"skills"},"46":{"_id":{"$oid":"5adf1ab90f17bdb02064b36b"},"title":"Atom IDE","parent":"Tools/Platforms/Apis","type":"skills"},"47":{"_id":{"$oid":"5adf1ab90f17bdb02064b36c"},"title":"Augmented Reality","parent":"Miscellaneous","type":"skills"},"48":{"_id":{"$oid":"5adf1ab90f17bdb02064b36d"},"title":"Aurelia.JS","parent":"Frameworks/Libraries","type":"skills"},"49":{"_id":{"$oid":"5adf1ab90f17bdb02064b36e"},"title":"Autodesk MAYA 3D","parent":"Tools/Platforms/Apis","type":"skills"},"50":{"_id":{"$oid":"5adf1ab90f17bdb02064b36f"},"title":"Automated Reasoning","parent":"Miscellaneous","type":"skills"},"51":{"_id":{"$oid":"5adf1ab90f17bdb02064b370"},"title":"Automated Testing","parent":"Miscellaneous","type":"skills"},"52":{"_id":{"$oid":"5adf1ab90f17bdb02064b371"},"title":"Automobiles","parent":"Miscellaneous","type":"skills"},"53":{"_id":{"$oid":"5adf1ab90f17bdb02064b372"},"title":"Aviation","parent":"Miscellaneous","type":"skills"},"54":{"_id":{"$oid":"5adf1ab90f17bdb02064b373"},"title":"B2B ECommerce Apps","parent":"Miscellaneous","type":"skills"},"55":{"_id":{"$oid":"5adf1ab90f17bdb02064b374"},"title":"Backbone.JS","parent":"Frameworks/Libraries","type":"skills"},"56":{"_id":{"$oid":"5adf1ab90f17bdb02064b375"},"title":"Backend As a Service","parent":"Miscellaneous","type":"skills"},"57":{"_id":{"$oid":"5adf1ab90f17bdb02064b376"},"title":"Banking","parent":"Miscellaneous","type":"skills"},"58":{"_id":{"$oid":"5adf1ab90f17bdb02064b377"},"title":"Bash","parent":"Programming Languages","type":"skills"},"59":{"_id":{"$oid":"5adf1ab90f17bdb02064b378"},"title":"Basic","parent":"Programming Languages","type":"skills"},"60":{"_id":{"$oid":"5adf1ab90f17bdb02064b379"},"title":"Beats","parent":"Tools/Platforms/Apis","type":"skills"},"61":{"_id":{"$oid":"5adf1ab90f17bdb02064b37a"},"title":"Berkeley DB","parent":"Storage","type":"skills"},"62":{"_id":{"$oid":"5adf1ab90f17bdb02064b37b"},"title":"Beta Testing","parent":"Miscellaneous","type":"skills"},"63":{"_id":{"$oid":"5adf1ab90f17bdb02064b37c"},"title":"Big Data","parent":"Miscellaneous","type":"skills"},"64":{"_id":{"$oid":"5adf1ab90f17bdb02064b37d"},"title":"Big Data","parent":"Miscellaneous","type":"skills"},"65":{"_id":{"$oid":"5adf1ab90f17bdb02064b37e"},"title":"Big Data \u0026 Analytics","parent":"Miscellaneous","type":"skills"},"66":{"_id":{"$oid":"5adf1ab90f17bdb02064b37f"},"title":"Big Data Analytics","parent":"Miscellaneous","type":"skills"},"67":{"_id":{"$oid":"5adf1ab90f17bdb02064b380"},"title":"Bigtable","parent":"Storage","type":"skills"},"68":{"_id":{"$oid":"5adf1ab90f17bdb02064b381"},"title":"Bio Technology","parent":"Miscellaneous","type":"skills"},"69":{"_id":{"$oid":"5adf1ab90f17bdb02064b382"},"title":"BioInformatics","parent":"Miscellaneous","type":"skills"},"70":{"_id":{"$oid":"5adf1ab90f17bdb02064b383"},"title":"Biotechnology","parent":"Miscellaneous","type":"skills"},"71":{"_id":{"$oid":"5adf1ab90f17bdb02064b384"},"title":"Blade","parent":"Programming Languages","type":"skills"},"72":{"_id":{"$oid":"5adf1ab90f17bdb02064b385"},"title":"Blockchain","parent":"Miscellaneous","type":"skills"},"73":{"_id":{"$oid":"5adf1ab90f17bdb02064b386"},"title":"Booking Apps","parent":"Miscellaneous","type":"skills"},"74":{"_id":{"$oid":"5adf1ab90f17bdb02064b387"},"title":"Bootstrap","parent":"Frameworks/Libraries","type":"skills"},"75":{"_id":{"$oid":"5adf1ab90f17bdb02064b388"},"title":"Booty5.JS","parent":"Frameworks/Libraries","type":"skills"},"76":{"_id":{"$oid":"5adf1ab90f17bdb02064b389"},"title":"Bottle","parent":"Frameworks/Libraries","type":"skills"},"77":{"_id":{"$oid":"5adf1ab90f17bdb02064b38a"},"title":"Bowler","parent":"Frameworks/Libraries","type":"skills"},"78":{"_id":{"$oid":"5adf1ab90f17bdb02064b38b"},"title":"Bulma","parent":"Frameworks/Libraries","type":"skills"},"79":{"_id":{"$oid":"5adf1ab90f17bdb02064b38c"},"title":"Business Case Writing","parent":"Miscellaneous","type":"skills"},"80":{"_id":{"$oid":"5adf1ab90f17bdb02064b38d"},"title":"Business Intelligence","parent":"Miscellaneous","type":"skills"},"81":{"_id":{"$oid":"5adf1ab90f17bdb02064b38e"},"title":"Business Management Apps","parent":"Miscellaneous","type":"skills"},"82":{"_id":{"$oid":"5adf1ab90f17bdb02064b38f"},"title":"Business Productivity Tools","parent":"Miscellaneous","type":"skills"},"83":{"_id":{"$oid":"5adf1ab90f17bdb02064b390"},"title":"C","parent":"Programming Languages","type":"skills"},"84":{"_id":{"$oid":"5adf1ab90f17bdb02064b391"},"title":"C#","parent":"Programming Languages","type":"skills"},"85":{"_id":{"$oid":"5adf1ab90f17bdb02064b392"},"title":"C++","parent":"Programming Languages","type":"skills"},"86":{"_id":{"$oid":"5adf1ab90f17bdb02064b393"},"title":"CFML","parent":"Programming Languages","type":"skills"},"87":{"_id":{"$oid":"5adf1ab90f17bdb02064b394"},"title":"CMS Apps","parent":"Miscellaneous","type":"skills"},"88":{"_id":{"$oid":"5adf1ab90f17bdb02064b395"},"title":"COBOL","parent":"Programming Languages","type":"skills"},"89":{"_id":{"$oid":"5adf1ab90f17bdb02064b396"},"title":"CPAN","parent":"Tools/Platforms/Apis","type":"skills"},"90":{"_id":{"$oid":"5adf1ab90f17bdb02064b397"},"title":"CRM","parent":"Miscellaneous","type":"skills"},"91":{"_id":{"$oid":"5adf1ab90f17bdb02064b398"},"title":"CSS","parent":"Programming Languages","type":"skills"},"92":{"_id":{"$oid":"5adf1ab90f17bdb02064b399"},"title":"CSSDB","parent":"Frameworks/Libraries","type":"skills"},"93":{"_id":{"$oid":"5adf1ab90f17bdb02064b39a"},"title":"CUBRID DBMS","parent":"Storage","type":"skills"},"94":{"_id":{"$oid":"5adf1ab90f17bdb02064b39b"},"title":"CUDA","parent":"Miscellaneous","type":"skills"},"95":{"_id":{"$oid":"5adf1ab90f17bdb02064b39c"},"title":"CakePHP","parent":"Frameworks/Libraries","type":"skills"},"96":{"_id":{"$oid":"5adf1ab90f17bdb02064b39d"},"title":"Camping","parent":"Frameworks/Libraries","type":"skills"},"97":{"_id":{"$oid":"5adf1ab90f17bdb02064b39e"},"title":"Canoo Web Test","parent":"Tools/Platforms/Apis","type":"skills"},"98":{"_id":{"$oid":"5adf1ab90f17bdb02064b39f"},"title":"Careers and Recruiting","parent":"Miscellaneous","type":"skills"},"99":{"_id":{"$oid":"5adf1ab90f17bdb02064b3a0"},"title":"Chapel","parent":"Programming Languages","type":"skills"},"100":{"_id":{"$oid":"5adf1ab90f17bdb02064b3a1"},"title":"CherryPy","parent":"Frameworks/Libraries","type":"skills"},"101":{"_id":{"$oid":"5adf1ab90f17bdb02064b3a2"},"title":"Cilk","parent":"Programming Languages","type":"skills"},"102":{"_id":{"$oid":"5adf1ab90f17bdb02064b3a3"},"title":"Circumflex","parent":"Frameworks/Libraries","type":"skills"},"103":{"_id":{"$oid":"5adf1ab90f17bdb02064b3a4"},"title":"Clean Tech","parent":"Miscellaneous","type":"skills"},"104":{"_id":{"$oid":"5adf1ab90f17bdb02064b3a5"},"title":"Clojure","parent":"Programming Languages","type":"skills"},"105":{"_id":{"$oid":"5adf1ab90f17bdb02064b3a6"},"title":"Cloud Computing","parent":"Miscellaneous","type":"skills"},"106":{"_id":{"$oid":"5adf1ab90f17bdb02064b3a7"},"title":"Clover","parent":"Tools/Platforms/Apis","type":"skills"},"107":{"_id":{"$oid":"5adf1ab90f17bdb02064b3a8"},"title":"ClustrixDB","parent":"Storage","type":"skills"},"108":{"_id":{"$oid":"5adf1ab90f17bdb02064b3a9"},"title":"Coaching","parent":"Miscellaneous","type":"skills"},"109":{"_id":{"$oid":"5adf1ab90f17bdb02064b3aa"},"title":"Cocoa Touch","parent":"Frameworks/Libraries","type":"skills"},"110":{"_id":{"$oid":"5adf1ab90f17bdb02064b3ab"},"title":"CodeIgniter","parent":"Frameworks/Libraries","type":"skills"},"111":{"_id":{"$oid":"5adf1ab90f17bdb02064b3ac"},"title":"Codename one","parent":"Frameworks/Libraries","type":"skills"},"112":{"_id":{"$oid":"5adf1ab90f17bdb02064b3ad"},"title":"Codyhouse","parent":"Frameworks/Libraries","type":"skills"},"113":{"_id":{"$oid":"5adf1ab90f17bdb02064b3ae"},"title":"Coeus","parent":"Frameworks/Libraries","type":"skills"},"114":{"_id":{"$oid":"5adf1ab90f17bdb02064b3af"},"title":"CoffeeScript","parent":"Programming Languages","type":"skills"},"115":{"_id":{"$oid":"5adf1ab90f17bdb02064b3b0"},"title":"Coherence","parent":"Storage","type":"skills"},"116":{"_id":{"$oid":"5adf1ab90f17bdb02064b3b1"},"title":"Collaboration Apps","parent":"Miscellaneous","type":"skills"},"117":{"_id":{"$oid":"5adf1ab90f17bdb02064b3b2"},"title":"Communication","parent":"Miscellaneous","type":"skills"},"118":{"_id":{"$oid":"5adf1ab90f17bdb02064b3b3"},"title":"Compilers","parent":"Miscellaneous","type":"skills"},"119":{"_id":{"$oid":"5adf1ab90f17bdb02064b3b4"},"title":"Computational Chemistry","parent":"Miscellaneous","type":"skills"},"120":{"_id":{"$oid":"5adf1ab90f17bdb02064b3b5"},"title":"Computational Neuroscience","parent":"Miscellaneous","type":"skills"},"121":{"_id":{"$oid":"5adf1ab90f17bdb02064b3b6"},"title":"Computational Physics","parent":"Miscellaneous","type":"skills"},"122":{"_id":{"$oid":"5adf1ab90f17bdb02064b3b7"},"title":"Computational Science","parent":"Miscellaneous","type":"skills"},"123":{"_id":{"$oid":"5adf1ab90f17bdb02064b3b8"},"title":"Computer Algebra","parent":"Miscellaneous","type":"skills"},"124":{"_id":{"$oid":"5adf1ab90f17bdb02064b3b9"},"title":"Computer Architecture","parent":"Miscellaneous","type":"skills"},"125":{"_id":{"$oid":"5adf1ab90f17bdb02064b3ba"},"title":"Computer Graphics","parent":"Miscellaneous","type":"skills"},"126":{"_id":{"$oid":"5adf1ab90f17bdb02064b3bb"},"title":"Computer Hacking","parent":"Miscellaneous","type":"skills"},"127":{"_id":{"$oid":"5adf1ab90f17bdb02064b3bc"},"title":"Computer Security","parent":"Miscellaneous","type":"skills"},"128":{"_id":{"$oid":"5adf1ab90f17bdb02064b3bd"},"title":"Computer Vision","parent":"Miscellaneous","type":"skills"},"129":{"_id":{"$oid":"5adf1ab90f17bdb02064b3be"},"title":"Concurrency","parent":"Miscellaneous","type":"skills"},"130":{"_id":{"$oid":"5adf1ab90f17bdb02064b3bf"},"title":"Conferencing Apps","parent":"Miscellaneous","type":"skills"},"131":{"_id":{"$oid":"5adf1ab90f17bdb02064b3c0"},"title":"Consulting","parent":"Miscellaneous","type":"skills"},"132":{"_id":{"$oid":"5adf1ab90f17bdb02064b3c1"},"title":"Consumer ECommerce Apps","parent":"Miscellaneous","type":"skills"},"133":{"_id":{"$oid":"5adf1ab90f17bdb02064b3c2"},"title":"Consumer Mobile","parent":"Miscellaneous","type":"skills"},"134":{"_id":{"$oid":"5adf1ab90f17bdb02064b3c3"},"title":"Content","parent":"Miscellaneous","type":"skills"},"135":{"_id":{"$oid":"5adf1ab90f17bdb02064b3c4"},"title":"Content Marketing","parent":"Miscellaneous","type":"skills"},"136":{"_id":{"$oid":"5adf1ab90f17bdb02064b3c5"},"title":"Contract Management","parent":"Miscellaneous","type":"skills"},"137":{"_id":{"$oid":"5adf1ab90f17bdb02064b3c6"},"title":"Coraldraw","parent":"Tools/Platforms/Apis","type":"skills"},"138":{"_id":{"$oid":"5adf1ab90f17bdb02064b3c7"},"title":"Cost Management","parent":"Miscellaneous","type":"skills"},"139":{"_id":{"$oid":"5adf1ab90f17bdb02064b3c8"},"title":"CouchDB","parent":"Storage","type":"skills"},"140":{"_id":{"$oid":"5adf1ab90f17bdb02064b3c9"},"title":"Couchbase","parent":"Storage","type":"skills"},"141":{"_id":{"$oid":"5adf1ab90f17bdb02064b3ca"},"title":"Coupons and Deals Apps","parent":"Miscellaneous","type":"skills"},"142":{"_id":{"$oid":"5adf1ab90f17bdb02064b3cb"},"title":"Cramp","parent":"Frameworks/Libraries","type":"skills"},"143":{"_id":{"$oid":"5adf1ab90f17bdb02064b3cc"},"title":"Creativity","parent":"Miscellaneous","type":"skills"},"144":{"_id":{"$oid":"5adf1ab90f17bdb02064b3cd"},"title":"Critical Thinking","parent":"Miscellaneous","type":"skills"},"145":{"_id":{"$oid":"5adf1ab90f17bdb02064b3ce"},"title":"Cryptography","parent":"Miscellaneous","type":"skills"},"146":{"_id":{"$oid":"5adf1ab90f17bdb02064b3cf"},"title":"Crystal","parent":"Programming Languages","type":"skills"},"147":{"_id":{"$oid":"5adf1ab90f17bdb02064b3d0"},"title":"Cuba","parent":"Frameworks/Libraries","type":"skills"},"148":{"_id":{"$oid":"5adf1ab90f17bdb02064b3d1"},"title":"CubicWeb","parent":"Frameworks/Libraries","type":"skills"},"149":{"_id":{"$oid":"5adf1ab90f17bdb02064b3d2"},"title":"Cunit","parent":"Tools/Platforms/Apis","type":"skills"},"150":{"_id":{"$oid":"5adf1ab90f17bdb02064b3d3"},"title":"Customer Service Software","parent":"Miscellaneous","type":"skills"},"151":{"_id":{"$oid":"5adf1ab90f17bdb02064b3d4"},"title":"Cute","parent":"Tools/Platforms/Apis","type":"skills"},"152":{"_id":{"$oid":"5adf1ab90f17bdb02064b3d5"},"title":"D","parent":"Programming Languages","type":"skills"},"153":{"_id":{"$oid":"5adf1ab90f17bdb02064b3d6"},"title":"D3.js","parent":"Frameworks/Libraries","type":"skills"},"154":{"_id":{"$oid":"5adf1ab90f17bdb02064b3d7"},"title":"DTrace","parent":"Tools/Platforms/Apis","type":"skills"},"155":{"_id":{"$oid":"5adf1ab90f17bdb02064b3d8"},"title":"Dart","parent":"Programming Languages","type":"skills"},"156":{"_id":{"$oid":"5adf1ab90f17bdb02064b3d9"},"title":"Data As a Service","parent":"Miscellaneous","type":"skills"},"157":{"_id":{"$oid":"5adf1ab90f17bdb02064b3da"},"title":"Data Mining","parent":"Miscellaneous","type":"skills"},"158":{"_id":{"$oid":"5adf1ab90f17bdb02064b3db"},"title":"Data Science","parent":"Miscellaneous","type":"skills"},"159":{"_id":{"$oid":"5adf1ab90f17bdb02064b3dc"},"title":"Data Structures","parent":"Miscellaneous","type":"skills"},"160":{"_id":{"$oid":"5adf1ab90f17bdb02064b3dd"},"title":"Dating Apps","parent":"Miscellaneous","type":"skills"},"161":{"_id":{"$oid":"5adf1ab90f17bdb02064b3de"},"title":"Dependency Injection","parent":"Miscellaneous","type":"skills"},"162":{"_id":{"$oid":"5adf1ab90f17bdb02064b3df"},"title":"Derby.JS","parent":"Frameworks/Libraries","type":"skills"},"163":{"_id":{"$oid":"5adf1ab90f17bdb02064b3e0"},"title":"Desktop App Development","parent":"Miscellaneous","type":"skills"},"164":{"_id":{"$oid":"5adf1ab90f17bdb02064b3e1"},"title":"Developer Tools","parent":"Miscellaneous","type":"skills"},"165":{"_id":{"$oid":"5adf1ab90f17bdb02064b3e2"},"title":"Digital Marketing","parent":"Miscellaneous","type":"skills"},"166":{"_id":{"$oid":"5adf1ab90f17bdb02064b3e3"},"title":"Discovery Apps","parent":"Miscellaneous","type":"skills"},"167":{"_id":{"$oid":"5adf1ab90f17bdb02064b3e4"},"title":"Distributed Computing","parent":"Miscellaneous","type":"skills"},"168":{"_id":{"$oid":"5adf1ab90f17bdb02064b3e5"},"title":"Distributed Systems","parent":"Miscellaneous","type":"skills"},"169":{"_id":{"$oid":"5adf1ab90f17bdb02064b3e6"},"title":"Django","parent":"Frameworks/Libraries","type":"skills"},"170":{"_id":{"$oid":"5adf1ab90f17bdb02064b3e7"},"title":"Documentation","parent":"Miscellaneous","type":"skills"},"171":{"_id":{"$oid":"5adf1ab90f17bdb02064b3e8"},"title":"Dojo","parent":"Frameworks/Libraries","type":"skills"},"172":{"_id":{"$oid":"5adf1ab90f17bdb02064b3e9"},"title":"Drones","parent":"Miscellaneous","type":"skills"},"173":{"_id":{"$oid":"5adf1ab90f17bdb02064b3ea"},"title":"Dropwizard","parent":"Frameworks/Libraries","type":"skills"},"174":{"_id":{"$oid":"5adf1ab90f17bdb02064b3eb"},"title":"Drupal","parent":"Frameworks/Libraries","type":"skills"},"175":{"_id":{"$oid":"5adf1ab90f17bdb02064b3ec"},"title":"Dynamic Programming","parent":"Miscellaneous","type":"skills"},"176":{"_id":{"$oid":"5adf1ab90f17bdb02064b3ed"},"title":"Eclipse","parent":"Tools/Platforms/Apis","type":"skills"},"177":{"_id":{"$oid":"5adf1ab90f17bdb02064b3ee"},"title":"Eclipse RAP","parent":"Frameworks/Libraries","type":"skills"},"178":{"_id":{"$oid":"5adf1ab90f17bdb02064b3ef"},"title":"Education and Training","parent":"Miscellaneous","type":"skills"},"179":{"_id":{"$oid":"5adf1ab90f17bdb02064b3f0"},"title":"Ejs","parent":"Programming Languages","type":"skills"},"180":{"_id":{"$oid":"5adf1ab90f17bdb02064b3f1"},"title":"Elasticsearch","parent":"Tools/Platforms/Apis","type":"skills"},"181":{"_id":{"$oid":"5adf1ab90f17bdb02064b3f2"},"title":"Electronics","parent":"Miscellaneous","type":"skills"},"182":{"_id":{"$oid":"5adf1ab90f17bdb02064b3f3"},"title":"Elixir","parent":"Programming Languages","type":"skills"},"183":{"_id":{"$oid":"5adf1ab90f17bdb02064b3f4"},"title":"Elm","parent":"Programming Languages","type":"skills"},"184":{"_id":{"$oid":"5adf1ab90f17bdb02064b3f5"},"title":"Emacs","parent":"Tools/Platforms/Apis","type":"skills"},"185":{"_id":{"$oid":"5adf1ab90f17bdb02064b3f6"},"title":"Email Marketing","parent":"Miscellaneous","type":"skills"},"186":{"_id":{"$oid":"5adf1ab90f17bdb02064b3f7"},"title":"Ember.JS","parent":"Frameworks/Libraries","type":"skills"},"187":{"_id":{"$oid":"5adf1ab90f17bdb02064b3f8"},"title":"Embperl","parent":"Frameworks/Libraries","type":"skills"},"188":{"_id":{"$oid":"5adf1ab90f17bdb02064b3f9"},"title":"Energy","parent":"Miscellaneous","type":"skills"},"189":{"_id":{"$oid":"5adf1ab90f17bdb02064b3fa"},"title":"Enterprise Resource Planning","parent":"Miscellaneous","type":"skills"},"190":{"_id":{"$oid":"5adf1ab90f17bdb02064b3fb"},"title":"Enterprise Security","parent":"Miscellaneous","type":"skills"},"191":{"_id":{"$oid":"5adf1ab90f17bdb02064b3fc"},"title":"Enterprise Software","parent":"Miscellaneous","type":"skills"},"192":{"_id":{"$oid":"5adf1ab90f17bdb02064b3fd"},"title":"Enterprise Web Development","parent":"Miscellaneous","type":"skills"},"193":{"_id":{"$oid":"5adf1ab90f17bdb02064b3fe"},"title":"Entrepreneurship","parent":"Miscellaneous","type":"skills"},"194":{"_id":{"$oid":"5adf1ab90f17bdb02064b3ff"},"title":"Epoxy","parent":"Tools/Platforms/Apis","type":"skills"},"195":{"_id":{"$oid":"5adf1ab90f17bdb02064b400"},"title":"Erlang","parent":"Programming Languages","type":"skills"},"196":{"_id":{"$oid":"5adf1ab90f17bdb02064b401"},"title":"Error Prone","parent":"Tools/Platforms/Apis","type":"skills"},"197":{"_id":{"$oid":"5adf1ab90f17bdb02064b402"},"title":"Event Management Systems","parent":"Miscellaneous","type":"skills"},"198":{"_id":{"$oid":"5adf1ab90f17bdb02064b403"},"title":"Express.JS","parent":"Frameworks/Libraries","type":"skills"},"199":{"_id":{"$oid":"5adf1ab90f17bdb02064b404"},"title":"Extreme Programming","parent":"Miscellaneous","type":"skills"},"200":{"_id":{"$oid":"5adf1ab90f17bdb02064b405"},"title":"F#","parent":"Programming Languages","type":"skills"},"201":{"_id":{"$oid":"5adf1ab90f17bdb02064b406"},"title":"Faker","parent":"Frameworks/Libraries","type":"skills"},"202":{"_id":{"$oid":"5adf1ab90f17bdb02064b407"},"title":"Fashion","parent":"Miscellaneous","type":"skills"},"203":{"_id":{"$oid":"5adf1ab90f17bdb02064b408"},"title":"Finance/Insurance","parent":"Miscellaneous","type":"skills"},"204":{"_id":{"$oid":"5adf1ab90f17bdb02064b409"},"title":"Finatra","parent":"Frameworks/Libraries","type":"skills"},"205":{"_id":{"$oid":"5adf1ab90f17bdb02064b40a"},"title":"Firebase","parent":"Storage","type":"skills"},"206":{"_id":{"$oid":"5adf1ab90f17bdb02064b40b"},"title":"Firebird DB","parent":"Storage","type":"skills"},"207":{"_id":{"$oid":"5adf1ab90f17bdb02064b40c"},"title":"Firefox OS","parent":"Tools/Platforms/Apis","type":"skills"},"208":{"_id":{"$oid":"5adf1ab90f17bdb02064b40d"},"title":"Fitnesse","parent":"Tools/Platforms/Apis","type":"skills"},"209":{"_id":{"$oid":"5adf1ab90f17bdb02064b40e"},"title":"Flask","parent":"Frameworks/Libraries","type":"skills"},"210":{"_id":{"$oid":"5adf1ab90f17bdb02064b40f"},"title":"Flexbox Grid","parent":"Frameworks/Libraries","type":"skills"},"211":{"_id":{"$oid":"5adf1ab90f17bdb02064b410"},"title":"Flinto","parent":"Tools/Platforms/Apis","type":"skills"},"212":{"_id":{"$oid":"5adf1ab90f17bdb02064b411"},"title":"Flow Framework","parent":"Frameworks/Libraries","type":"skills"},"213":{"_id":{"$oid":"5adf1ab90f17bdb02064b412"},"title":"Food and Beverage","parent":"Miscellaneous","type":"skills"},"214":{"_id":{"$oid":"5adf1ab90f17bdb02064b413"},"title":"Force.com Platform","parent":"Tools/Platforms/Apis","type":"skills"},"215":{"_id":{"$oid":"5adf1ab90f17bdb02064b414"},"title":"Forth","parent":"Programming Languages","type":"skills"},"216":{"_id":{"$oid":"5adf1ab90f17bdb02064b415"},"title":"Fortran","parent":"Programming Languages","type":"skills"},"217":{"_id":{"$oid":"5adf1ab90f17bdb02064b416"},"title":"Foundation","parent":"Frameworks/Libraries","type":"skills"},"218":{"_id":{"$oid":"5adf1ab90f17bdb02064b417"},"title":"FoundationDB","parent":"Storage","type":"skills"},"219":{"_id":{"$oid":"5adf1ab90f17bdb02064b418"},"title":"Framework7","parent":"Frameworks/Libraries","type":"skills"},"220":{"_id":{"$oid":"5adf1ab90f17bdb02064b419"},"title":"Fuel PHP","parent":"Frameworks/Libraries","type":"skills"},"221":{"_id":{"$oid":"5adf1ab90f17bdb02064b41a"},"title":"FuelPHP","parent":"Frameworks/Libraries","type":"skills"},"222":{"_id":{"$oid":"5adf1ab90f17bdb02064b41b"},"title":"Functional Programming","parent":"Miscellaneous","type":"skills"},"223":{"_id":{"$oid":"5adf1ab90f17bdb02064b41c"},"title":"GIS Apps","parent":"Miscellaneous","type":"skills"},"224":{"_id":{"$oid":"5adf1ab90f17bdb02064b41d"},"title":"Games","parent":"Miscellaneous","type":"skills"},"225":{"_id":{"$oid":"5adf1ab90f17bdb02064b41e"},"title":"Gamification","parent":"Miscellaneous","type":"skills"},"226":{"_id":{"$oid":"5adf1ab90f17bdb02064b41f"},"title":"Gaming","parent":"Miscellaneous","type":"skills"},"227":{"_id":{"$oid":"5adf1ab90f17bdb02064b420"},"title":"Gardel","parent":"Frameworks/Libraries","type":"skills"},"228":{"_id":{"$oid":"5adf1ab90f17bdb02064b421"},"title":"Gauge","parent":"Tools/Platforms/Apis","type":"skills"},"229":{"_id":{"$oid":"5adf1ab90f17bdb02064b422"},"title":"Gems and Jewellery","parent":"Miscellaneous","type":"skills"},"230":{"_id":{"$oid":"5adf1ab90f17bdb02064b423"},"title":"Giotto","parent":"Frameworks/Libraries","type":"skills"},"231":{"_id":{"$oid":"5adf1ab90f17bdb02064b424"},"title":"Git","parent":"Tools/Platforms/Apis","type":"skills"},"232":{"_id":{"$oid":"5adf1ab90f17bdb02064b425"},"title":"GitHub","parent":"Tools/Platforms/Apis","type":"skills"},"233":{"_id":{"$oid":"5adf1ab90f17bdb02064b426"},"title":"Go","parent":"Programming Languages","type":"skills"},"234":{"_id":{"$oid":"5adf1ab90f17bdb02064b427"},"title":"Gobot","parent":"Frameworks/Libraries","type":"skills"},"235":{"_id":{"$oid":"5adf1ab90f17bdb02064b428"},"title":"Google Analytics","parent":"Tools/Platforms/Apis","type":"skills"},"236":{"_id":{"$oid":"5adf1ab90f17bdb02064b429"},"title":"Google Web Toolkit","parent":"Frameworks/Libraries","type":"skills"},"237":{"_id":{"$oid":"5adf1ab90f17bdb02064b42a"},"title":"Government","parent":"Miscellaneous","type":"skills"},"238":{"_id":{"$oid":"5adf1ab90f17bdb02064b42b"},"title":"Gradle","parent":"Tools/Platforms/Apis","type":"skills"},"239":{"_id":{"$oid":"5adf1ab90f17bdb02064b42c"},"title":"Grails","parent":"Frameworks/Libraries","type":"skills"},"240":{"_id":{"$oid":"5adf1ab90f17bdb02064b42d"},"title":"Grails","parent":"Frameworks/Libraries","type":"skills"},"241":{"_id":{"$oid":"5adf1ab90f17bdb02064b42e"},"title":"Graphics Intensive Apps","parent":"Miscellaneous","type":"skills"},"242":{"_id":{"$oid":"5adf1ab90f17bdb02064b42f"},"title":"Grok","parent":"Frameworks/Libraries","type":"skills"},"243":{"_id":{"$oid":"5adf1ab90f17bdb02064b430"},"title":"Groovy","parent":"Programming Languages","type":"skills"},"244":{"_id":{"$oid":"5adf1ab90f17bdb02064b431"},"title":"Guava","parent":"Frameworks/Libraries","type":"skills"},"245":{"_id":{"$oid":"5adf1ab90f17bdb02064b432"},"title":"Guice","parent":"Frameworks/Libraries","type":"skills"},"246":{"_id":{"$oid":"5adf1ab90f17bdb02064b433"},"title":"GulpJS","parent":"Tools/Platforms/Apis","type":"skills"},"247":{"_id":{"$oid":"5adf1ab90f17bdb02064b434"},"title":"H2 DB","parent":"Storage","type":"skills"},"248":{"_id":{"$oid":"5adf1ab90f17bdb02064b435"},"title":"HSQLDB","parent":"Storage","type":"skills"},"249":{"_id":{"$oid":"5adf1ab90f17bdb02064b436"},"title":"HTML5","parent":"Programming Languages","type":"skills"},"250":{"_id":{"$oid":"5adf1ab90f17bdb02064b437"},"title":"Hadoop","parent":"Tools/Platforms/Apis","type":"skills"},"251":{"_id":{"$oid":"5adf1ab90f17bdb02064b438"},"title":"Hapi.JS","parent":"Frameworks/Libraries","type":"skills"},"252":{"_id":{"$oid":"5adf1ab90f17bdb02064b439"},"title":"Hardware","parent":"Miscellaneous","type":"skills"},"253":{"_id":{"$oid":"5adf1ab90f17bdb02064b43a"},"title":"Haskell","parent":"Programming Languages","type":"skills"},"254":{"_id":{"$oid":"5adf1ab90f17bdb02064b43b"},"title":"Haxe","parent":"Programming Languages","type":"skills"},"255":{"_id":{"$oid":"5adf1ab90f17bdb02064b43c"},"title":"Health and Wellness","parent":"Miscellaneous","type":"skills"},"256":{"_id":{"$oid":"5adf1ab90f17bdb02064b43d"},"title":"Hibernate","parent":"Frameworks/Libraries","type":"skills"},"257":{"_id":{"$oid":"5adf1ab90f17bdb02064b43e"},"title":"Human Computer Interaction","parent":"Miscellaneous","type":"skills"},"258":{"_id":{"$oid":"5adf1ab90f17bdb02064b43f"},"title":"Hypertable","parent":"Storage","type":"skills"},"259":{"_id":{"$oid":"5adf1ab90f17bdb02064b440"},"title":"IBM DB2","parent":"Storage","type":"skills"},"260":{"_id":{"$oid":"5adf1ab90f17bdb02064b441"},"title":"IT","parent":"Miscellaneous","type":"skills"},"261":{"_id":{"$oid":"5adf1ab90f17bdb02064b442"},"title":"IT Operations","parent":"Miscellaneous","type":"skills"},"262":{"_id":{"$oid":"5adf1ab90f17bdb02064b443"},"title":"ITeS","parent":"Miscellaneous","type":"skills"},"263":{"_id":{"$oid":"5adf1ab90f17bdb02064b444"},"title":"Icon Finder","parent":"Tools/Platforms/Apis","type":"skills"},"264":{"_id":{"$oid":"5adf1ab90f17bdb02064b445"},"title":"Image Processing","parent":"Miscellaneous","type":"skills"},"265":{"_id":{"$oid":"5adf1ab90f17bdb02064b446"},"title":"Indexed DB","parent":"Storage","type":"skills"},"266":{"_id":{"$oid":"5adf1ab90f17bdb02064b447"},"title":"Industrial Engineering","parent":"Miscellaneous","type":"skills"},"267":{"_id":{"$oid":"5adf1ab90f17bdb02064b448"},"title":"Infrastructure","parent":"Miscellaneous","type":"skills"},"268":{"_id":{"$oid":"5adf1ab90f17bdb02064b449"},"title":"Ingres","parent":"Storage","type":"skills"},"269":{"_id":{"$oid":"5adf1ab90f17bdb02064b44a"},"title":"Initializr","parent":"Tools/Platforms/Apis","type":"skills"},"270":{"_id":{"$oid":"5adf1ab90f17bdb02064b44b"},"title":"Integrated Testing","parent":"Miscellaneous","type":"skills"},"271":{"_id":{"$oid":"5adf1ab90f17bdb02064b44c"},"title":"IntelliJ","parent":"Tools/Platforms/Apis","type":"skills"},"272":{"_id":{"$oid":"5adf1ab90f17bdb02064b44d"},"title":"Internet of Things","parent":"Miscellaneous","type":"skills"},"273":{"_id":{"$oid":"5adf1ab90f17bdb02064b44e"},"title":"Investment","parent":"Miscellaneous","type":"skills"},"274":{"_id":{"$oid":"5adf1ab90f17bdb02064b44f"},"title":"Invision","parent":"Tools/Platforms/Apis","type":"skills"},"275":{"_id":{"$oid":"5adf1ab90f17bdb02064b450"},"title":"IoT","parent":"Tools/Platforms/Apis","type":"skills"},"276":{"_id":{"$oid":"5adf1ab90f17bdb02064b451"},"title":"IoT","parent":"Miscellaneous","type":"skills"},"277":{"_id":{"$oid":"5adf1ab90f17bdb02064b452"},"title":"Ionic","parent":"Frameworks/Libraries","type":"skills"},"278":{"_id":{"$oid":"5adf1ab90f17bdb02064b453"},"title":"J","parent":"Programming Languages","type":"skills"},"279":{"_id":{"$oid":"5adf1ab90f17bdb02064b454"},"title":"JDK","parent":"Tools/Platforms/Apis","type":"skills"},"280":{"_id":{"$oid":"5adf1ab90f17bdb02064b455"},"title":"Jade","parent":"Programming Languages","type":"skills"},"281":{"_id":{"$oid":"5adf1ab90f17bdb02064b456"},"title":"Java","parent":"Programming Languages","type":"skills"},"282":{"_id":{"$oid":"5adf1ab90f17bdb02064b457"},"title":"JavaServer Faces","parent":"Frameworks/Libraries","type":"skills"},"283":{"_id":{"$oid":"5adf1ab90f17bdb02064b458"},"title":"Javascript","parent":"Programming Languages","type":"skills"},"284":{"_id":{"$oid":"5adf1ab90f17bdb02064b459"},"title":"Jbehave","parent":"Tools/Platforms/Apis","type":"skills"},"285":{"_id":{"$oid":"5adf1ab90f17bdb02064b45a"},"title":"Jenkins","parent":"Tools/Platforms/Apis","type":"skills"},"286":{"_id":{"$oid":"5adf1ab90f17bdb02064b45b"},"title":"Jetty","parent":"Tools/Platforms/Apis","type":"skills"},"287":{"_id":{"$oid":"5adf1ab90f17bdb02064b45c"},"title":"Jmeter","parent":"Tools/Platforms/Apis","type":"skills"},"288":{"_id":{"$oid":"5adf1ab90f17bdb02064b45d"},"title":"Joomla","parent":"Frameworks/Libraries","type":"skills"},"289":{"_id":{"$oid":"5adf1ab90f17bdb02064b45e"},"title":"JsBin","parent":"Tools/Platforms/Apis","type":"skills"},"290":{"_id":{"$oid":"5adf1ab90f17bdb02064b45f"},"title":"JsonModel","parent":"Frameworks/Libraries","type":"skills"},"291":{"_id":{"$oid":"5adf1ab90f17bdb02064b460"},"title":"Julia","parent":"Programming Languages","type":"skills"},"292":{"_id":{"$oid":"5adf1ab90f17bdb02064b461"},"title":"Junit","parent":"Tools/Platforms/Apis","type":"skills"},"293":{"_id":{"$oid":"5adf1ab90f17bdb02064b462"},"title":"Juniversal","parent":"Frameworks/Libraries","type":"skills"},"294":{"_id":{"$oid":"5adf1ab90f17bdb02064b463"},"title":"Kajona","parent":"Frameworks/Libraries","type":"skills"},"295":{"_id":{"$oid":"5adf1ab90f17bdb02064b464"},"title":"Kanban","parent":"Miscellaneous","type":"skills"},"296":{"_id":{"$oid":"5adf1ab90f17bdb02064b465"},"title":"Kendo UI","parent":"Frameworks/Libraries","type":"skills"},"297":{"_id":{"$oid":"5adf1ab90f17bdb02064b466"},"title":"Kibana","parent":"Tools/Platforms/Apis","type":"skills"},"298":{"_id":{"$oid":"5adf1ab90f17bdb02064b467"},"title":"Kickstart","parent":"Frameworks/Libraries","type":"skills"},"299":{"_id":{"$oid":"5adf1ab90f17bdb02064b468"},"title":"Kivy","parent":"Tools/Platforms/Apis","type":"skills"},"300":{"_id":{"$oid":"5adf1ab90f17bdb02064b469"},"title":"Knockout.JS","parent":"Frameworks/Libraries","type":"skills"},"301":{"_id":{"$oid":"5adf1ab90f17bdb02064b46a"},"title":"Koa.JS","parent":"Frameworks/Libraries","type":"skills"},"302":{"_id":{"$oid":"5adf1ab90f17bdb02064b46b"},"title":"Kohana","parent":"Frameworks/Libraries","type":"skills"},"303":{"_id":{"$oid":"5adf1ab90f17bdb02064b46c"},"title":"Kube","parent":"Frameworks/Libraries","type":"skills"},"304":{"_id":{"$oid":"5adf1ab90f17bdb02064b46d"},"title":"Kythe","parent":"Tools/Platforms/Apis","type":"skills"},"305":{"_id":{"$oid":"5adf1ab90f17bdb02064b46e"},"title":"LaTex","parent":"Programming Languages","type":"skills"},"306":{"_id":{"$oid":"5adf1ab90f17bdb02064b46f"},"title":"Laravel","parent":"Frameworks/Libraries","type":"skills"},"307":{"_id":{"$oid":"5adf1ab90f17bdb02064b470"},"title":"Launch4j","parent":"Tools/Platforms/Apis","type":"skills"},"308":{"_id":{"$oid":"5adf1ab90f17bdb02064b471"},"title":"Layerstyles","parent":"Tools/Platforms/Apis","type":"skills"},"309":{"_id":{"$oid":"5adf1ab90f17bdb02064b472"},"title":"Leadership","parent":"Miscellaneous","type":"skills"},"310":{"_id":{"$oid":"5adf1ab90f17bdb02064b473"},"title":"Lean Startup","parent":"Miscellaneous","type":"skills"},"311":{"_id":{"$oid":"5adf1ab90f17bdb02064b474"},"title":"Learning Management System","parent":"Miscellaneous","type":"skills"},"312":{"_id":{"$oid":"5adf1ab90f17bdb02064b475"},"title":"Legal","parent":"Miscellaneous","type":"skills"},"313":{"_id":{"$oid":"5adf1ab90f17bdb02064b476"},"title":"Less","parent":"Programming Languages","type":"skills"},"314":{"_id":{"$oid":"5adf1ab90f17bdb02064b477"},"title":"LevelDB","parent":"Storage","type":"skills"},"315":{"_id":{"$oid":"5adf1ab90f17bdb02064b478"},"title":"Lift","parent":"Frameworks/Libraries","type":"skills"},"316":{"_id":{"$oid":"5adf1ab90f17bdb02064b479"},"title":"LightningDB","parent":"Storage","type":"skills"},"317":{"_id":{"$oid":"5adf1ab90f17bdb02064b47a"},"title":"Limbo","parent":"Programming Languages","type":"skills"},"318":{"_id":{"$oid":"5adf1ab90f17bdb02064b47b"},"title":"Linux","parent":"Tools/Platforms/Apis","type":"skills"},"319":{"_id":{"$oid":"5adf1ab90f17bdb02064b47c"},"title":"Lisp","parent":"Programming Languages","type":"skills"},"320":{"_id":{"$oid":"5adf1ab90f17bdb02064b47d"},"title":"Lithium","parent":"Frameworks/Libraries","type":"skills"},"321":{"_id":{"$oid":"5adf1ab90f17bdb02064b47e"},"title":"LiveReload","parent":"Tools/Platforms/Apis","type":"skills"},"322":{"_id":{"$oid":"5adf1ab90f17bdb02064b47f"},"title":"LoadRunner","parent":"Tools/Platforms/Apis","type":"skills"},"323":{"_id":{"$oid":"5adf1ab90f17bdb02064b480"},"title":"Local Commerce","parent":"Miscellaneous","type":"skills"},"324":{"_id":{"$oid":"5adf1ab90f17bdb02064b481"},"title":"Lodash","parent":"Frameworks/Libraries","type":"skills"},"325":{"_id":{"$oid":"5adf1ab90f17bdb02064b482"},"title":"Logic Programming","parent":"Miscellaneous","type":"skills"},"326":{"_id":{"$oid":"5adf1ab90f17bdb02064b483"},"title":"Logistics \u0026 Delivery Software","parent":"Miscellaneous","type":"skills"},"327":{"_id":{"$oid":"5adf1ab90f17bdb02064b484"},"title":"Logstash","parent":"Tools/Platforms/Apis","type":"skills"},"328":{"_id":{"$oid":"5adf1ab90f17bdb02064b485"},"title":"Lotus","parent":"Frameworks/Libraries","type":"skills"},"329":{"_id":{"$oid":"5adf1ab90f17bdb02064b486"},"title":"Lua","parent":"Programming Languages","type":"skills"},"330":{"_id":{"$oid":"5adf1ab90f17bdb02064b487"},"title":"MATLAB","parent":"Tools/Platforms/Apis","type":"skills"},"331":{"_id":{"$oid":"5adf1ab90f17bdb02064b488"},"title":"MEAN.JS","parent":"Frameworks/Libraries","type":"skills"},"332":{"_id":{"$oid":"5adf1ab90f17bdb02064b489"},"title":"MJML","parent":"Frameworks/Libraries","type":"skills"},"333":{"_id":{"$oid":"5adf1ab90f17bdb02064b48a"},"title":"MUI","parent":"Frameworks/Libraries","type":"skills"},"334":{"_id":{"$oid":"5adf1ab90f17bdb02064b48b"},"title":"Machine Learning","parent":"Miscellaneous","type":"skills"},"335":{"_id":{"$oid":"5adf1ab90f17bdb02064b48c"},"title":"Machine Learning","parent":"Miscellaneous","type":"skills"},"336":{"_id":{"$oid":"5adf1ab90f17bdb02064b48d"},"title":"Macron","parent":"Frameworks/Libraries","type":"skills"},"337":{"_id":{"$oid":"5adf1ab90f17bdb02064b48e"},"title":"Magical Record","parent":"Frameworks/Libraries","type":"skills"},"338":{"_id":{"$oid":"5adf1ab90f17bdb02064b48f"},"title":"Management","parent":"Miscellaneous","type":"skills"},"339":{"_id":{"$oid":"5adf1ab90f17bdb02064b490"},"title":"Manufacturing","parent":"Miscellaneous","type":"skills"},"340":{"_id":{"$oid":"5adf1ab90f17bdb02064b491"},"title":"MariaDB","parent":"Storage","type":"skills"},"341":{"_id":{"$oid":"5adf1ab90f17bdb02064b492"},"title":"MariaDB","parent":"Storage","type":"skills"},"342":{"_id":{"$oid":"5adf1ab90f17bdb02064b493"},"title":"Marketplace","parent":"Miscellaneous","type":"skills"},"343":{"_id":{"$oid":"5adf1ab90f17bdb02064b494"},"title":"Marketplace Apps","parent":"Miscellaneous","type":"skills"},"344":{"_id":{"$oid":"5adf1ab90f17bdb02064b495"},"title":"Marley","parent":"Frameworks/Libraries","type":"skills"},"345":{"_id":{"$oid":"5adf1ab90f17bdb02064b496"},"title":"Mathematica","parent":"Tools/Platforms/Apis","type":"skills"},"346":{"_id":{"$oid":"5adf1ab90f17bdb02064b497"},"title":"Maven","parent":"Tools/Platforms/Apis","type":"skills"},"347":{"_id":{"$oid":"5adf1ab90f17bdb02064b498"},"title":"MbUnit","parent":"Tools/Platforms/Apis","type":"skills"},"348":{"_id":{"$oid":"5adf1ab90f17bdb02064b499"},"title":"Media and Entertainment","parent":"Miscellaneous","type":"skills"},"349":{"_id":{"$oid":"5adf1ab90f17bdb02064b49a"},"title":"Medical Devices","parent":"Miscellaneous","type":"skills"},"350":{"_id":{"$oid":"5adf1ab90f17bdb02064b49b"},"title":"Meetings Management","parent":"Miscellaneous","type":"skills"},"351":{"_id":{"$oid":"5adf1ab90f17bdb02064b49c"},"title":"MemSQL","parent":"Storage","type":"skills"},"352":{"_id":{"$oid":"5adf1ab90f17bdb02064b49d"},"title":"Memcached","parent":"Storage","type":"skills"},"353":{"_id":{"$oid":"5adf1ab90f17bdb02064b49e"},"title":"Merb","parent":"Frameworks/Libraries","type":"skills"},"354":{"_id":{"$oid":"5adf1ab90f17bdb02064b49f"},"title":"Mercurial","parent":"Tools/Platforms/Apis","type":"skills"},"355":{"_id":{"$oid":"5adf1ab90f17bdb02064b4a0"},"title":"Merury.JS","parent":"Frameworks/Libraries","type":"skills"},"356":{"_id":{"$oid":"5adf1ab90f17bdb02064b4a1"},"title":"Messaging","parent":"Miscellaneous","type":"skills"},"357":{"_id":{"$oid":"5adf1ab90f17bdb02064b4a2"},"title":"Meteor.JS","parent":"Frameworks/Libraries","type":"skills"},"358":{"_id":{"$oid":"5adf1ab90f17bdb02064b4a3"},"title":"MicroJS","parent":"Frameworks/Libraries","type":"skills"},"359":{"_id":{"$oid":"5adf1ab90f17bdb02064b4a4"},"title":"Microsoft Access","parent":"Storage","type":"skills"},"360":{"_id":{"$oid":"5adf1ab90f17bdb02064b4a5"},"title":"Microsoft SQL Server","parent":"Storage","type":"skills"},"361":{"_id":{"$oid":"5adf1ab90f17bdb02064b4a6"},"title":"Microsoft SQL Server Express","parent":"Storage","type":"skills"},"362":{"_id":{"$oid":"5adf1ab90f17bdb02064b4a7"},"title":"Microsoft Visual Studio","parent":"Tools/Platforms/Apis","type":"skills"},"363":{"_id":{"$oid":"5adf1ab90f17bdb02064b4a8"},"title":"Miligram","parent":"Frameworks/Libraries","type":"skills"},"364":{"_id":{"$oid":"5adf1ab90f17bdb02064b4a9"},"title":"MinUnit","parent":"Tools/Platforms/Apis","type":"skills"},"365":{"_id":{"$oid":"5adf1ab90f17bdb02064b4aa"},"title":"Mobile App Development","parent":"Miscellaneous","type":"skills"},"366":{"_id":{"$oid":"5adf1ab90f17bdb02064b4ab"},"title":"Mobile Marketing","parent":"Miscellaneous","type":"skills"},"367":{"_id":{"$oid":"5adf1ab90f17bdb02064b4ac"},"title":"Mockito","parent":"Tools/Platforms/Apis","type":"skills"},"368":{"_id":{"$oid":"5adf1ab90f17bdb02064b4ad"},"title":"Mojito","parent":"Frameworks/Libraries","type":"skills"},"369":{"_id":{"$oid":"5adf1ab90f17bdb02064b4ae"},"title":"Mojolicious","parent":"Frameworks/Libraries","type":"skills"},"370":{"_id":{"$oid":"5adf1ab90f17bdb02064b4af"},"title":"Moment.JS","parent":"Frameworks/Libraries","type":"skills"},"371":{"_id":{"$oid":"5adf1ab90f17bdb02064b4b0"},"title":"MonetDB","parent":"Storage","type":"skills"},"372":{"_id":{"$oid":"5adf1ab90f17bdb02064b4b1"},"title":"MongoDB","parent":"Storage","type":"skills"},"373":{"_id":{"$oid":"5adf1ab90f17bdb02064b4b2"},"title":"Ms Test","parent":"Tools/Platforms/Apis","type":"skills"},"374":{"_id":{"$oid":"5adf1ab90f17bdb02064b4b3"},"title":"MySql","parent":"Storage","type":"skills"},"375":{"_id":{"$oid":"5adf1ab90f17bdb02064b4b4"},"title":"Nano Technology","parent":"Miscellaneous","type":"skills"},"376":{"_id":{"$oid":"5adf1ab90f17bdb02064b4b5"},"title":"Natural Language Processing","parent":"Miscellaneous","type":"skills"},"377":{"_id":{"$oid":"5adf1ab90f17bdb02064b4b6"},"title":"Natural Resources","parent":"Miscellaneous","type":"skills"},"378":{"_id":{"$oid":"5adf1ab90f17bdb02064b4b7"},"title":"Negotiation","parent":"Miscellaneous","type":"skills"},"379":{"_id":{"$oid":"5adf1ab90f17bdb02064b4b8"},"title":"Neo4j","parent":"Storage","type":"skills"},"380":{"_id":{"$oid":"5adf1ab90f17bdb02064b4b9"},"title":"Nette Framework","parent":"Frameworks/Libraries","type":"skills"},"381":{"_id":{"$oid":"5adf1ab90f17bdb02064b4ba"},"title":"Networking","parent":"Miscellaneous","type":"skills"},"382":{"_id":{"$oid":"5adf1ab90f17bdb02064b4bb"},"title":"Node.JS","parent":"Tools/Platforms/Apis","type":"skills"},"383":{"_id":{"$oid":"5adf1ab90f17bdb02064b4bc"},"title":"NodeBB","parent":"Tools/Platforms/Apis","type":"skills"},"384":{"_id":{"$oid":"5adf1ab90f17bdb02064b4bd"},"title":"Non-profit","parent":"Miscellaneous","type":"skills"},"385":{"_id":{"$oid":"5adf1ab90f17bdb02064b4be"},"title":"Noun Project","parent":"Tools/Platforms/Apis","type":"skills"},"386":{"_id":{"$oid":"5adf1ab90f17bdb02064b4bf"},"title":"Nunit","parent":"Tools/Platforms/Apis","type":"skills"},"387":{"_id":{"$oid":"5adf1ab90f17bdb02064b4c0"},"title":"OCaml","parent":"Programming Languages","type":"skills"},"388":{"_id":{"$oid":"5adf1ab90f17bdb02064b4c1"},"title":"Oberon","parent":"Programming Languages","type":"skills"},"389":{"_id":{"$oid":"5adf1ab90f17bdb02064b4c2"},"title":"Object Oriented Programming","parent":"Miscellaneous","type":"skills"},"390":{"_id":{"$oid":"5adf1ab90f17bdb02064b4c3"},"title":"Objective-C","parent":"Programming Languages","type":"skills"},"391":{"_id":{"$oid":"5adf1ab90f17bdb02064b4c4"},"title":"Octave","parent":"Programming Languages","type":"skills"},"392":{"_id":{"$oid":"5adf1ab90f17bdb02064b4c5"},"title":"Oil and Gas","parent":"Miscellaneous","type":"skills"},"393":{"_id":{"$oid":"5adf1ab90f17bdb02064b4c6"},"title":"OpenCL","parent":"Programming Languages","type":"skills"},"394":{"_id":{"$oid":"5adf1ab90f17bdb02064b4c7"},"title":"OpenGL ES","parent":"Programming Languages","type":"skills"},"395":{"_id":{"$oid":"5adf1ab90f17bdb02064b4c8"},"title":"OpenMP","parent":"Tools/Platforms/Apis","type":"skills"},"396":{"_id":{"$oid":"5adf1ab90f17bdb02064b4c9"},"title":"OpenResty","parent":"Tools/Platforms/Apis","type":"skills"},"397":{"_id":{"$oid":"5adf1ab90f17bdb02064b4ca"},"title":"OpenSCAD","parent":"Tools/Platforms/Apis","type":"skills"},"398":{"_id":{"$oid":"5adf1ab90f17bdb02064b4cb"},"title":"Operating Systems","parent":"Miscellaneous","type":"skills"},"399":{"_id":{"$oid":"5adf1ab90f17bdb02064b4cc"},"title":"Oracle Database","parent":"Storage","type":"skills"},"400":{"_id":{"$oid":"5adf1ab90f17bdb02064b4cd"},"title":"Oracle E-Business Suite","parent":"Tools/Platforms/Apis","type":"skills"},"401":{"_id":{"$oid":"5adf1ab90f17bdb02064b4ce"},"title":"Oracle NoSQL Database","parent":"Storage","type":"skills"},"402":{"_id":{"$oid":"5adf1ab90f17bdb02064b4cf"},"title":"OrientDB","parent":"Storage","type":"skills"},"403":{"_id":{"$oid":"5adf1ab90f17bdb02064b4d0"},"title":"Origami","parent":"Tools/Platforms/Apis","type":"skills"},"404":{"_id":{"$oid":"5adf1ab90f17bdb02064b4d1"},"title":"PHP","parent":"Programming Languages","type":"skills"},"405":{"_id":{"$oid":"5adf1ab90f17bdb02064b4d2"},"title":"PHPixie","parent":"Frameworks/Libraries","type":"skills"},"406":{"_id":{"$oid":"5adf1ab90f17bdb02064b4d3"},"title":"Packagist","parent":"Tools/Platforms/Apis","type":"skills"},"407":{"_id":{"$oid":"5adf1ab90f17bdb02064b4d4"},"title":"Padrino","parent":"Frameworks/Libraries","type":"skills"},"408":{"_id":{"$oid":"5adf1ab90f17bdb02064b4d5"},"title":"Parallel Computing","parent":"Miscellaneous","type":"skills"},"409":{"_id":{"$oid":"5adf1ab90f17bdb02064b4d6"},"title":"Parasoft","parent":"Tools/Platforms/Apis","type":"skills"},"410":{"_id":{"$oid":"5adf1ab90f17bdb02064b4d7"},"title":"Pascal","parent":"Programming Languages","type":"skills"},"411":{"_id":{"$oid":"5adf1ab90f17bdb02064b4d8"},"title":"Payment Gateways","parent":"Miscellaneous","type":"skills"},"412":{"_id":{"$oid":"5adf1ab90f17bdb02064b4d9"},"title":"Payment Intensive Apps","parent":"Miscellaneous","type":"skills"},"413":{"_id":{"$oid":"5adf1ab90f17bdb02064b4da"},"title":"Pear","parent":"Frameworks/Libraries","type":"skills"},"414":{"_id":{"$oid":"5adf1ab90f17bdb02064b4db"},"title":"Performance Testing","parent":"Miscellaneous","type":"skills"},"415":{"_id":{"$oid":"5adf1ab90f17bdb02064b4dc"},"title":"Perl","parent":"Programming Languages","type":"skills"},"416":{"_id":{"$oid":"5adf1ab90f17bdb02064b4dd"},"title":"PerlCatalyst","parent":"Frameworks/Libraries","type":"skills"},"417":{"_id":{"$oid":"5adf1ab90f17bdb02064b4de"},"title":"PerlDancer","parent":"Frameworks/Libraries","type":"skills"},"418":{"_id":{"$oid":"5adf1ab90f17bdb02064b4df"},"title":"PerlMason","parent":"Frameworks/Libraries","type":"skills"},"419":{"_id":{"$oid":"5adf1ab90f17bdb02064b4e0"},"title":"PerlMonks","parent":"Tools/Platforms/Apis","type":"skills"},"420":{"_id":{"$oid":"5adf1ab90f17bdb02064b4e1"},"title":"PerlUnit","parent":"Tools/Platforms/Apis","type":"skills"},"421":{"_id":{"$oid":"5adf1ab90f17bdb02064b4e2"},"title":"Pervasive PSQL","parent":"Storage","type":"skills"},"422":{"_id":{"$oid":"5adf1ab90f17bdb02064b4e3"},"title":"Phalcon","parent":"Frameworks/Libraries","type":"skills"},"423":{"_id":{"$oid":"5adf1ab90f17bdb02064b4e4"},"title":"Pharmaceuticals","parent":"Miscellaneous","type":"skills"},"424":{"_id":{"$oid":"5adf1ab90f17bdb02064b4e5"},"title":"Phonegap","parent":"Frameworks/Libraries","type":"skills"},"425":{"_id":{"$oid":"5adf1ab90f17bdb02064b4e6"},"title":"PhpDox","parent":"Tools/Platforms/Apis","type":"skills"},"426":{"_id":{"$oid":"5adf1ab90f17bdb02064b4e7"},"title":"Platform As a Service","parent":"Miscellaneous","type":"skills"},"427":{"_id":{"$oid":"5adf1ab90f17bdb02064b4e8"},"title":"Play Framework","parent":"Frameworks/Libraries","type":"skills"},"428":{"_id":{"$oid":"5adf1ab90f17bdb02064b4e9"},"title":"Pligg","parent":"Frameworks/Libraries","type":"skills"},"429":{"_id":{"$oid":"5adf1ab90f17bdb02064b4ea"},"title":"Polymer.JS","parent":"Frameworks/Libraries","type":"skills"},"430":{"_id":{"$oid":"5adf1ab90f17bdb02064b4eb"},"title":"PostgreSQL","parent":"Storage","type":"skills"},"431":{"_id":{"$oid":"5adf1ab90f17bdb02064b4ec"},"title":"Powermock","parent":"Tools/Platforms/Apis","type":"skills"},"432":{"_id":{"$oid":"5adf1ab90f17bdb02064b4ed"},"title":"Procedural Programming","parent":"Miscellaneous","type":"skills"},"433":{"_id":{"$oid":"5adf1ab90f17bdb02064b4ee"},"title":"Programming Language Pragmatics","parent":"Miscellaneous","type":"skills"},"434":{"_id":{"$oid":"5adf1aba0f17bdb02064b4ef"},"title":"Project Management","parent":"Miscellaneous","type":"skills"},"435":{"_id":{"$oid":"5adf1aba0f17bdb02064b4f0"},"title":"Project Management","parent":"Miscellaneous","type":"skills"},"436":{"_id":{"$oid":"5adf1aba0f17bdb02064b4f1"},"title":"Project Management Apps","parent":"Miscellaneous","type":"skills"},"437":{"_id":{"$oid":"5adf1aba0f17bdb02064b4f2"},"title":"Project Portfolio Management","parent":"Miscellaneous","type":"skills"},"438":{"_id":{"$oid":"5adf1aba0f17bdb02064b4f3"},"title":"Project Scheduling","parent":"Miscellaneous","type":"skills"},"439":{"_id":{"$oid":"5adf1aba0f17bdb02064b4f4"},"title":"Prolog","parent":"Programming Languages","type":"skills"},"440":{"_id":{"$oid":"5adf1aba0f17bdb02064b4f5"},"title":"Protobuf","parent":"Frameworks/Libraries","type":"skills"},"441":{"_id":{"$oid":"5adf1aba0f17bdb02064b4f6"},"title":"Prototyping","parent":"Miscellaneous","type":"skills"},"442":{"_id":{"$oid":"5adf1aba0f17bdb02064b4f7"},"title":"Pug","parent":"Programming Languages","type":"skills"},"443":{"_id":{"$oid":"5adf1aba0f17bdb02064b4f8"},"title":"Pure","parent":"Frameworks/Libraries","type":"skills"},"444":{"_id":{"$oid":"5adf1aba0f17bdb02064b4f9"},"title":"PyCharm","parent":"Tools/Platforms/Apis","type":"skills"},"445":{"_id":{"$oid":"5adf1aba0f17bdb02064b4fa"},"title":"PyGUI","parent":"Tools/Platforms/Apis","type":"skills"},"446":{"_id":{"$oid":"5adf1aba0f17bdb02064b4fb"},"title":"PyQt","parent":"Tools/Platforms/Apis","type":"skills"},"447":{"_id":{"$oid":"5adf1aba0f17bdb02064b4fc"},"title":"Pylons","parent":"Frameworks/Libraries","type":"skills"},"448":{"_id":{"$oid":"5adf1aba0f17bdb02064b4fd"},"title":"Pyramid","parent":"Frameworks/Libraries","type":"skills"},"449":{"_id":{"$oid":"5adf1aba0f17bdb02064b4fe"},"title":"Python","parent":"Programming Languages","type":"skills"},"450":{"_id":{"$oid":"5adf1aba0f17bdb02064b4ff"},"title":"QTP","parent":"Tools/Platforms/Apis","type":"skills"},"451":{"_id":{"$oid":"5adf1aba0f17bdb02064b500"},"title":"Quality Management","parent":"Miscellaneous","type":"skills"},"452":{"_id":{"$oid":"5adf1aba0f17bdb02064b501"},"title":"R","parent":"Programming Languages","type":"skills"},"453":{"_id":{"$oid":"5adf1aba0f17bdb02064b502"},"title":"REST","parent":"Miscellaneous","type":"skills"},"454":{"_id":{"$oid":"5adf1aba0f17bdb02064b503"},"title":"RIFE","parent":"Frameworks/Libraries","type":"skills"},"455":{"_id":{"$oid":"5adf1aba0f17bdb02064b504"},"title":"Ramaze","parent":"Frameworks/Libraries","type":"skills"},"456":{"_id":{"$oid":"5adf1aba0f17bdb02064b505"},"title":"Rango","parent":"Frameworks/Libraries","type":"skills"},"457":{"_id":{"$oid":"5adf1aba0f17bdb02064b506"},"title":"Raspberry Pi","parent":"Tools/Platforms/Apis","type":"skills"},"458":{"_id":{"$oid":"5adf1aba0f17bdb02064b507"},"title":"React.JS","parent":"Frameworks/Libraries","type":"skills"},"459":{"_id":{"$oid":"5adf1aba0f17bdb02064b508"},"title":"ReactiveCocoa","parent":"Frameworks/Libraries","type":"skills"},"460":{"_id":{"$oid":"5adf1aba0f17bdb02064b509"},"title":"Reahl","parent":"Frameworks/Libraries","type":"skills"},"461":{"_id":{"$oid":"5adf1aba0f17bdb02064b50a"},"title":"Real Estate","parent":"Miscellaneous","type":"skills"},"462":{"_id":{"$oid":"5adf1aba0f17bdb02064b50b"},"title":"Realm","parent":"Tools/Platforms/Apis","type":"skills"},"463":{"_id":{"$oid":"5adf1aba0f17bdb02064b50c"},"title":"Realtime Chat Apps","parent":"Miscellaneous","type":"skills"},"464":{"_id":{"$oid":"5adf1aba0f17bdb02064b50d"},"title":"Redis","parent":"Storage","type":"skills"},"465":{"_id":{"$oid":"5adf1aba0f17bdb02064b50e"},"title":"Redux","parent":"Frameworks/Libraries","type":"skills"},"466":{"_id":{"$oid":"5adf1aba0f17bdb02064b50f"},"title":"Regression Testing","parent":"Miscellaneous","type":"skills"},"467":{"_id":{"$oid":"5adf1aba0f17bdb02064b510"},"title":"Relational Databases","parent":"Miscellaneous","type":"skills"},"468":{"_id":{"$oid":"5adf1aba0f17bdb02064b511"},"title":"Renee","parent":"Frameworks/Libraries","type":"skills"},"469":{"_id":{"$oid":"5adf1aba0f17bdb02064b512"},"title":"Research and Development","parent":"Miscellaneous","type":"skills"},"470":{"_id":{"$oid":"5adf1aba0f17bdb02064b513"},"title":"Reswift","parent":"Frameworks/Libraries","type":"skills"},"471":{"_id":{"$oid":"5adf1aba0f17bdb02064b514"},"title":"Retail","parent":"Miscellaneous","type":"skills"},"472":{"_id":{"$oid":"5adf1aba0f17bdb02064b515"},"title":"Risk Management","parent":"Miscellaneous","type":"skills"},"473":{"_id":{"$oid":"5adf1aba0f17bdb02064b516"},"title":"Robotics","parent":"Miscellaneous","type":"skills"},"474":{"_id":{"$oid":"5adf1aba0f17bdb02064b517"},"title":"Robotics","parent":"Miscellaneous","type":"skills"},"475":{"_id":{"$oid":"5adf1aba0f17bdb02064b518"},"title":"Robotics","parent":"Miscellaneous","type":"skills"},"476":{"_id":{"$oid":"5adf1aba0f17bdb02064b519"},"title":"Rspec","parent":"Tools/Platforms/Apis","type":"skills"},"477":{"_id":{"$oid":"5adf1aba0f17bdb02064b51a"},"title":"Rspec","parent":"Tools/Platforms/Apis","type":"skills"},"478":{"_id":{"$oid":"5adf1aba0f17bdb02064b51b"},"title":"Ruby","parent":"Programming Languages","type":"skills"},"479":{"_id":{"$oid":"5adf1aba0f17bdb02064b51c"},"title":"Ruby on Rails","parent":"Frameworks/Libraries","type":"skills"},"480":{"_id":{"$oid":"5adf1aba0f17bdb02064b51d"},"title":"Rust","parent":"Programming Languages","type":"skills"},"481":{"_id":{"$oid":"5adf1aba0f17bdb02064b51e"},"title":"RxJS","parent":"Frameworks/Libraries","type":"skills"},"482":{"_id":{"$oid":"5adf1aba0f17bdb02064b51f"},"title":"SAP HANA","parent":"Storage","type":"skills"},"483":{"_id":{"$oid":"5adf1aba0f17bdb02064b520"},"title":"SCSS","parent":"Programming Languages","type":"skills"},"484":{"_id":{"$oid":"5adf1aba0f17bdb02064b521"},"title":"SDWeblmage","parent":"Frameworks/Libraries","type":"skills"},"485":{"_id":{"$oid":"5adf1aba0f17bdb02064b522"},"title":"SEO","parent":"Miscellaneous","type":"skills"},"486":{"_id":{"$oid":"5adf1aba0f17bdb02064b523"},"title":"SOAP","parent":"Miscellaneous","type":"skills"},"487":{"_id":{"$oid":"5adf1aba0f17bdb02064b524"},"title":"SQL Anywhere","parent":"Storage","type":"skills"},"488":{"_id":{"$oid":"5adf1aba0f17bdb02064b525"},"title":"SQLITE","parent":"Storage","type":"skills"},"489":{"_id":{"$oid":"5adf1aba0f17bdb02064b526"},"title":"SQream DB","parent":"Storage","type":"skills"},"490":{"_id":{"$oid":"5adf1aba0f17bdb02064b527"},"title":"Sails.JS","parent":"Frameworks/Libraries","type":"skills"},"491":{"_id":{"$oid":"5adf1aba0f17bdb02064b528"},"title":"Salad","parent":"Frameworks/Libraries","type":"skills"},"492":{"_id":{"$oid":"5adf1aba0f17bdb02064b529"},"title":"Sales Management","parent":"Miscellaneous","type":"skills"},"493":{"_id":{"$oid":"5adf1aba0f17bdb02064b52a"},"title":"Sales and Marketing","parent":"Miscellaneous","type":"skills"},"494":{"_id":{"$oid":"5adf1aba0f17bdb02064b52b"},"title":"Scala","parent":"Programming Languages","type":"skills"},"495":{"_id":{"$oid":"5adf1aba0f17bdb02064b52c"},"title":"Scalatra","parent":"Frameworks/Libraries","type":"skills"},"496":{"_id":{"$oid":"5adf1aba0f17bdb02064b52d"},"title":"Scheme","parent":"Programming Languages","type":"skills"},"497":{"_id":{"$oid":"5adf1aba0f17bdb02064b52e"},"title":"Scorched","parent":"Frameworks/Libraries","type":"skills"},"498":{"_id":{"$oid":"5adf1aba0f17bdb02064b52f"},"title":"Scrum","parent":"Miscellaneous","type":"skills"},"499":{"_id":{"$oid":"5adf1aba0f17bdb02064b530"},"title":"Security","parent":"Miscellaneous","type":"skills"},"500":{"_id":{"$oid":"5adf1aba0f17bdb02064b531"},"title":"Selenium","parent":"Tools/Platforms/Apis","type":"skills"},"501":{"_id":{"$oid":"5adf1aba0f17bdb02064b532"},"title":"SemanticUI","parent":"Frameworks/Libraries","type":"skills"},"502":{"_id":{"$oid":"5adf1aba0f17bdb02064b533"},"title":"Semiconductors","parent":"Miscellaneous","type":"skills"},"503":{"_id":{"$oid":"5adf1aba0f17bdb02064b534"},"title":"Sencha","parent":"Frameworks/Libraries","type":"skills"},"504":{"_id":{"$oid":"5adf1aba0f17bdb02064b535"},"title":"Sencha Touch","parent":"Frameworks/Libraries","type":"skills"},"505":{"_id":{"$oid":"5adf1aba0f17bdb02064b536"},"title":"Sequence Diagrams","parent":"Miscellaneous","type":"skills"},"506":{"_id":{"$oid":"5adf1aba0f17bdb02064b537"},"title":"Shell Scripting","parent":"Programming Languages","type":"skills"},"507":{"_id":{"$oid":"5adf1aba0f17bdb02064b538"},"title":"Silex","parent":"Frameworks/Libraries","type":"skills"},"508":{"_id":{"$oid":"5adf1aba0f17bdb02064b539"},"title":"SilkPerformer","parent":"Tools/Platforms/Apis","type":"skills"},"509":{"_id":{"$oid":"5adf1aba0f17bdb02064b53a"},"title":"SilkTest","parent":"Tools/Platforms/Apis","type":"skills"},"510":{"_id":{"$oid":"5adf1aba0f17bdb02064b53b"},"title":"SilverStripe","parent":"Frameworks/Libraries","type":"skills"},"511":{"_id":{"$oid":"5adf1aba0f17bdb02064b53c"},"title":"Sinatra","parent":"Frameworks/Libraries","type":"skills"},"512":{"_id":{"$oid":"5adf1aba0f17bdb02064b53d"},"title":"Skala Preview","parent":"Tools/Platforms/Apis","type":"skills"},"513":{"_id":{"$oid":"5adf1aba0f17bdb02064b53e"},"title":"Skeleton","parent":"Frameworks/Libraries","type":"skills"},"514":{"_id":{"$oid":"5adf1aba0f17bdb02064b53f"},"title":"Skeleton","parent":"Frameworks/Libraries","type":"skills"},"515":{"_id":{"$oid":"5adf1aba0f17bdb02064b540"},"title":"Sketch","parent":"Tools/Platforms/Apis","type":"skills"},"516":{"_id":{"$oid":"5adf1aba0f17bdb02064b541"},"title":"Slim","parent":"Frameworks/Libraries","type":"skills"},"517":{"_id":{"$oid":"5adf1aba0f17bdb02064b542"},"title":"Smalltalk","parent":"Programming Languages","type":"skills"},"518":{"_id":{"$oid":"5adf1aba0f17bdb02064b543"},"title":"Social","parent":"Miscellaneous","type":"skills"},"519":{"_id":{"$oid":"5adf1aba0f17bdb02064b544"},"title":"Social Media Marketing","parent":"Miscellaneous","type":"skills"},"520":{"_id":{"$oid":"5adf1aba0f17bdb02064b545"},"title":"Social Networking Apps","parent":"Miscellaneous","type":"skills"},"521":{"_id":{"$oid":"5adf1aba0f17bdb02064b546"},"title":"Socket.io","parent":"Frameworks/Libraries","type":"skills"},"522":{"_id":{"$oid":"5adf1aba0f17bdb02064b547"},"title":"Software As a Service","parent":"Miscellaneous","type":"skills"},"523":{"_id":{"$oid":"5adf1aba0f17bdb02064b548"},"title":"Software Design","parent":"Miscellaneous","type":"skills"},"524":{"_id":{"$oid":"5adf1aba0f17bdb02064b549"},"title":"Software Project Management","parent":"Miscellaneous","type":"skills"},"525":{"_id":{"$oid":"5adf1aba0f17bdb02064b54a"},"title":"SparkJava","parent":"Frameworks/Libraries","type":"skills"},"526":{"_id":{"$oid":"5adf1aba0f17bdb02064b54b"},"title":"Sports","parent":"Miscellaneous","type":"skills"},"527":{"_id":{"$oid":"5adf1aba0f17bdb02064b54c"},"title":"Spray","parent":"Frameworks/Libraries","type":"skills"},"528":{"_id":{"$oid":"5adf1aba0f17bdb02064b54d"},"title":"Spring","parent":"Frameworks/Libraries","type":"skills"},"529":{"_id":{"$oid":"5adf1aba0f17bdb02064b54e"},"title":"Spring Boot","parent":"Tools/Platforms/Apis","type":"skills"},"530":{"_id":{"$oid":"5adf1aba0f17bdb02064b54f"},"title":"Spring Security","parent":"Frameworks/Libraries","type":"skills"},"531":{"_id":{"$oid":"5adf1aba0f17bdb02064b550"},"title":"Storage","parent":"Miscellaneous","type":"skills"},"532":{"_id":{"$oid":"5adf1aba0f17bdb02064b551"},"title":"Stress Testing","parent":"Miscellaneous","type":"skills"},"533":{"_id":{"$oid":"5adf1aba0f17bdb02064b552"},"title":"Stripes Framework","parent":"Frameworks/Libraries","type":"skills"},"534":{"_id":{"$oid":"5adf1aba0f17bdb02064b553"},"title":"Structure Storage(NoSQL)","parent":"Miscellaneous","type":"skills"},"535":{"_id":{"$oid":"5adf1aba0f17bdb02064b554"},"title":"Sublime Text","parent":"Tools/Platforms/Apis","type":"skills"},"536":{"_id":{"$oid":"5adf1aba0f17bdb02064b555"},"title":"Subversion","parent":"Tools/Platforms/Apis","type":"skills"},"537":{"_id":{"$oid":"5adf1aba0f17bdb02064b556"},"title":"Svelte","parent":"Frameworks/Libraries","type":"skills"},"538":{"_id":{"$oid":"5adf1aba0f17bdb02064b557"},"title":"Swift","parent":"Programming Languages","type":"skills"},"539":{"_id":{"$oid":"5adf1aba0f17bdb02064b558"},"title":"Symfony","parent":"Frameworks/Libraries","type":"skills"},"540":{"_id":{"$oid":"5adf1aba0f17bdb02064b559"},"title":"System Testing","parent":"Miscellaneous","type":"skills"},"541":{"_id":{"$oid":"5adf1aba0f17bdb02064b55a"},"title":"TAP","parent":"Tools/Platforms/Apis","type":"skills"},"542":{"_id":{"$oid":"5adf1aba0f17bdb02064b55b"},"title":"Tabris","parent":"Frameworks/Libraries","type":"skills"},"543":{"_id":{"$oid":"5adf1aba0f17bdb02064b55c"},"title":"Task Management","parent":"Miscellaneous","type":"skills"},"544":{"_id":{"$oid":"5adf1aba0f17bdb02064b55d"},"title":"Tcl","parent":"Programming Languages","type":"skills"},"545":{"_id":{"$oid":"5adf1aba0f17bdb02064b55e"},"title":"Technical Documentation","parent":"Miscellaneous","type":"skills"},"546":{"_id":{"$oid":"5adf1aba0f17bdb02064b55f"},"title":"Technical Reports","parent":"Miscellaneous","type":"skills"},"547":{"_id":{"$oid":"5adf1aba0f17bdb02064b560"},"title":"Telecommunications","parent":"Miscellaneous","type":"skills"},"548":{"_id":{"$oid":"5adf1aba0f17bdb02064b561"},"title":"Test Driven Development","parent":"Miscellaneous","type":"skills"},"549":{"_id":{"$oid":"5adf1aba0f17bdb02064b562"},"title":"TestNG","parent":"Tools/Platforms/Apis","type":"skills"},"550":{"_id":{"$oid":"5adf1aba0f17bdb02064b563"},"title":"Tibero","parent":"Storage","type":"skills"},"551":{"_id":{"$oid":"5adf1aba0f17bdb02064b564"},"title":"Time Management","parent":"Miscellaneous","type":"skills"},"552":{"_id":{"$oid":"5adf1aba0f17bdb02064b565"},"title":"Titanium","parent":"Frameworks/Libraries","type":"skills"},"553":{"_id":{"$oid":"5adf1aba0f17bdb02064b566"},"title":"Toast","parent":"Frameworks/Libraries","type":"skills"},"554":{"_id":{"$oid":"5adf1aba0f17bdb02064b567"},"title":"Tornado","parent":"Frameworks/Libraries","type":"skills"},"555":{"_id":{"$oid":"5adf1aba0f17bdb02064b568"},"title":"Total.JS","parent":"Frameworks/Libraries","type":"skills"},"556":{"_id":{"$oid":"5adf1aba0f17bdb02064b569"},"title":"Tourism and Hospitality","parent":"Miscellaneous","type":"skills"},"557":{"_id":{"$oid":"5adf1aba0f17bdb02064b56a"},"title":"Transportation","parent":"Miscellaneous","type":"skills"},"558":{"_id":{"$oid":"5adf1aba0f17bdb02064b56b"},"title":"Travel","parent":"Miscellaneous","type":"skills"},"559":{"_id":{"$oid":"5adf1aba0f17bdb02064b56c"},"title":"Truth","parent":"Tools/Platforms/Apis","type":"skills"},"560":{"_id":{"$oid":"5adf1aba0f17bdb02064b56d"},"title":"TurboGears","parent":"Frameworks/Libraries","type":"skills"},"561":{"_id":{"$oid":"5adf1aba0f17bdb02064b56e"},"title":"Typescript","parent":"Programming Languages","type":"skills"},"562":{"_id":{"$oid":"5adf1aba0f17bdb02064b56f"},"title":"Uikit","parent":"Frameworks/Libraries","type":"skills"},"563":{"_id":{"$oid":"5adf1aba0f17bdb02064b570"},"title":"Underscore","parent":"Frameworks/Libraries","type":"skills"},"564":{"_id":{"$oid":"5adf1aba0f17bdb02064b571"},"title":"Unit Testing","parent":"Miscellaneous","type":"skills"},"565":{"_id":{"$oid":"5adf1aba0f17bdb02064b572"},"title":"Unittest","parent":"Tools/Platforms/Apis","type":"skills"},"566":{"_id":{"$oid":"5adf1aba0f17bdb02064b573"},"title":"Unix","parent":"Tools/Platforms/Apis","type":"skills"},"567":{"_id":{"$oid":"5adf1aba0f17bdb02064b574"},"title":"Usability Testing","parent":"Miscellaneous","type":"skills"},"568":{"_id":{"$oid":"5adf1aba0f17bdb02064b575"},"title":"Use Case Diagrams","parent":"Miscellaneous","type":"skills"},"569":{"_id":{"$oid":"5adf1aba0f17bdb02064b576"},"title":"Vaadin","parent":"Frameworks/Libraries","type":"skills"},"570":{"_id":{"$oid":"5adf1aba0f17bdb02064b577"},"title":"VanilaJS","parent":"Frameworks/Libraries","type":"skills"},"571":{"_id":{"$oid":"5adf1aba0f17bdb02064b578"},"title":"Vapor","parent":"Frameworks/Libraries","type":"skills"},"572":{"_id":{"$oid":"5adf1aba0f17bdb02064b579"},"title":"Verilog","parent":"Programming Languages","type":"skills"},"573":{"_id":{"$oid":"5adf1aba0f17bdb02064b57a"},"title":"Vim","parent":"Tools/Platforms/Apis","type":"skills"},"574":{"_id":{"$oid":"5adf1aba0f17bdb02064b57b"},"title":"Virtual Reality","parent":"Miscellaneous","type":"skills"},"575":{"_id":{"$oid":"5adf1aba0f17bdb02064b57c"},"title":"Virtualization","parent":"Miscellaneous","type":"skills"},"576":{"_id":{"$oid":"5adf1aba0f17bdb02064b57d"},"title":"Virtuoso Universal Server","parent":"Storage","type":"skills"},"577":{"_id":{"$oid":"5adf1aba0f17bdb02064b57e"},"title":"VisualVM","parent":"Tools/Platforms/Apis","type":"skills"},"578":{"_id":{"$oid":"5adf1aba0f17bdb02064b57f"},"title":"Voldemort","parent":"Storage","type":"skills"},"579":{"_id":{"$oid":"5adf1aba0f17bdb02064b580"},"title":"VoltDB","parent":"Storage","type":"skills"},"580":{"_id":{"$oid":"5adf1aba0f17bdb02064b581"},"title":"Vue.JS","parent":"Frameworks/Libraries","type":"skills"},"581":{"_id":{"$oid":"5adf1aba0f17bdb02064b582"},"title":"Wallets","parent":"Miscellaneous","type":"skills"},"582":{"_id":{"$oid":"5adf1aba0f17bdb02064b583"},"title":"Waterfall Development","parent":"Miscellaneous","type":"skills"},"583":{"_id":{"$oid":"5adf1aba0f17bdb02064b584"},"title":"Watin Eggplant","parent":"Tools/Platforms/Apis","type":"skills"},"584":{"_id":{"$oid":"5adf1aba0f17bdb02064b585"},"title":"Wavemaker","parent":"Frameworks/Libraries","type":"skills"},"585":{"_id":{"$oid":"5adf1aba0f17bdb02064b586"},"title":"Wearable Technology","parent":"Miscellaneous","type":"skills"},"586":{"_id":{"$oid":"5adf1aba0f17bdb02064b587"},"title":"Web Services","parent":"Miscellaneous","type":"skills"},"587":{"_id":{"$oid":"5adf1aba0f17bdb02064b588"},"title":"Web2py","parent":"Frameworks/Libraries","type":"skills"},"588":{"_id":{"$oid":"5adf1aba0f17bdb02064b589"},"title":"WebStorm","parent":"Tools/Platforms/Apis","type":"skills"},"589":{"_id":{"$oid":"5adf1aba0f17bdb02064b58a"},"title":"Website Development","parent":"Miscellaneous","type":"skills"},"590":{"_id":{"$oid":"5adf1aba0f17bdb02064b58b"},"title":"Website Maintenance","parent":"Miscellaneous","type":"skills"},"591":{"_id":{"$oid":"5adf1aba0f17bdb02064b58c"},"title":"Website Scalability","parent":"Miscellaneous","type":"skills"},"592":{"_id":{"$oid":"5adf1aba0f17bdb02064b58d"},"title":"Wheezy.web","parent":"Frameworks/Libraries","type":"skills"},"593":{"_id":{"$oid":"5adf1aba0f17bdb02064b58e"},"title":"Windows","parent":"Tools/Platforms/Apis","type":"skills"},"594":{"_id":{"$oid":"5adf1aba0f17bdb02064b58f"},"title":"Windows App Development","parent":"Miscellaneous","type":"skills"},"595":{"_id":{"$oid":"5adf1aba0f17bdb02064b590"},"title":"Wireframing","parent":"Miscellaneous","type":"skills"},"596":{"_id":{"$oid":"5adf1aba0f17bdb02064b591"},"title":"Wordpress","parent":"Frameworks/Libraries","type":"skills"},"597":{"_id":{"$oid":"5adf1aba0f17bdb02064b592"},"title":"X-Pack","parent":"Tools/Platforms/Apis","type":"skills"},"598":{"_id":{"$oid":"5adf1aba0f17bdb02064b593"},"title":"XML2Selenium","parent":"Tools/Platforms/Apis","type":"skills"},"599":{"_id":{"$oid":"5adf1aba0f17bdb02064b594"},"title":"Xamarin","parent":"Frameworks/Libraries","type":"skills"},"600":{"_id":{"$oid":"5adf1aba0f17bdb02064b595"},"title":"YAML","parent":"Frameworks/Libraries","type":"skills"},"601":{"_id":{"$oid":"5adf1aba0f17bdb02064b596"},"title":"Yii","parent":"Frameworks/Libraries","type":"skills"},"602":{"_id":{"$oid":"5adf1aba0f17bdb02064b597"},"title":"Yii 2","parent":"Frameworks/Libraries","type":"skills"},"603":{"_id":{"$oid":"5adf1aba0f17bdb02064b598"},"title":"Zaptest","parent":"Tools/Platforms/Apis","type":"skills"},"604":{"_id":{"$oid":"5adf1aba0f17bdb02064b599"},"title":"Zebra","parent":"Frameworks/Libraries","type":"skills"},"605":{"_id":{"$oid":"5adf1aba0f17bdb02064b59a"},"title":"Zend Framework","parent":"Frameworks/Libraries","type":"skills"},"606":{"_id":{"$oid":"5adf1aba0f17bdb02064b59b"},"title":"app.js","parent":"Frameworks/Libraries","type":"skills"},"607":{"_id":{"$oid":"5adf1aba0f17bdb02064b59c"},"title":"brewbuild","parent":"Tools/Platforms/Apis","type":"skills"},"608":{"_id":{"$oid":"5adf1aba0f17bdb02064b59d"},"title":"buildbot","parent":"Tools/Platforms/Apis","type":"skills"},"609":{"_id":{"$oid":"5adf1aba0f17bdb02064b59e"},"title":"bundler","parent":"Tools/Platforms/Apis","type":"skills"},"610":{"_id":{"$oid":"5adf1aba0f17bdb02064b59f"},"title":"calaba.sh","parent":"Tools/Platforms/Apis","type":"skills"},"611":{"_id":{"$oid":"5adf1aba0f17bdb02064b5a0"},"title":"cmocka","parent":"Tools/Platforms/Apis","type":"skills"},"612":{"_id":{"$oid":"5adf1aba0f17bdb02064b5a1"},"title":"cocoaPods","parent":"Tools/Platforms/Apis","type":"skills"},"613":{"_id":{"$oid":"5adf1aba0f17bdb02064b5a2"},"title":"cppTest","parent":"Tools/Platforms/Apis","type":"skills"},"614":{"_id":{"$oid":"5adf1aba0f17bdb02064b5a3"},"title":"css-x-fire","parent":"Tools/Platforms/Apis","type":"skills"},"615":{"_id":{"$oid":"5adf1aba0f17bdb02064b5a4"},"title":"cucumber","parent":"Tools/Platforms/Apis","type":"skills"},"616":{"_id":{"$oid":"5adf1aba0f17bdb02064b5a5"},"title":"eCommerce","parent":"Miscellaneous","type":"skills"},"617":{"_id":{"$oid":"5adf1aba0f17bdb02064b5a6"},"title":"easyb","parent":"Tools/Platforms/Apis","type":"skills"},"618":{"_id":{"$oid":"5adf1aba0f17bdb02064b5a7"},"title":"ffffallback","parent":"Tools/Platforms/Apis","type":"skills"},"619":{"_id":{"$oid":"5adf1aba0f17bdb02064b5a8"},"title":"harbor","parent":"Frameworks/Libraries","type":"skills"},"620":{"_id":{"$oid":"5adf1aba0f17bdb02064b5a9"},"title":"iOS","parent":"Tools/Platforms/Apis","type":"skills"},"621":{"_id":{"$oid":"5adf1aba0f17bdb02064b5aa"},"title":"iOS Development","parent":"Miscellaneous","type":"skills"},"622":{"_id":{"$oid":"5adf1aba0f17bdb02064b5ab"},"title":"jQuery","parent":"Frameworks/Libraries","type":"skills"},"623":{"_id":{"$oid":"5adf1aba0f17bdb02064b5ac"},"title":"jQuery Mobile","parent":"Frameworks/Libraries","type":"skills"},"624":{"_id":{"$oid":"5adf1aba0f17bdb02064b5ad"},"title":"jQuery UI","parent":"Frameworks/Libraries","type":"skills"},"625":{"_id":{"$oid":"5adf1aba0f17bdb02064b5ae"},"title":"kotatsu","parent":"Tools/Platforms/Apis","type":"skills"},"626":{"_id":{"$oid":"5adf1aba0f17bdb02064b5af"},"title":"needle","parent":"Tools/Platforms/Apis","type":"skills"},"627":{"_id":{"$oid":"5adf1aba0f17bdb02064b5b0"},"title":"netbeans","parent":"Tools/Platforms/Apis","type":"skills"},"628":{"_id":{"$oid":"5adf1aba0f17bdb02064b5b1"},"title":"normalize.css","parent":"Frameworks/Libraries","type":"skills"},"629":{"_id":{"$oid":"5adf1aba0f17bdb02064b5b2"},"title":"nose","parent":"Tools/Platforms/Apis","type":"skills"},"630":{"_id":{"$oid":"5adf1aba0f17bdb02064b5b3"},"title":"odyssey","parent":"Tools/Platforms/Apis","type":"skills"},"631":{"_id":{"$oid":"5adf1aba0f17bdb02064b5b4"},"title":"perlport","parent":"Tools/Platforms/Apis","type":"skills"},"632":{"_id":{"$oid":"5adf1aba0f17bdb02064b5b5"},"title":"py.test","parent":"Tools/Platforms/Apis","type":"skills"},"633":{"_id":{"$oid":"5adf1aba0f17bdb02064b5b6"},"title":"reactive","parent":"Tools/Platforms/Apis","type":"skills"},"634":{"_id":{"$oid":"5adf1aba0f17bdb02064b5b7"},"title":"remObjects","parent":"Tools/Platforms/Apis","type":"skills"},"635":{"_id":{"$oid":"5adf1aba0f17bdb02064b5b8"},"title":"reveal.js","parent":"Frameworks/Libraries","type":"skills"},"636":{"_id":{"$oid":"5adf1aba0f17bdb02064b5b9"},"title":"ruby motion","parent":"Tools/Platforms/Apis","type":"skills"},"637":{"_id":{"$oid":"5adf1aba0f17bdb02064b5ba"},"title":"scalatest","parent":"Tools/Platforms/Apis","type":"skills"},"638":{"_id":{"$oid":"5adf1aba0f17bdb02064b5bb"},"title":"shell2jUnit","parent":"Tools/Platforms/Apis","type":"skills"},"639":{"_id":{"$oid":"5adf1aba0f17bdb02064b5bc"},"title":"sikuli","parent":"Tools/Platforms/Apis","type":"skills"},"640":{"_id":{"$oid":"5adf1aba0f17bdb02064b5bd"},"title":"three.js","parent":"Frameworks/Libraries","type":"skills"},"641":{"_id":{"$oid":"5adf1aba0f17bdb02064b5be"},"title":"trianglify","parent":"Frameworks/Libraries","type":"skills"},"642":{"_id":{"$oid":"5adf1aba0f17bdb02064b5bf"},"title":"webinject","parent":"Tools/Platforms/Apis","type":"skills"},"643":{"_id":{"$oid":"5adf1aba0f17bdb02064b5c0"},"title":"winrunner","parent":"Tools/Platforms/Apis","type":"skills"},"644":{"_id":{"$oid":"5adf1aba0f17bdb02064b5c1"},"title":"xUnit","parent":"Tools/Platforms/Apis","type":"skills"},"645":{"_id":{"$oid":"5adf1aba0f17bdb02064b5c2"},"title":"zope.testing","parent":"Tools/Platforms/Apis","type":"skills"},"646":{"_id":{"$oid":"5adf1aba0f17bdb02064b5c3"},"title":"zope2","parent":"Frameworks/Libraries","type":"skills"},"647":{"_id":{"$oid":"5adf1bd10f17bdb02064b629"},"title":"Frontend Website Developer","parent":"Software Development","type":"user_roles"},"648":{"_id":{"$oid":"5adf1bd10f17bdb02064b62a"},"title":"Fullstack Website Developer","parent":"Software Development","type":"user_roles"},"649":{"_id":{"$oid":"5adf1bd10f17bdb02064b62b"},"title":"Mobile App Developer","parent":"Software Development","type":"user_roles"},"650":{"_id":{"$oid":"5adf1bd10f17bdb02064b62c"},"title":"Backend Web Developer","parent":"Software Development","type":"user_roles"},"651":{"_id":{"$oid":"5adf1bd10f17bdb02064b62d"},"title":"Game Developer","parent":"Software Development","type":"user_roles"},"652":{"_id":{"$oid":"5adf1bd10f17bdb02064b62e"},"title":"Enterprise Software Engineer","parent":"Software Development","type":"user_roles"},"653":{"_id":{"$oid":"5adf1bd10f17bdb02064b62f"},"title":"Software Architect","parent":"Software Development","type":"user_roles"},"654":{"_id":{"$oid":"5adf1bd10f17bdb02064b630"},"title":"DevOps Engineer","parent":"Software Development","type":"user_roles"},"655":{"_id":{"$oid":"5adf1bd10f17bdb02064b631"},"title":"QA Engineer","parent":"Software Development","type":"user_roles"},"656":{"_id":{"$oid":"5adf1bd10f17bdb02064b632"},"title":"Desktop App Developer","parent":"Software Development","type":"user_roles"},"657":{"_id":{"$oid":"5adf1bd10f17bdb02064b633"},"title":"Wearables App Developer","parent":"Software Development","type":"user_roles"},"658":{"_id":{"$oid":"5adf1bd10f17bdb02064b634"},"title":"IoT Developer","parent":"Software Development","type":"user_roles"},"659":{"_id":{"$oid":"5adf1bd10f17bdb02064b635"},"title":"Game Developer","parent":"Software Development","type":"user_roles"},"660":{"_id":{"$oid":"5adf1bd10f17bdb02064b636"},"title":"Cloud Developer","parent":"Software Development","type":"user_roles"},"661":{"_id":{"$oid":"5adf1bd10f17bdb02064b637"},"title":"VR Developer","parent":"Software Development","type":"user_roles"},"662":{"_id":{"$oid":"5adf1bd10f17bdb02064b638"},"title":"Software Tools Developer","parent":"Software Development","type":"user_roles"},"663":{"_id":{"$oid":"5adf1bd10f17bdb02064b639"},"title":"Embedded Systems Developer","parent":"Software Development","type":"user_roles"},"664":{"_id":{"$oid":"5adf1bd10f17bdb02064b63a"},"title":"Security Software Developer","parent":"Software Development","type":"user_roles"},"665":{"_id":{"$oid":"5adf1bd10f17bdb02064b63b"},"title":"Interactive/Web Designer","parent":"Software Design","type":"user_roles"},"666":{"_id":{"$oid":"5adf1bd10f17bdb02064b63c"},"title":"Creative Graphic Designer","parent":"Software Design","type":"user_roles"},"667":{"_id":{"$oid":"5adf1bd10f17bdb02064b63d"},"title":"Project Manager","parent":"Project Management","type":"user_roles"},"668":{"_id":{"$oid":"5adf1bd10f17bdb02064b63e"},"title":"Data Scientist","parent":"Analytics","type":"user_roles"},"669":{"_id":{"$oid":"5adf1bd10f17bdb02064b63f"},"title":"Data Engineer","parent":"Analytics","type":"user_roles"},"670":{"_id":{"$oid":"5adf1bd10f17bdb02064b640"},"title":"BI Engineer","parent":"Analytics","type":"user_roles"},"671":{"_id":{"$oid":"5adf1bd10f17bdb02064b641"},"title":"Data Analyst","parent":"Analytics","type":"user_roles"}}
+{"_id":{"$oid":"5aef4a7cac603ded31b18474"},"title":"ChipDsg/Semicond.","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18475"},"title":"Managed Network Services","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18476"},"title":"Gaming","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18477"},"title":"Software Services","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18478"},"title":"Engineering Services","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18479"},"title":"Telecom/ Internet","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b1847a"},"title":"Product Software","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b1847b"},"title":"Market Research","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b1847c"},"title":"ITES/BPO/.COM","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b1847d"},"title":"Digital Agencies","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b1847e"},"title":"Legal","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b1847f"},"title":"Financial Services \u0026 Software","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18480"},"title":"Retail","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18481"},"title":"Healthcare/Pharma","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18482"},"title":"Cloud Security","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18483"},"title":"Networking","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18484"},"title":"Apparel","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18485"},"title":"Auto/Auto Equip.","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18486"},"title":"CRO","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18487"},"title":"EPC/Engg./Infrastr./Mining","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18488"},"title":"Steel","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18489"},"title":"Pre Engineer Building/PEB/Building Materials","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b1848a"},"title":"Textile","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b1848b"},"title":"Transport/Railways","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b1848c"},"title":"Switchgear/ Electrical Engineering","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b1848d"},"title":"Petroleum/Energy","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b1848e"},"title":"Air Compressors","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b1848f"},"title":"Healthcare/Pharma","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18490"},"title":"Engg./Infrastr./Mining","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18491"},"title":"Durable/Fmcg/Electr.","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18492"},"title":"Jewellery Industry","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18493"},"title":"Diversified/Retail","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18494"},"title":"Transmission \u0026 Distribution","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18495"},"title":"Pipes/Piping/Plastics","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18496"},"title":"Dairy","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18497"},"title":"BPO/KPO","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18498"},"title":"Facility Management","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b18499"},"title":"Realestate/Constr.","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b1849a"},"title":"Logistics/Shipping","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b1849b"},"title":"Education","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b1849c"},"title":"Engineering services","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b1849d"},"title":"Finance/Insurance","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b1849e"},"title":"Insurance Operations","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b1849f"},"title":"Technology Digital Media Services","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b184a0"},"title":"Healthcare","type":"domains"}
+{"_id":{"$oid":"5aef4a7cac603ded31b184a1"},"title":"Media","type":"domains"}
+{"_id":{"$oid":"5aef4accac603ded31b184a2"},"title":"Age Restriction","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184a3"},"title":"Audit Trail","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184a4"},"title":"Automated Publishing","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184a5"},"title":"Blog Importing","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184a6"},"title":"Blog Posts Management","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184a7"},"title":"Bulk Comment Management","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184a8"},"title":"Bulk Uploading","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184a9"},"title":"Catalog","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184aa"},"title":"Content Exporting","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184ab"},"title":"Content Flag","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184ac"},"title":"Content Moderation","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184ad"},"title":"Custom Form","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184ae"},"title":"Data Import/Export (csv)","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184af"},"title":"Data Migration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184b0"},"title":"Document Distribution","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184b1"},"title":"Document Previewing","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184b2"},"title":"Documentation","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184b3"},"title":"Dynamic Content","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184b4"},"title":"File Attachment","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184b5"},"title":"Help Center","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184b6"},"title":"Import Photoshop Documents (PSD)","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184b7"},"title":"Manage Blog Comments","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184b8"},"title":"Merging Content","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184b9"},"title":"Multipage Forms","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184ba"},"title":"PDF Conversion","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184bb"},"title":"Paid Content","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184bc"},"title":"Spell Check","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184bd"},"title":"Testimonials","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184be"},"title":"Travel Guide","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184bf"},"title":"Word Lookup","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184c0"},"title":"Audio Library","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184c1"},"title":"Audio Slide Show","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184c2"},"title":"Call Recording","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184c3"},"title":"Remote Audio and Video","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184c4"},"title":"Video Library","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184c5"},"title":"Voice Memos","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184c6"},"title":"Automated Reminder Emails","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184c7"},"title":"Daily Schedule Notifications","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184c8"},"title":"Desktop Notifications","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184c9"},"title":"Email Notifications","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184ca"},"title":"Location-Based Alerts","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184cb"},"title":"Notifications","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184cc"},"title":"Push Notifications","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184cd"},"title":"Real Time Updates","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184ce"},"title":"Account Score/Ranking","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184cf"},"title":"Account Transfer Tool","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184d0"},"title":"Activity Log","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184d1"},"title":"Approval Process Control","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184d2"},"title":"Customizable User Subscriptions","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184d3"},"title":"Daily Limit","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184d4"},"title":"Dashboard Guests","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184d5"},"title":"Live Chat Summary","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184d6"},"title":"Proposal Generation","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184d7"},"title":"Remote Administration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184d8"},"title":"Roles \u0026 Permissions","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184d9"},"title":"Service-specific Settings (Admin)","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184da"},"title":"Single Sign-on (SSO)","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184db"},"title":"Advanced Insights","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184dc"},"title":"CRM (3rd party integration)","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184dd"},"title":"Polling","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184de"},"title":"Review Prompt","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184df"},"title":"Reviews","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184e0"},"title":"Surveys","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184e1"},"title":"Affiliate URL","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184e2"},"title":"Bidding","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184e3"},"title":"Coupons","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184e4"},"title":"Discount \u0026 Offers","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184e5"},"title":"Favorites","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184e6"},"title":"Loyalty System","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184e7"},"title":"Shipping Address Validation","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184e8"},"title":"Shipping Charge Calculator","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184e9"},"title":"Shopping Cart","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184ea"},"title":"Store Credits","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184eb"},"title":"Wishlist","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184ec"},"title":"ZIP-codes search","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184ed"},"title":"Guest Login","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184ee"},"title":"Keyword Search","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184ef"},"title":"Linkedin Login","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184f0"},"title":"Live Chat","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184f1"},"title":"Logo Design","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184f2"},"title":"Multi-Level Approval Path","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184f3"},"title":"Multiple Browser Support","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184f4"},"title":"Open API","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184f5"},"title":"Profile","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184f6"},"title":"Search","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184f7"},"title":"Settings","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184f8"},"title":"Twitter Login","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184f9"},"title":"Two-Factor Authentication","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184fa"},"title":"User Avatar","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184fb"},"title":"Automatic Renewals","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184fc"},"title":"Centralized Billing","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184fd"},"title":"Collect Transaction Fees","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184fe"},"title":"Digital Signatures","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b184ff"},"title":"Donation Payments","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18500"},"title":"Invoice Billing","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18501"},"title":"Multi-tiered Pricing","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18502"},"title":"Multiple Currency Support","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18503"},"title":"Payment Admin","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18504"},"title":"Payments","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18505"},"title":"Premium Plan Comparison","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18506"},"title":"Refund Management","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18507"},"title":"Saved Cards","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18508"},"title":"Split Payments","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18509"},"title":"Subscription Billing","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1850a"},"title":"Game Score","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1850b"},"title":"In-App Sounds/Vibration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1850c"},"title":"Leaderboard","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1850d"},"title":"Multiplayer Support","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1850e"},"title":"Physics Engine","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1850f"},"title":"API Integration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18510"},"title":"DocuSign Integration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18511"},"title":"Freshdesk Integration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18512"},"title":"G Suite Integration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18513"},"title":"Getty Images Integration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18514"},"title":"Google Wallet Integration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18515"},"title":"HubSpot Integration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18516"},"title":"Integrate Wear UI Library","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18517"},"title":"Intercom Integration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18518"},"title":"MailChimp Integration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18519"},"title":"Mailing List Integration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1851a"},"title":"Mixpanel Analytics Integration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1851b"},"title":"Neural Net API for Android","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1851c"},"title":"Online Booking Integration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1851d"},"title":"Outlook Integration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1851e"},"title":"Payroll Integration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1851f"},"title":"Quickbooks Integration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18520"},"title":"RSS feeds","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18521"},"title":"Salesforce Integration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18522"},"title":"ScheduleOnce Integration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18523"},"title":"Simple Disqus Integration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18524"},"title":"Slack Integration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18525"},"title":"Syncs with Evernote","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18526"},"title":"Twillio Voice Integration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18527"},"title":"YouTube Integration","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18528"},"title":"Barcodes Scanner","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18529"},"title":"Item Availability","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1852a"},"title":"Item Grouper","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1852b"},"title":"Pricing Engine","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1852c"},"title":"QR Codes","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1852d"},"title":"RFID","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1852e"},"title":"Request Management","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1852f"},"title":"Summary Card","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18530"},"title":"Advanced Clash Management","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18531"},"title":"Customized Order Status","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18532"},"title":"Delivery Estimator","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18533"},"title":"Expense Tracking","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18534"},"title":"Order detail view","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18535"},"title":"Reservations","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18536"},"title":"Waiting List","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18537"},"title":"Billable hours tracking","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18538"},"title":"Candidate Management","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18539"},"title":"Certification Tracking","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1853a"},"title":"Demo Account","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1853b"},"title":"Form Approval Workflow","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1853c"},"title":"Lead Management","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1853d"},"title":"Organisation Hierarchy","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1853e"},"title":"Timesheet Management","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1853f"},"title":"User Groups","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18540"},"title":"Baseline Reporting","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18541"},"title":"Categories/Sub Categories","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18542"},"title":"Idea Management","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18543"},"title":"Project Reporting","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18544"},"title":"Project Templates","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18545"},"title":"Project portfolio","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18546"},"title":"QA Tracker","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18547"},"title":"Annotations","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18548"},"title":"Appointment Management","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18549"},"title":"Conference Call","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1854a"},"title":"Convert File","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1854b"},"title":"Do Not Disturb","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1854c"},"title":"Google Calendar Sync","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1854d"},"title":"Kanban Board","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1854e"},"title":"Recurring Appointments","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1854f"},"title":"Screenshot Editor","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18550"},"title":"Split View Interface","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18551"},"title":"XML \u0026 CSV Template Builder","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18552"},"title":"iCalendar Support","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18553"},"title":"Location","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18554"},"title":"Lost Device Protection","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18555"},"title":"Passcode Lock","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18556"},"title":"Password Protected Pages","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18557"},"title":"Password Strength","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18558"},"title":"Phone Verification","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18559"},"title":"Privacy settings","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1855a"},"title":"Private Chat","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1855b"},"title":"Recent History","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1855c"},"title":"Store Locator","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1855d"},"title":"Whitelisting Emails","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1855e"},"title":"Product Recommendation","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1855f"},"title":"Repeating Tasks","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18560"},"title":"Sentiment Analysis","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18561"},"title":"Smart Categorization","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18562"},"title":"Targeted Feed","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18563"},"title":"Text Comparison","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18564"},"title":"Visual Search","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18565"},"title":"Subscriptions","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18566"},"title":"Trending","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18567"},"title":"Twitter Feeds Display","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18568"},"title":"Universal Links","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18569"},"title":"Upload media","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1856a"},"title":"Upvote/Downvote","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1856b"},"title":"iCloud Sharing","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1856c"},"title":"Search Terms Report","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1856d"},"title":"Statistics \u0026 Reports","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1856e"},"title":"Traffic Sources","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1856f"},"title":"Video Ads","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18570"},"title":"Visual Analytics","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18571"},"title":"Automated Prioritization","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18572"},"title":"Leave Tracker","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18573"},"title":"Prioritize","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18574"},"title":"Scheduling","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18575"},"title":"Task Allocator","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18576"},"title":"Task Blocker","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18577"},"title":"Task Groups","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18578"},"title":"Task List","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b18579"},"title":"Task Views","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1857a"},"title":"Team Builder","type":"features"}
+{"_id":{"$oid":"5aef4accac603ded31b1857b"},"title":"Time Tracker","type":"features"}

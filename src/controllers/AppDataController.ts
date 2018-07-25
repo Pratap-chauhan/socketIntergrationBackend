@@ -68,7 +68,7 @@ export default class AppDataController {
     }
 
     try {
-      const lookups = ['categories', 'platforms', 'modules', 'sub_modules'];
+      const lookups = ['categories', 'platforms', 'sub_modules'];
 
       const aggreate: any = [
         { $match: { title: new RegExp(q, 'ig') } }
@@ -88,11 +88,25 @@ export default class AppDataController {
       });
 
       aggreate.push({
+        "$lookup": {
+          "from": "modules",
+          "as": "sub_modules.module",
+          "localField": "sub_modules.module_id",
+          "foreignField": "_id"
+        }
+      });
+      aggreate.push({
+        "$unwind": {
+          "path": "$sub_modules.module",
+          "preserveNullAndEmptyArrays": true
+        }
+      });
+
+      aggreate.push({
         $group: {
           _id: { _id: "$_id", title: "$title", description: "$description" },
           categories: { $addToSet: "$categories" },
           platforms: { $addToSet: "$platforms" },
-          modules: { $addToSet: "$modules" },
           sub_modules: { $addToSet: "$sub_modules" },
         }
       });
@@ -100,44 +114,25 @@ export default class AppDataController {
       aggreate.push({
         $project: {
           _id: "$_id._id", title: "$_id.title", description: "$_id.description",
-          platforms: 1, categories: 1, modules: 1, sub_modules: 1
+          platforms: {
+            _id: 1,
+            title: 1,
+            description: 1,
+            icon: 1,
+          }, categories: {
+            _id: 1,
+            title: 1,
+            description: 1
+          }, sub_modules: {
+            _id: 1,
+            title: 1,
+            description: 1,
+            module: { _id: 1, title: 1 }
+          }
         }
       });
 
-      let data = await Bundle.aggregate(aggreate);
-
-      data = data.map(item => {
-        const modules = {};
-        item.modules.forEach(x => {
-          modules[x._id] = x;
-        });
-        item.sub_modules = item.sub_modules.map(x => {
-          return {
-            _id: x._id,
-            title: x.title,
-            description: x.description,
-            module: modules[x.module_id]
-          };
-        });
-        item.platforms = item.platforms.map(x => {
-          return {
-            _id: x._id,
-            title: x.title,
-            description: x.description,
-            icon: x.icon
-          }
-        });
-        item.categories = item.categories.map(x => {
-          return {
-            _id: x._id,
-            title: x.title,
-            description: x.description
-          }
-        });
-        delete item.modules;
-        return item;
-      });
-
+      const data = await Bundle.aggregate(aggreate);
       return res.json({ error: false, data });
     } catch (e) {
       return res.json({ error: true, status: 500, message: 'An error occured.' });

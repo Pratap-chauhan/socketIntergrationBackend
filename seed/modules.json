@@ -1,0 +1,22 @@
+{"_id":{"$oid":"59fd273e88f3ac56ef461c72"},"title":"Admin Console"}
+{"_id":{"$oid":"59fd271888f3ac56ef461c65"},"title":"Alerts \u0026 Notifications"}
+{"_id":{"$oid":"59fd271288f3ac56ef461c63"},"title":"Audio \u0026 Music"}
+{"_id":{"$oid":"59fd271588f3ac56ef461c64"},"title":"Content"}
+{"_id":{"$oid":"59fd270a88f3ac56ef461c60"},"title":"Customer Insight"}
+{"_id":{"$oid":"59fd272488f3ac56ef461c69"},"title":"Ecommerce"}
+{"_id":{"$oid":"59fd274188f3ac56ef461c73"},"title":"Essentials"}
+{"_id":{"$oid":"59fd272a88f3ac56ef461c6b"},"title":"Finance \u0026 Payments"}
+{"_id":{"$oid":"59fd270f88f3ac56ef461c62"},"title":"Games"}
+{"_id":{"$oid":"59fd270688f3ac56ef461c5f"},"title":"Integrations"}
+{"_id":{"$oid":"59fd273288f3ac56ef461c6e"},"title":"Inventory Management"}
+{"_id":{"$oid":"59fd272188f3ac56ef461c68"},"title":"Order Management"}
+{"_id":{"$oid":"59fd273b88f3ac56ef461c71"},"title":"People Management"}
+{"_id":{"$oid":"59fd272788f3ac56ef461c6a"},"title":"Photos \u0026 Videos"}
+{"_id":{"$oid":"59fd270c88f3ac56ef461c61"},"title":"Productivity"}
+{"_id":{"$oid":"59fd273888f3ac56ef461c70"},"title":"Project Management"}
+{"_id":{"$oid":"59fd272d88f3ac56ef461c6c"},"title":"Security \u0026 Privacy"}
+{"_id":{"$oid":"59fd271e88f3ac56ef461c67"},"title":"Smart Features"}
+{"_id":{"$oid":"59fd272f88f3ac56ef461c6d"},"title":"Social "}
+{"_id":{"$oid":"59fd271b88f3ac56ef461c66"},"title":"Statistics \u0026 Reports"}
+{"_id":{"$oid":"59fd273588f3ac56ef461c6f"},"title":"Task Management"}
+{"_id":{"$oid":"5b3238645659b15a4efa028f"},"title":"Misc"}

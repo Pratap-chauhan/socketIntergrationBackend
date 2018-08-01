@@ -65,6 +65,7 @@ export default class JobController {
         return res.json({ error: true, status: 422, message: 'Validation failed', data: errors });
       }
       data.user = req.user._id;
+      data.company = req.user.company_id;
       const job = await Job.create(data);
       return res.json({
         error: false,

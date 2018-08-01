@@ -20,7 +20,7 @@ export default class AuthService {
     }
     validateJwt(req, res, (error) => {
       if(error) {
-        return res.status(401).send('Unauthorized');
+        return res.status(401).send(`Unauthorized - ${error}`);
       }
       next();
     });

@@ -5,16 +5,15 @@ import JobService from '../services/JobService';
 import Pagination from '../services/Pagination';
 
 export default class JobController {
-
   static async index(req: Request, res: Response) {
     const { query } = req;
 
     if (!query.page) {
-      query.page = 1
+      query.page = 1;
     }
 
     if (!query.per_page) {
-      query.per_page = 20
+      query.per_page = 20;
     }
 
     if (!query.sort_by || (query.sort_by && ['title', 'updatedAt'].indexOf(query.sort_by) === -1)) {
@@ -27,8 +26,16 @@ export default class JobController {
       query.sort_as = 1;
     }
 
+    // Archived Jobs Filter
+    if (query.archived) {
+      query.archived = Boolean(query.archive);
+    } else {
+      query.archived = false;
+    }
+
     const finder = {
-      user: req.user._id
+      user: req.user._id,
+      archived: query.archived
     };
 
     try {
@@ -47,7 +54,6 @@ export default class JobController {
   }
 
   static async create(req: Request, res: Response) {
-
     if (!req.user.company_id) {
       return res.json({ error: true, status: 422, message: 'Please add the company' });
     }
@@ -60,7 +66,12 @@ export default class JobController {
       }
       data.user = req.user._id;
       const job = await Job.create(data);
-      return res.json({ error: false, status: 201, message: 'Job posted successfully.', data: job });
+      return res.json({
+        error: false,
+        status: 201,
+        message: 'Job posted successfully.',
+        data: job
+      });
     } catch (e) {
       return res.json({ error: true, status: 500, message: `An error occured. ${e.message}` });
     }
@@ -71,7 +82,20 @@ export default class JobController {
       const { id } = req.params;
       const job = await Job.findById(id).populate('user', 'firstName lastName pictureUrl');
       if (!job) {
-      return res.json({ error: true, status: 404, message: 'Job not found.' });
+        return res.json({ error: true, status: 404, message: 'Job not found.' });
+      }
+      return res.json({ error: false, data: job });
+    } catch (e) {
+      return res.json({ error: true, status: 500, message: 'An error occured.' });
+    }
+  }
+
+  static async public(req: Request, res: Response) {
+    try {
+      const { id } = req.params;
+      const job = await Job.findById(id).populate('user', 'firstName lastName');
+      if (!job) {
+        return res.json({ error: true, status: 404, message: 'Job not found.' });
       }
       return res.json({ error: false, data: job });
     } catch (e) {
@@ -89,14 +113,36 @@ export default class JobController {
       data.user = req.user._id;
 
       const { id } = req.params;
-      let job = await Job.findById(id);
+      let job: any = await Job.findById(id);
+
+      // No Job
       if (!job) {
         return res.json({ error: true, status: 404, message: 'Job not found.' });
       }
+
+      // Job is archived
+      if (job.archived) {
+        return res.json({ error: true, status: 422, message: 'Job is archived and can not be updated.' });
+      }
+
       job = job.toJSON();
       job = { ...job, ...data };
       await Job.findByIdAndUpdate(id, { $set: job });
       return res.json({ error: false, data: job, message: 'Job updated successfully.' });
+    } catch (e) {
+      return res.json({ error: true, status: 500, message: 'An error occured.' });
+    }
+  }
+
+  static async archive(req: Request, res: Response) {
+    try {
+      const { id } = req.params;
+      const job = await Job.findById(id);
+      if (job.user !== req.user._id) {
+        return res.json({ error: true, status: 401, message: 'Unauthorized.' });
+      }
+      await Job.findByIdAndUpdate({ _id: id }, { $set: { archived: true } });
+      return res.json({ error: false, message: 'Job archived successfully.' });
     } catch (e) {
       return res.json({ error: true, status: 500, message: 'An error occured.' });
     }

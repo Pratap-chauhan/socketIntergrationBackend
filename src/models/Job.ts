@@ -16,6 +16,10 @@ const job = new mongoose.Schema({
     type: {},
     default: {}
   },
+  archived: {
+    type: Boolean,
+    default: false
+  }
 }, {
   strict: false,
 	timestamps: true

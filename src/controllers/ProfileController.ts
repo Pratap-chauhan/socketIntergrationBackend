@@ -3,6 +3,7 @@ import { Request, Response } from 'express';
 import User from '../models/User';
 import Company from '../models/Company';
 import UserService from '../services/UserService';
+import { UserEvents } from '../events/UserEvents';
 
 export default class ProfileController {
 
@@ -109,6 +110,7 @@ export default class ProfileController {
 
       // Update
       await User.findByIdAndUpdate(user._id, { $set: update });
+      UserEvents.updated(user);
       return res.json({ error: false, message: 'Profile updated successfully.' });
     } catch (e) {
       return res.json({ error: true, status: 500, message: 'An error occured.', });

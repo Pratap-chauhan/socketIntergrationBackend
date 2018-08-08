@@ -14,13 +14,6 @@ export default class MatchController {
     }
   }
 
-  static async test(req, res) {
-    const jobs = await Job.find();
-
-    const mappedJobs = jobs.map(job => JobService.processJobForMatch(job));
-    return res.send(JSON.stringify(mappedJobs, null, 2));
-  }
-
   // Show candidates for HR
   private static async hrMatches(req: Request, res: Response) {
     let { body } = req;
@@ -32,6 +25,18 @@ export default class MatchController {
 
     if (body.q) {
       finder.name = new RegExp(body.q, 'ig');
+    }
+
+    if (body.role && body.role.length > 0) {
+      finder.experience_role = { $in: body.role };
+    }
+
+    if (body.type && body.type.length > 0) {
+      finder.looking_for = { $in: body.type };
+    }
+
+    if (body.locations && body.locations.length > 0) {
+      finder.locations = { $in: body.locations };
     }
 
     try {
@@ -59,15 +64,11 @@ export default class MatchController {
       finder.title = new RegExp(body.q, 'ig');
     }
 
-    if (body.role) {
-      finder.experience_role = { $in: body.role };
-    }
-
-    if (body.type) {
+    if (body.type && body.type.length > 0) {
       finder.looking_for = { $in: body.type };
     }
 
-    if (body.locations) {
+    if (body.locations && body.locations.length > 0) {
       finder.locations = { $in: body.locations };
     }
 
@@ -75,7 +76,8 @@ export default class MatchController {
       const jobs = await Job.find(finder)
         .skip(Number(body.page - 1) * Number(body.per_page))
         .limit(Number(body.per_page))
-        .sort({ [body.sort_by]: body.sort_as });
+        .sort({ [body.sort_by]: body.sort_as })
+        .populate({path: 'company', select: ['_id', 'title', 'linkedin']});
 
       const totalJobs = await Job.count(finder);
       const paginate = Pagination(totalJobs, jobs.length, body.per_page, body.page);

@@ -11,7 +11,5 @@ export default class MatchRoutes {
       AuthService.isAuthenticated(),
       MatchController.index
     );
-
-    app.get('/test', MatchController.test);
   }
 }

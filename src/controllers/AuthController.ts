@@ -6,6 +6,7 @@ import Tracking from '../events/Tracking';
 import GithubService from '../services/GithubService';
 import AuthService from '../services/AuthService';
 import AuthEvents from '../events/AuthEvents';
+import { UserEvents } from '../events/UserEvents';
 
 export default class AuthController {
 
@@ -100,6 +101,7 @@ export default class AuthController {
         githubUser._id = user._id;
         githubUser.onboarding = user.onboarding;
         Tracking.log({ type: 'auth.register', message: 'Register successful', data: { ...githubUser } });
+        UserEvents.created(user);
       }
 
       return res.json({

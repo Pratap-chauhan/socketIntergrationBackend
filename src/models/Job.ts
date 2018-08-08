@@ -19,6 +19,14 @@ const job = new mongoose.Schema({
   archived: {
     type: Boolean,
     default: false
+  },
+  company: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Company'
+  },
+  user: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User'
   }
 }, {
   strict: false,

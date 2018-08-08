@@ -2,6 +2,7 @@ import { Request, Response } from 'express';
 import User from '../models/User';
 import Pagination from '../services/Pagination';
 import Job from '../models/Job';
+import JobService from '../services/JobService';
 
 export default class MatchController {
 
@@ -11,6 +12,13 @@ export default class MatchController {
     } else {
       return MatchController.candidateMatches(req, res);
     }
+  }
+
+  static async test(req, res) {
+    const jobs = await Job.find();
+
+    const mappedJobs = jobs.map(job => JobService.processJobForMatch(job));
+    return res.send(JSON.stringify(mappedJobs, null, 2));
   }
 
   // Show candidates for HR

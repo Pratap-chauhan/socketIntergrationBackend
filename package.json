@@ -7,6 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "debug": "PORT=3030 nodemon --inspect dist/Server.js",
     "start": "gulp",
+    "dev": "gulp",
+    "build": "gulp ts",
     "docs": "apidoc -i dist/ -o docs/",
     "tasks": "nodemon dist/tasks"
   },

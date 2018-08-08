@@ -14,22 +14,20 @@ export default class MatchService {
 
     job.skills
       ? job.skills.forEach(skillGroup => {
-          processedJob[skillGroup.parent.toLowerCase()] = skillGroup.data.map(
-            x => String(x._id)
+          processedJob[skillGroup.parent.toLowerCase()] = MatchService.getIds(
+            skillGroup.data
           );
         })
       : [];
 
     job.domains
-      ? job.domains.forEach(x => {
-          processedJob.domains.push(String(x._id));
-        })
+      ? (processedJob.domains = MatchService.getIds(job.domains))
       : [];
 
     job.modules
       ? job.modules.forEach(m => {
           processedJob.modules = processedJob.modules.concat(
-            m.sub_modules.map(x => (x ? String(x._id) : null)).filter(x => x)
+            MatchService.getIds(m.sub_modules)
           );
         })
       : [];
@@ -48,30 +46,34 @@ export default class MatchService {
 
     user.skills
       ? user.skills.forEach(skillGroup => {
-          transformedUser[skillGroup.parent.toLowerCase()] = skillGroup.data.map(
-            x => String(x._id)
+          transformedUser[
+            skillGroup.parent.toLowerCase()
+          ] = MatchService.getIds(skillGroup.data);
+        })
+      : [];
+
+    user.projects
+      ? user.projects.forEach(p => {
+          transformedUser.domains = transformedUser.domains.concat(
+            MatchService.getIds(p.domains)
           );
         })
       : [];
 
     user.projects
       ? user.projects.forEach(p => {
-        transformedUser.domains = transformedUser.domains.concat(
-          p.domains.map(x => (x ? String(x._id) : null)).filter(x => x)
-        );
-      })
-      : [];
-
-    user.projects
-      ? user.projects.forEach(p => {
           p.features.forEach(m => {
             transformedUser.modules = transformedUser.modules.concat(
-              m.sub_modules.map(x => (x ? String(x._id) : null)).filter(x => x)
+              MatchService.getIds(m.sub_modules)
             );
-          })
-      })
+          });
+        })
       : [];
 
     return transformedUser;
+  }
+
+  static getIds(data: any[]) {
+    return data.map(x => (x && x._id ? String(x._id) : null)).filter(x => x);
   }
 }

@@ -15,6 +15,7 @@ export class UserEvents {
   private static async transformUser(user_id) {
     const processedUser = await MatchService.transformUser(user_id);
     try {
+      await ProcessedData.deleteOne({user_id: processedUser.user_id, type: processedUser.type});
       const processedItem = await ProcessedData.create(processedUser);
       const queue = Queue.init();
       const job = queue

@@ -63,7 +63,7 @@ export default class InterestController {
     }
 
     // If loggedin user is hr, toId is candidate id and if loggedin user is candidate, toId is job id
-    const messageQuery = {
+    const messageQuery: any = {
       job: req.body.job,
       $or: [{ from: req.user._id }, { to: req.user._id }]
     };
@@ -92,7 +92,7 @@ export default class InterestController {
     }
   }
 
-  static validate(user, data, type = null) {
+  private static validate(user, data, type = null) {
     const errors = [];
 
     if (user.role === "hr") {

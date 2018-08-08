@@ -42,7 +42,7 @@ export default class ProfileController {
         profile: {
           avatar: user.avatar,
           email: user.email,
-          location: user.location,
+          locations: user.locations,
           name: user.name
         },
         designation: user.designation,
@@ -52,7 +52,6 @@ export default class ProfileController {
         looking_for: user.looking_for,
         availability: user.availability,
         salary: user.salary,
-        locations: user.locations,
       }
     } else {
       data = {
@@ -60,7 +59,7 @@ export default class ProfileController {
         profile: {
           avatar: user.avatar,
           email: user.email,
-          location: user.location,
+          locations: user.locations,
           name: user.name,
           company: user.company_id ? await Company.findById(user.company_id) : null
         }
@@ -133,6 +132,7 @@ export default class ProfileController {
       const update = {
         name: body.name || user.name,
         email: body.email || user.email,
+        company_id: body.company_id || user.company_id,
         onboarding: false
       };
 

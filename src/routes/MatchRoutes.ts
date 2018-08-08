@@ -6,7 +6,7 @@ import AuthService from '../services/AuthService';
 export default class MatchRoutes {
 
   static init(app: Application) {
-    app.get(
+    app.post(
       '/matches',
       AuthService.isAuthenticated(),
       MatchController.index

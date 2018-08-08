@@ -210,7 +210,64 @@ export default class JobRoutes {
       JobController.show
     );
 
-        /**
+    /**
+     * @api {get} /jobs/:id Get a Job (Public)
+     * @apiName GetJobPublic
+     * @apiGroup Job
+     *
+     * @apiParam {String} id ID of the Job.
+     *
+     * @apiSuccess {String} error If expected error occured.
+     * @apiSuccess {Object} data  Job object.
+     *
+     * @apiSuccessExample Success-Response:
+     *     HTTP/1.1 200 OK
+     *     {
+     *        "error":false,
+     *        "data": {
+     *              "skills": [
+     *                {
+     *                  "_id": "5adf1ab90f17bdb02064b4b1",
+     *                  "title": "MongoDB"
+     *                }
+     *              ],
+     *              "_id": "5b0bda44271c78261b4aba77",
+     *              "title": "Fullstack Developer Latest",
+     *              "description": "Some random description for the job",
+     *              "user": {
+     *                "_id": "5b015cfb1785db7a7651491e",
+     *                "firstName": "My",
+     *                "lastName": "Name",
+     *              },
+     *              "createdAt": "2018-05-28T10:30:28.009Z",
+     *              "updatedAt": "2018-05-28T10:30:28.009Z",
+     *              "__v": 0
+     *        }
+     *    }
+     *
+     * @apiError UnauthorizedError Authorization error on server.
+     * @apiErrorExample UnauthorizedError:
+     *     HTTP/1.1 401 UnauthorizedError
+     *     "Unauthorized"
+     *
+     * @apiError NotFoundError Job not found.
+     * @apiErrorExample NotFoundError:
+     *     HTTP/1.1 404 NotFoundError
+     *     "Job not found."
+     *
+     * @apiError ServerError Unexpected error on server.
+     * @apiErrorExample ServerError:
+     *     HTTP/1.1 500 ServerError
+     *     "An error occured"
+     */
+    app.get(
+      '/jobs/:id',
+      AuthService.isAuthenticated(),
+      AuthService.hasRole(['admin', 'hr']),
+      JobController.public
+    );
+
+    /**
      * @api {post} /jobs/:id Update a Job
      * @apiName UpdateJob
      * @apiGroup Job
@@ -284,6 +341,40 @@ export default class JobRoutes {
       AuthService.isAuthenticated(),
       AuthService.hasRole(['admin', 'hr']),
       JobController.update
+    );
+
+    /**
+     * @api {put} /jobs/:id Archive a Job
+     * @apiName ArchiveJob
+     * @apiGroup Job
+     *
+     * @apiParam {String} id ID of the Job.
+     *
+     * @apiSuccess {String} error If expected error occured.
+     * @apiSuccess {String} message Message.
+     *
+     * @apiSuccessExample Success-Response:
+     *     HTTP/1.1 200 OK
+     *     {
+     *        "error":false,
+     *        "message": "Job archived successfully."
+     *     }
+     *
+     * @apiError UnauthorizedError Authorization error on server.
+     * @apiErrorExample UnauthorizedError:
+     *     HTTP/1.1 401 UnauthorizedError
+     *     "Unauthorized"
+     *
+     * @apiError ServerError Unexpected error on server.
+     * @apiErrorExample ServerError:
+     *     HTTP/1.1 500 ServerError
+     *     "An error occured"
+     */
+    app.put(
+      '/jobs/:id',
+      AuthService.isAuthenticated(),
+      AuthService.hasRole(['admin', 'hr']),
+      JobController.archive
     );
 
     /**

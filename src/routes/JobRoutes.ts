@@ -261,9 +261,7 @@ export default class JobRoutes {
      *     "An error occured"
      */
     app.get(
-      '/jobs/:id',
-      AuthService.isAuthenticated(),
-      AuthService.hasRole(['admin', 'hr']),
+      '/jobs/:id/show',
       JobController.public
     );
 

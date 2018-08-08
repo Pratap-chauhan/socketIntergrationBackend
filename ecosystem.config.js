@@ -21,14 +21,14 @@ module.exports = {
       },
     },
   ],
-  deploy: {
-    production: {
-      user: 'starkflow',
-      host: '185.3.94.95',
-      ref: 'origin/master',
-      repo: 'git@gitlab.com:sourcable/backend.git',
-      path: '/home/starkflow/Sourceable',
-      'post-deploy': 'npm install && npm build && pm2 reload ecosystem.config.js --env production',
-    },
-  },
+  // deploy: {
+  //   production: {
+  //     user: 'starkflow',
+  //     host: '185.3.94.95',
+  //     ref: 'origin/master',
+  //     repo: 'git@gitlab.com:sourcable/backend.git',
+  //     path: '/home/starkflow/Sourceable',
+  //     'post-deploy': 'npm install && npm build && pm2 reload ecosystem.config.js --env production',
+  //   },
+  // },
 };

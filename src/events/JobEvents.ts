@@ -15,6 +15,7 @@ export class JobEvents {
   private static async transformJob(job_id) {
     const processedJob = await MatchService.transformJob(job_id)
     try {
+      await ProcessedData.deleteOne({user_id: processedJob.user_id, type: processedJob.type, job_id: processedJob.job_id});
       const processedItem = await ProcessedData.create(processedJob);
       const queue = Queue.init();
       const job = queue

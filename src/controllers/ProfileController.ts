@@ -43,9 +43,9 @@ export default class ProfileController {
         profile: {
           avatar: user.avatar,
           email: user.email,
-          locations: user.locations,
           name: user.name
         },
+        locations: user.locations,
         designation: user.designation,
         skills: user.skills,
         projects: user.projects,

@@ -1,5 +1,3 @@
-import Message from "../models/Message";
-
 export class InterestEvents {
 
   static async created(interest: {job: string, from: string, to: string}) {

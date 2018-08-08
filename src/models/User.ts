@@ -59,8 +59,7 @@ const user = new mongoose.Schema(
       default: []
     },
     designation: {
-      type: {},
-      default: {}
+      type: String
     },
     can_edit: {
       name: false,

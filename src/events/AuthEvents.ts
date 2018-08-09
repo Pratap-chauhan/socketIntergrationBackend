@@ -1,9 +1,7 @@
 import Company from "../models/Company";
 import User from "../models/User";
 
-const env_type = process.env.NODE_ENV || 'development';
-
-class AuthEvents {
+export default class AuthEvents {
 
   static async hrCreated(user: any) {
     let companies = [];
@@ -41,5 +39,3 @@ class AuthEvents {
     return user;
   }
 }
-
-export default AuthEvents;

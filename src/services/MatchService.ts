@@ -21,7 +21,7 @@ export default class MatchService {
       : [];
 
     job.domains
-      ? (processedJob.domains = MatchService.getIds(job.domains))
+      ? processedJob.domains = MatchService.getIds(job.domains)
       : [];
 
     job.modules

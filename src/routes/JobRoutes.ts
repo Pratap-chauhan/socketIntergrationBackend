@@ -369,7 +369,7 @@ export default class JobRoutes {
      *     "An error occured"
      */
     app.put(
-      '/jobs/:id',
+      '/jobs/:id/archive',
       AuthService.isAuthenticated(),
       AuthService.hasRole(['admin', 'hr']),
       JobController.archive

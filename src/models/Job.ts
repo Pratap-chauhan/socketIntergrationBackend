@@ -12,9 +12,16 @@ const job = new mongoose.Schema({
     type: [],
     default: []
   },
+  modules: {
+    type: [],
+    default: []
+  },
+  domains: {
+    type: [],
+    default: []
+  },
   designation: {
-    type: {},
-    default: {}
+    type: String
   },
   archived: {
     type: Boolean,

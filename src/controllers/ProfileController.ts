@@ -76,6 +76,8 @@ export default class ProfileController {
       return ProfileController.updateCandidate(req, res);
     } else if (user.role === 'hr') {
       return ProfileController.updateHR(req, res);
+    } else {
+      // return ProfileController.updateCandidate(req, res);
     }
     return res.json({ error: true, status: 404, message: 'Invalid request.' });
   }

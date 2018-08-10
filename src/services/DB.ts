@@ -27,10 +27,12 @@ class DB {
     return mongoose.connect(url, options)
       .then( () => {
         console.log(`DB: Connected to ${url}`);
-        mongoose.set('debug', (collectionName, method, query, doc) => {
-          DB.queries++;
-          console.log(`Query#${DB.queries}: ${collectionName}.${method}`, query);
-        });
+        if(DBConfig.log) {
+          mongoose.set('debug', (collectionName, method, query, doc) => {
+            DB.queries++;
+            console.log(`Query#${DB.queries}: ${collectionName}.${method}`, query);
+          });
+        }
       })
       .catch( (error) => {
         console.log("Mongoose failed to connect to MongoDB.");

@@ -1,5 +1,9 @@
 import Job from "../models/Job";
 import User from "../models/User";
+import KPIScores from "../config/KPIScores";
+import * as _ from "lodash";
+import ProcessedData from "../models/ProcessedData";
+import Match from "../models/Match";
 
 export default class MatchService {
   static async transformJob(job_id) {
@@ -21,7 +25,7 @@ export default class MatchService {
       : [];
 
     job.domains
-      ? processedJob.domains = MatchService.getIds(job.domains)
+      ? (processedJob.domains = MatchService.getIds(job.domains))
       : [];
 
     job.modules
@@ -75,5 +79,52 @@ export default class MatchService {
 
   static getIds(data: any[]) {
     return data.map(x => (x && x._id ? String(x._id) : null)).filter(x => x);
+  }
+
+  static processMatchesForJob(data, callback) {
+    const job = data.job;
+    const cursor = ProcessedData.find({ type: "candidate" }).cursor();
+    cursor.eachAsync(async candidate => {
+      candidate = candidate.toJSON();
+      await MatchService.processJobAndCandidate(job, candidate);
+    }, callback);
+  }
+
+  static async processMatchesForCandidate(data, callback) {
+    const candidate = data.candidate;
+    const cursor = ProcessedData.find({ type: "job" }).cursor();
+    cursor.eachAsync(async job => {
+      job = job.toJSON();
+      await MatchService.processJobAndCandidate(job, candidate);
+    }, callback);
+  }
+
+  static async processJobAndCandidate(job, candidate) {
+    const scores: any = {
+      total: 0
+    };
+    _.map(KPIScores, (item, name) => {
+      if (job[name] && candidate[name]) {
+        scores[name] = item.calc(job[name], candidate[name]);
+        scores.total += scores[name];
+      }
+    });
+    // Map the scores and round to 2
+    for (var key in scores) {
+      scores[key] = _.round(scores[key], 2);
+    }
+
+    const data = {
+      hr: job.user_id,
+      job: job._id,
+      candidate: candidate._id,
+      score: scores
+    };
+
+    await Match.findOneAndUpdate(
+      { hr: data.hr, job: data.job, candidate: data.candidate },
+      { $set: { score: data.score },
+      { upsert: true }
+    );
   }
 }

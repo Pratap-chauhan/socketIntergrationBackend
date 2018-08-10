@@ -17,6 +17,7 @@ export class JobEvents {
     try {
       await ProcessedData.deleteOne({user_id: processedJob.user_id, type: processedJob.type, job_id: processedJob.job_id});
       const processedItem = await ProcessedData.create(processedJob);
+      // MatchService.processMatchesForJob({job: processedItem}, () => {});
       const queue = Queue.init();
       const job = queue
         .create("matchesForJob", processedItem)

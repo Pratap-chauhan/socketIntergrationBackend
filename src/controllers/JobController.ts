@@ -152,6 +152,14 @@ export default class JobController {
   }
 
   static async update(req: Request, res: Response) {
+    // const { id } = req.params;
+    // let job: any = await Job.findById(id);
+    // JobEvents.updated(job);
+    // return res.json({
+    //   error: false,
+    //   data: job,
+    //   message: "Job updated successfully."
+    // });
     try {
       const data = req.body;
       const errors = JobService.validate(data);

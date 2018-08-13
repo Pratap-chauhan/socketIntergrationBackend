@@ -13,6 +13,11 @@ export default class InterestController {
       });
     }
 
+    // Validate
+    if (String(req.user._id) !== String(req.body.from) || String(req.user._id) === String(req.body.to)) {
+      return res.json({ error: true, status: 401, message: "Unauthorized." });
+    }
+
     const interest = {
       job: req.body.job,
       to: req.body.to,

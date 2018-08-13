@@ -1,13 +1,10 @@
-import { Application } from 'express';
+import { Application } from "express";
 
-import MessageController from '../controllers/MessageController';
-import AuthService from '../services/AuthService';
+import MessageController from "../controllers/MessageController";
+import AuthService from "../services/AuthService";
 
 export default class MessageRoutes {
-
   static init(app: Application) {
-
-
     /**
      * @api {get} /messages Chats
      * @apiName Chats
@@ -69,8 +66,11 @@ export default class MessageRoutes {
      *        message: 'An error occured.'
      *     });
      */
-    app.get('/messages', AuthService.isAuthenticated(),MessageController.index);
-
+    app.get(
+      "/messages",
+      AuthService.isAuthenticated(),
+      MessageController.index
+    );
 
     /**
      * @api {post} /messages New Message
@@ -126,8 +126,11 @@ export default class MessageRoutes {
      *        message: 'An error occured.'
      *     });
      */
-    app.post('/messages', AuthService.isAuthenticated(), MessageController.create);
-
+    app.post(
+      "/messages",
+      AuthService.isAuthenticated(),
+      MessageController.create
+    );
 
     /**
      * @api {get} /messages/id Chat thread
@@ -182,6 +185,10 @@ export default class MessageRoutes {
      *        message: 'An error occured.'
      *     });
      */
-    app.get('/messages/:id', AuthService.isAuthenticated(),MessageController.show);
-	}
+    app.get(
+      "/messages/:otherUser",
+      AuthService.isAuthenticated(),
+      MessageController.show
+    );
+  }
 }

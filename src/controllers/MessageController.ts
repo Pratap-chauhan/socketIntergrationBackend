@@ -38,10 +38,9 @@ export default class MessageController {
       },
       {
         $group: {
-          _id: "$userIds",
+          _id: { userIds: "$userIds", job: "$job" },
           users: { $first: "$users" },
           text: { $first: "$text" },
-          job: { $first: "$job" },
           createdAt: { $first: "$createdAt" }
         }
       },
@@ -63,7 +62,7 @@ export default class MessageController {
       },
       {
         $lookup: {
-          localField: "job",
+          localField: "_id.job",
           foreignField: "_id",
           from: "jobs",
           as: "job"
@@ -73,13 +72,22 @@ export default class MessageController {
       { $unwind: "$to" },
       { $unwind: "$job" },
       {
+        $lookup: {
+          localField: "job.company",
+          foreignField: "_id",
+          from: "companies",
+          as: "job.company"
+        }
+      },
+      { $unwind: "$job.company" },
+      {
         $project: {
           _id: 0,
           text: 1,
           createdAt: 1,
           from: { _id: 1, name: 1, avatar: 1 },
           to: { _id: 1, name: 1, avatar: 1 },
-          job: { _id: 1, title: 1 }
+          job: { _id: 1, title: 1, company: { _id: 1, title: 1, logo: 1 } }
         }
       },
       { $sort: { createdAt: -1 } },
@@ -117,6 +125,15 @@ export default class MessageController {
       if (String(req.user._id) !== String(req.body.from)) {
         return res.json({ error: true, status: 401, message: "Unauthorized." });
       }
+
+      if (String(req.user._id) === String(req.body.to)) {
+        return res.json({
+          error: true,
+          status: 422,
+          message: "Can not send message to yourself."
+        });
+      }
+
       let message = await Message.create(req.body);
 
       message = await Message.findById(message._id)
@@ -141,10 +158,23 @@ export default class MessageController {
   // Show a chat thread between passed user and the logged in user
   static async show(req: Request, res: Response) {
     let { page, limit } = req.query;
-    const { id } = req.params;
+    const { otherUser } = req.params;
 
-    if (req.user._id === id) {
-      return res.status(400).send("Error");
+    if (req.user._id === otherUser) {
+      return res.json({
+        error: true,
+        status: 400,
+        message: "The other user id is invalid."
+      });
+    }
+
+    if (!req.query.job_id) {
+      return res.json({
+        error: true,
+        status: 422,
+        message: "Validation failed.",
+        data: [{ type: "job_id", message: "The job is required." }]
+      });
     }
 
     page = Number(page) || 1;
@@ -152,8 +182,9 @@ export default class MessageController {
 
     let finder: any = {
       $and: [
-        { from: { $in: [req.user._id, id] } },
-        { to: { $in: [req.user._id, id] } }
+        { from: { $in: [req.user._id, otherUser] } },
+        { to: { $in: [req.user._id, otherUser] } },
+        { job: req.query.job_id }
       ],
       archived: false
     };
@@ -186,6 +217,7 @@ export default class MessageController {
     }
   }
 
+  // Create a message validation
   private static validateMessage(data) {
     const errors = [];
     if (!data.from) {
@@ -217,6 +249,7 @@ export default class MessageController {
     return errors;
   }
 
+  // Transform a message
   private static transformMessage(message: any, myId: any) {
     /**
      * LoggedInUser: Basit

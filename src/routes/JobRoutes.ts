@@ -412,20 +412,5 @@ export default class JobRoutes {
       AuthService.hasRole(['admin', 'hr']),
       JobController.destroy
     );
-
-
-
-    app.get('/jobs/process/again', async (req, res) => {
-      const jobs = await Job.find();
-      jobs.forEach(JobEvents.created);
-      return res.status(200).json(jobs.length);
-    });
-    app.get('/users/process/again', async (req, res) => {
-      const users = await User.find({role: 'candidate'});
-      users.forEach((user) => {
-        UserEvents.created(user);
-      });
-      return res.status(200).json(users.length);
-    });
   }
 }

@@ -22,7 +22,8 @@ export default class MatchController {
     const aggregate = [
       {
         $match: {
-          "score.total": { $gt: 0 }
+          "score.total": { $gt: 0 },
+          hr: req.user._id
         }
       },
       {
@@ -110,7 +111,8 @@ export default class MatchController {
     const aggregate = [
       {
         $match: {
-          "score.total": { $gt: 0 }
+          "score.total": { $gt: 0 },
+          candidate: req.user._id
         }
       },
       {

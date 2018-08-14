@@ -8,11 +8,13 @@ const processedData = new mongoose.Schema(
       required: true
     },
     user_id: {
-      type: String,
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'User',
       required: true
     },
     job_id: {
-      type: String,
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Job',
       required: () => this.type === 'job'
     }
   },

@@ -6,6 +6,9 @@ import ProcessedData from "../models/ProcessedData";
 import Match from "../models/Match";
 
 export default class MatchService {
+  static count = 0;
+  static errorCount = 0;
+
   static async transformJob(job_id) {
     const job: any = await Job.findById(job_id);
     let processedJob = {
@@ -81,25 +84,37 @@ export default class MatchService {
     return data.map(x => (x && x._id ? String(x._id) : null)).filter(x => x);
   }
 
-  static processMatchesForJob(data, callback) {
-    const job = data.job;
+  static async processMatchesForJob(job, callback) {
+    job._id = job.job_id;
     const cursor = ProcessedData.find({ type: "candidate" }).cursor();
     cursor.eachAsync(async candidate => {
       candidate = candidate.toJSON();
-      await MatchService.processJobAndCandidate(job, candidate);
+      candidate._id = candidate.user_id;
+      try {
+        await MatchService.processJobAndCandidate(job, candidate);
+      } catch (e) {
+        MatchService.errorCount++;
+        console.log(`Error @ processMatchesForJob # ${MatchService.errorCount} > ${e.message}`);
+      }
     }, callback);
   }
 
-  static async processMatchesForCandidate(data, callback) {
-    const candidate = data.candidate;
+  static async processMatchesForCandidate(candidate, callback) {
+    candidate._id = candidate.user_id;
     const cursor = ProcessedData.find({ type: "job" }).cursor();
     cursor.eachAsync(async job => {
       job = job.toJSON();
-      await MatchService.processJobAndCandidate(job, candidate);
+      job._id = job.job_id;
+      try {
+        await MatchService.processJobAndCandidate(job, candidate);
+      } catch (e) {
+        MatchService.errorCount++;
+        console.log(`Error @ processMatchesForCandidate # ${MatchService.errorCount} > ${e.message}`);
+      }
     }, callback);
   }
 
-  static async processJobAndCandidate(job, candidate) {
+  private static async processJobAndCandidate(job, candidate) {
     const scores: any = {
       total: 0
     };
@@ -120,11 +135,10 @@ export default class MatchService {
       candidate: candidate._id,
       score: scores
     };
-
     await Match.findOneAndUpdate(
-      { hr: data.hr, job: data.job, candidate: data.candidate },
-      { $set: { score: data.score },
-      { upsert: true }
+      {hr: data.hr, candidate: data.candidate, job: data.job},
+      {$set: {score: data.score}},
+      {upsert: true}
     );
   }
 }

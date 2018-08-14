@@ -1,20 +1,20 @@
-import * as mongoose from 'mongoose';
+import * as mongoose from "mongoose";
 
 const match = new mongoose.Schema(
   {
     candidate: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: 'User',
+      ref: "User",
       required: true
     },
     hr: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: 'User',
+      ref: "User",
       required: true
     },
     job: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: 'Company',
+      ref: "Company",
       required: true
     },
     score: {
@@ -25,8 +25,11 @@ const match = new mongoose.Schema(
   {
     strict: false,
     timestamps: true,
-    collection: 'matches'
+    collection: "matches",
+    versionKey: false
   }
 );
 
-export default mongoose.model('Match', match);
+match.index({ hr: 1, candidate: 1, job: 1 }, { unique: true });
+
+export default mongoose.model("Match", match);

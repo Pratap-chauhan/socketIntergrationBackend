@@ -184,8 +184,8 @@ export default class MessageController {
       $and: [
         { from: { $in: [req.user._id, otherUser] } },
         { to: { $in: [req.user._id, otherUser] } },
-        { job: req.query.job_id }
       ],
+      job: req.query.job_id,
       archived: false
     };
 

@@ -1,33 +1,33 @@
 import MatchService from "../services/MatchService";
 import ProcessedData from "../models/ProcessedData";
 import Tracking from "./Tracking";
-import Queue from "../services/Queue";
+import Match from "../models/Match";
+import { Types } from "mongoose";
 
 export class JobEvents {
   static created(job: any) {
     JobEvents.transformJob(job._id);
   }
 
-  static updated(user: any) {
-    JobEvents.transformJob(user._id);
+  static updated(job: any) {
+    JobEvents.transformJob(job._id);
   }
 
   private static async transformJob(job_id) {
-    const processedJob = await MatchService.transformJob(job_id)
+    const processedJob = await MatchService.transformJob(job_id);
     try {
-      await ProcessedData.deleteOne({user_id: processedJob.user_id, type: processedJob.type, job_id: processedJob.job_id});
-      const processedItem = await ProcessedData.create(processedJob);
-      // MatchService.processMatchesForJob({job: processedItem}, () => {});
-      const queue = Queue.init();
-      const job = queue
-        .create("matchesForJob", processedItem)
-        .priority("high")
-        .attempts(5)
-        .removeOnComplete(true)
-        .save(error => {
-          console.log({ error });
-        });
-      Queue.attachJobHandlers(job);
+      // Delete Old
+      await ProcessedData.deleteOne({
+        user_id: processedJob.user_id,
+        type: processedJob.type,
+        job_id: processedJob.job_id
+      });
+      await Match.deleteMany({job: processedJob.job_id});
+      // Add New and Process
+      await ProcessedData.create(processedJob);
+      MatchService.processMatchesForJob(processedJob, () => {
+        console.log(`Matches processed for job ${processedJob.job_id}`);
+      });
     } catch (e) {
       Tracking.log({
         type: "transform.job",

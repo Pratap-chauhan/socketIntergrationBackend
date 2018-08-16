@@ -1,6 +1,7 @@
 import { Request, Response } from "express";
 import Message from "../models/Message";
 import { Types } from "mongoose";
+import { isMongoId } from 'validator';
 
 export default class MessageController {
   // Data to show the sidebar of the messaging (all chats)
@@ -17,7 +18,7 @@ export default class MessageController {
       $or: [{ from: user }, { to: user }]
     };
 
-    if (req.query.job_id && validator.isMongoId(req.query.job_id)) {
+    if (req.query.job_id && isMongoId(req.query.job_id)) {
       $match["job"] = Types.ObjectId(req.query.job_id);
     }
 

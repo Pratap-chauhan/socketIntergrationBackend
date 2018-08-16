@@ -2,6 +2,7 @@ import { Request, Response } from "express";
 import Pagination from "../services/Pagination";
 import Match from "../models/Match";
 import { Types } from "mongoose";
+import { isMongoId } from 'validator';
 
 export default class MatchController {
   static async index(req: Request, res: Response) {
@@ -190,7 +191,7 @@ export default class MatchController {
 
     if (role === "hr") {
       prefix = "candidate";
-      if (body.job_id) {
+      if (body.job_id && isMongoId(body.job_id)) {
         finder["job._id"] = Types.ObjectId(body.job_id);
       }
     } else {

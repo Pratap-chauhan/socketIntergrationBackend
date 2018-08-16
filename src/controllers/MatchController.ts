@@ -9,6 +9,12 @@ export default class MatchController {
 
     let job, candidate, type;
     const hr = { _id: 1, name: 1, firstName: 1, lastName: 1, avatar: 1 };
+    const company = {
+      _id: 1,
+      title: 1,
+      description: 1,
+      logo: 1
+    };
 
     if (user.role === "hr") {
       type = "hr";
@@ -16,11 +22,7 @@ export default class MatchController {
       job = {
         _id: 1,
         title: 1,
-        company: {
-          _id: 1,
-          name: 1,
-          logo: 1
-        }
+        company
       };
       candidate = {
         _id: 1,
@@ -42,11 +44,7 @@ export default class MatchController {
       body = MatchController.processInputBody(body, "candidate");
       job = {
         _id: 1,
-        company: {
-          _id: 1,
-          name: 1,
-          logo: 1
-        },
+        company,
         availability: 1,
         createdAt: 1,
         updatedAt: 1,
@@ -192,8 +190,8 @@ export default class MatchController {
 
     if (role === "hr") {
       prefix = "candidate";
-      if(body.job_id) {
-        finder['job._id'] = Types.ObjectId(body.job_id);
+      if (body.job_id) {
+        finder["job._id"] = Types.ObjectId(body.job_id);
       }
     } else {
       prefix = "job";

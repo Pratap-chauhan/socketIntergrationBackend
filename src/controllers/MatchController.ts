@@ -66,9 +66,9 @@ export default class MatchController {
       [type]: user._id
     };
 
-    if (req.body.job_id) {
-      $match["job"] = Types.ObjectId(req.body.job_id);
-    }
+    // if (req.body.job_id) {
+    //   $match["job"] = Types.ObjectId(req.body.job_id);
+    // }
 
     const aggregate = [
       {
@@ -192,6 +192,9 @@ export default class MatchController {
 
     if (role === "hr") {
       prefix = "candidate";
+      if(body.job_id) {
+        finder['job._id'] = Types.ObjectId(body.job_id);
+      }
     } else {
       prefix = "job";
     }

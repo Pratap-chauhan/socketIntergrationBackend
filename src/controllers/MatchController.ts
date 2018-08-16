@@ -15,7 +15,12 @@ export default class MatchController {
       body = MatchController.processInputBody(body, "hr");
       job = {
         _id: 1,
-        title: 1
+        title: 1,
+        company: {
+          _id: 1,
+          name: 1,
+          logo: 1
+        }
       };
       candidate = {
         _id: 1,
@@ -37,7 +42,11 @@ export default class MatchController {
       body = MatchController.processInputBody(body, "candidate");
       job = {
         _id: 1,
-        company: 1,
+        company: {
+          _id: 1,
+          name: 1,
+          logo: 1
+        },
         availability: 1,
         createdAt: 1,
         updatedAt: 1,
@@ -57,9 +66,9 @@ export default class MatchController {
       [type]: user._id
     };
 
-    if(req.body.job_id) {
-      $match['job'] = Types.ObjectId(req.body.job_id)
-    };
+    if (req.body.job_id) {
+      $match["job"] = Types.ObjectId(req.body.job_id);
+    }
 
     const aggregate = [
       {
@@ -92,6 +101,15 @@ export default class MatchController {
       { $unwind: "$hr" },
       { $unwind: "$job" },
       { $unwind: "$candidate" },
+      {
+        $lookup: {
+          from: "companies",
+          localField: "job.company",
+          foreignField: "_id",
+          as: "job.company"
+        }
+      },
+      { $unwind: "$job.company" },
       { $sort: { [body.sort_by]: body.sort_as } },
       { $skip: body.per_page * body.page },
       { $limit: body.per_page },
@@ -140,16 +158,22 @@ export default class MatchController {
       {
         $group: {
           _id: null,
-          count: {$sum: 1}
+          count: { $sum: 1 }
         }
       }
     ];
+
     try {
       const data = await Match.aggregate(aggregate);
       const count = await Match.aggregate(countAggregate);
-      const paginate = Pagination(count[0].count, data.length, body.per_page, body.page);
+      const paginate = Pagination(
+        count[0].count,
+        data.length,
+        body.per_page,
+        body.page
+      );
 
-      return res.json({ error: false, data: {paginate, data} });
+      return res.json({ error: false, data: { paginate, data } });
     } catch (e) {
       return res.json({
         error: true,

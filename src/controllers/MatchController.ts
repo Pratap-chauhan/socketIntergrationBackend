@@ -128,6 +128,9 @@ export default class MatchController {
 
     if (role === "hr") {
       prefix = "candidate";
+      if(body.job_id) {
+        finder['job._id'] = body.job_id;
+      }
     } else {
       prefix = "job";
     }

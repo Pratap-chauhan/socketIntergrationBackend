@@ -11,8 +11,19 @@ export default class MessageController {
 
     const user = req.user._id;
 
+    const $match = {
+      archived: false,
+      $or: [{ from: user }, { to: user }]
+    };
+
+    if(req.query.job_id) {
+      $match['job'] = req.query.job_id;
+    }
+
     const aggregate = [
-      { $match: { archived: false, $or: [{ from: user }, { to: user }] } },
+      {
+        $match
+      },
       { $sort: { createdAt: -1 } },
       {
         $project: {
@@ -183,7 +194,7 @@ export default class MessageController {
     let finder: any = {
       $and: [
         { from: { $in: [req.user._id, otherUser] } },
-        { to: { $in: [req.user._id, otherUser] } },
+        { to: { $in: [req.user._id, otherUser] } }
       ],
       job: req.query.job_id,
       archived: false

@@ -165,7 +165,7 @@ export default class MatchController {
       const data = await Match.aggregate(aggregate);
       const count = await Match.aggregate(countAggregate);
       const paginate = Pagination(
-        count[0].count,
+        count[0] ? count[0].count : 0,
         data.length,
         body.per_page,
         body.page

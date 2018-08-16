@@ -1,6 +1,7 @@
 import { Request, Response } from "express";
 import Pagination from "../services/Pagination";
 import Match from "../models/Match";
+import { Types } from "mongoose";
 
 export default class MatchController {
   static async index(req: Request, res: Response) {
@@ -57,7 +58,7 @@ export default class MatchController {
     };
 
     if(req.body.job_id) {
-      $match['job'] = req.body.job_id
+      $match['job'] = Types.ObjectId(req.body.job_id)
     };
 
     const aggregate = [

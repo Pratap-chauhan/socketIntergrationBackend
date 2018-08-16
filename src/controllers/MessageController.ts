@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
 import Message from "../models/Message";
+import { Types } from "mongoose";
 
 export default class MessageController {
   // Data to show the sidebar of the messaging (all chats)
@@ -17,7 +18,7 @@ export default class MessageController {
     };
 
     if (req.query.job_id) {
-      $match["job"] = req.query.job_id;
+      $match["job"] = Types.ObjectId(req.query.job_id);
     }
 
     if (req.query.q) {

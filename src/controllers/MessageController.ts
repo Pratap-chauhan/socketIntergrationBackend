@@ -17,7 +17,7 @@ export default class MessageController {
       $or: [{ from: user }, { to: user }]
     };
 
-    if (req.query.job_id) {
+    if (req.query.job_id && validator.isMongoId(req.query.job_id)) {
       $match["job"] = Types.ObjectId(req.query.job_id);
     }
 

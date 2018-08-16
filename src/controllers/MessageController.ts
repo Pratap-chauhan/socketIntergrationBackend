@@ -16,8 +16,12 @@ export default class MessageController {
       $or: [{ from: user }, { to: user }]
     };
 
-    if(req.query.job_id) {
-      $match['job'] = req.query.job_id;
+    if (req.query.job_id) {
+      $match["job"] = req.query.job_id;
+    }
+
+    if (req.query.q) {
+      $match["text"] = new RegExp(req.query.q, "ig");
     }
 
     const aggregate = [

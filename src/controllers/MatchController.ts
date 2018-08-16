@@ -51,12 +51,18 @@ export default class MatchController {
       candidate = { _id: 1, name: 1 };
     }
 
+    const $match = {
+      "score.total": { $gt: 0 },
+      [type]: user._id
+    };
+
+    if(req.body.job_id) {
+      $match['job'] = req.body.job_id
+    };
+
     const aggregate = [
       {
-        $match: {
-          "score.total": { $gt: 0 },
-          [type]: user._id
-        }
+        $match
       },
       {
         $lookup: {
@@ -99,15 +105,48 @@ export default class MatchController {
       }
     ];
 
+    const countAggregate = [
+      {
+        $match
+      },
+      {
+        $lookup: {
+          from: "users",
+          localField: "candidate",
+          foreignField: "_id",
+          as: "candidate"
+        }
+      },
+      {
+        $lookup: {
+          from: "users",
+          localField: "hr",
+          foreignField: "_id",
+          as: "hr"
+        }
+      },
+      {
+        $lookup: {
+          from: "jobs",
+          localField: "job",
+          foreignField: "_id",
+          as: "job"
+        }
+      },
+      { $unwind: "$hr" },
+      { $unwind: "$job" },
+      { $unwind: "$candidate" },
+      {
+        $group: {
+          _id: null,
+          count: {$sum: 1}
+        }
+      }
+    ];
     try {
       const data = await Match.aggregate(aggregate);
-      const count = await Match.count({
-        ...body.finder,
-        "score.total": { $gt: 0 },
-        [type]: user._id
-      });
-
-      const paginate = Pagination(count, data.length, body.per_page, body.page);
+      const count = await Match.aggregate(countAggregate);
+      const paginate = Pagination(count[0].count, data.length, body.per_page, body.page);
 
       return res.json({ error: false, data: {paginate, data} });
     } catch (e) {
@@ -128,9 +167,6 @@ export default class MatchController {
 
     if (role === "hr") {
       prefix = "candidate";
-      if(body.job_id) {
-        finder['job._id'] = body.job_id;
-      }
     } else {
       prefix = "job";
     }

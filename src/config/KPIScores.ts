@@ -92,6 +92,7 @@ function exponentialCalculation(
   second: string[],
   maxScore: number
 ): number {
+  second = second.filter(x => first.indexOf(x) > -1);
   const transformedFirst = mapToWeights(first);
   const transformedSecond = mapToWeights(second);
 

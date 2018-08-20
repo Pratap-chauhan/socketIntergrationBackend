@@ -89,38 +89,61 @@ export default class MatchService {
     const cursor = ProcessedData.find({ type: "candidate" }).cursor();
     cursor.eachAsync(async candidate => {
       candidate = candidate.toJSON();
-      candidate._id = candidate.user_id;
       try {
-        await MatchService.processJobAndCandidate(job, candidate);
+        await MatchService.processJobAndCandidate(
+          candidate,
+          job,
+          job.user_id,
+          job.job_id,
+          candidate.user_id
+        );
       } catch (e) {
         MatchService.errorCount++;
-        console.log(`Error @ processMatchesForJob # ${MatchService.errorCount} > ${e.message}`);
+        console.log(
+          `Error @ processMatchesForJob # ${MatchService.errorCount} > ${
+            e.message
+          }`
+        );
       }
     }, callback);
   }
 
   static async processMatchesForCandidate(candidate, callback) {
-    candidate._id = candidate.user_id;
     const cursor = ProcessedData.find({ type: "job" }).cursor();
     cursor.eachAsync(async job => {
       job = job.toJSON();
-      job._id = job.job_id;
       try {
-        await MatchService.processJobAndCandidate(job, candidate);
+        await MatchService.processJobAndCandidate(
+          job,
+          candidate,
+          job.user_id,
+          job.job_id,
+          candidate.user_id
+        );
       } catch (e) {
         MatchService.errorCount++;
-        console.log(`Error @ processMatchesForCandidate # ${MatchService.errorCount} > ${e.message}`);
+        console.log(
+          `Error @ processMatchesForCandidate # ${MatchService.errorCount} > ${
+            e.message
+          }`
+        );
       }
     }, callback);
   }
 
-  private static async processJobAndCandidate(job, candidate) {
+  private static async processJobAndCandidate(
+    first,
+    second,
+    hr,
+    job,
+    candidate
+  ) {
     const scores: any = {
       total: 0
     };
     _.map(KPIScores, (item, name) => {
-      if (job[name] && candidate[name]) {
-        scores[name] = item.calc(job[name], candidate[name]);
+      if (first[name] && second[name]) {
+        scores[name] = item.calc(first[name], second[name]);
         scores.total += scores[name];
       }
     });
@@ -130,15 +153,15 @@ export default class MatchService {
     }
 
     const data = {
-      hr: job.user_id,
-      job: job._id,
-      candidate: candidate._id,
+      hr,
+      job,
+      candidate,
       score: scores
     };
     await Match.findOneAndUpdate(
-      {hr: data.hr, candidate: data.candidate, job: data.job},
-      {$set: {score: data.score}},
-      {upsert: true}
+      { hr, candidate, job },
+      { $set: { score: data.score } },
+      { upsert: true }
     );
   }
 }

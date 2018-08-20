@@ -109,8 +109,9 @@ export default class MatchController {
         }
       },
       { $unwind: "$job.company" },
+      { $match: body.finder },
       { $sort: { [body.sort_by]: body.sort_as } },
-      { $skip: body.per_page * body.page },
+      { $skip: body.per_page * (body.page -1) },
       { $limit: body.per_page },
       {
         $project: {

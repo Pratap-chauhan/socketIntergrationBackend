@@ -5,6 +5,7 @@ import JobService from "../services/JobService";
 import Pagination from "../services/Pagination";
 import { JobEvents } from "../events/JobEvents";
 import ProcessedData from "../models/ProcessedData";
+import { request } from "http";
 
 export default class JobController {
   static async index(req: Request, res: Response) {
@@ -131,6 +132,7 @@ export default class JobController {
   }
 
   static async public(req: Request, res: Response) {
+    console.log('res' , req)
     try {
       const { id } = req.params;
       const job = await Job.findById(id).populate("user", "firstName lastName");

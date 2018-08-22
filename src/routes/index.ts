@@ -10,6 +10,9 @@ import CompanyRoutes from './CompanyRoutes';
 import MessageRoutes from './MessageRoutes';
 import MatchRoutes from './MatchRoutes';
 import InterestRoutes from './InterestRoutes';
+import ProjectRoutes  from './ProjectRoutes';
+import { request } from 'http';
+import * as Express from 'express';
 
 export default class Routes {
 
@@ -19,7 +22,7 @@ export default class Routes {
 
     // Enable cors
     app.use(Routes.cors);
-
+    app.use(Express.static('./images'));
     // Initialize the routes
 		AuthRoutes.init(app);
 		AppDataRoutes.init(app);
@@ -29,6 +32,7 @@ export default class Routes {
     MessageRoutes.init(app);
     MatchRoutes.init(app);
     InterestRoutes.init(app);
+    ProjectRoutes.init(app);
 
     // SF
     StarkFlowRoutes.init(app);

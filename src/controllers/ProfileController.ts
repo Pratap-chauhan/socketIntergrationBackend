@@ -53,6 +53,7 @@ export default class ProfileController {
         looking_for: user.looking_for,
         availability: user.availability,
         salary: user.salary,
+        image_url : user.image_url
       }
     } else {
       data = {

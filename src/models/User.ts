@@ -93,6 +93,9 @@ const user = new mongoose.Schema(
     company_id: {
       type: mongoose.Schema.Types.ObjectId,
       ref: 'Company'
+    },
+    image_url : {
+      type: Array
     }
   },
   {

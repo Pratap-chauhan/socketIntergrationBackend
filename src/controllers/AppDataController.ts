@@ -190,8 +190,8 @@ export default class AppDataController {
       ],
       looking_for: [
         {id: 1, title: 'Contract'},
-        {id: 2, title: 'Permanent'},
-        {id: 3, title: 'Both'},
+        {id: 2, title: 'Both'},
+        {id: 3, title: 'Permanent'},
       ],
       availability: [
         {id: 1, title: 'Immediately'},

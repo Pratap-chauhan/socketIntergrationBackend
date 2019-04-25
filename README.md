@@ -4,23 +4,30 @@ Integration of socket.io with express and node.js
 For real-time purpose , used socket.io module and node framework is express
 
 Port number(default) : 4000
-so the server will run on localhost:4000
+
+so the server will run on localhost:4000;
 
 For DataBase :
-MongoDb used 
-Url (default) : mongodb://localhost:27017/heartbeats
+
+MongoDb used :
+
+Url (default) : mongodb://localhost:27017/heartbeats;
 
 Steps for Running the project on local Server:
 
-npm install
-npm install -g pm2
-gulp
+npm install;
+
+npm install -g pm2;
+
+gulp;
 
 Steps for Running the project For Prod:
 
-npm install
-npm install -g pm2
-npm start
+npm install;
+
+npm install -g pm2;
+
+npm start;
 
 
 Used TypeScript for controllers and services.

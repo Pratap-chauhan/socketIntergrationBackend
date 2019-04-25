@@ -1,7 +1,7 @@
 # socketIntergrationBackend
 Integration of socket.io with express and node.js
 
-For real-time purpose , use socket.io module and nodeframework is express
+For real-time purpose , used socket.io module and node framework is express
 
 Port number(default) : 4000
 so the server will run on localhost:4000
